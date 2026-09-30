@@ -10,6 +10,12 @@ project:
   post-render:
     - python3 scripts/postrender.py
 
+filters:
+  # Splices _generated/*.md at render time (see the file header). Runs before Quarto's own
+  # filters so the content-visible blocks inside the generated sections are still resolved.
+  - path: filters/cv-include.lua
+    at: pre-ast
+
 # Every format renders from the same cv.qmd. Typst styles live in _extensions/.
 # Quarto cannot render two Typst formats of one document in a single pass, so only the
 # default style is listed here; `python3 scripts/render_styles.py` renders all styles.

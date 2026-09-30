@@ -42,8 +42,11 @@ PLAN.md          decisions, milestones, what is left
 
 Requirements: [Quarto](https://quarto.org) 1.6 or later (it bundles Pandoc and Typst) and Python 3 with `pyyaml`, `jsonschema`, and optionally `pymupdf` for previews. No R, LaTeX, or Jupyter.
 
+On a Mac, `pip` may not exist on its own; `python3 -m pip` always works. If it refuses with "externally-managed-environment" (Homebrew Python), use a virtual environment and activate it in every terminal where you run `quarto render`, because Quarto calls `python3` for the pre-render step:
+
 ```
-pip install pyyaml jsonschema pymupdf
+python3 -m venv .venv && source .venv/bin/activate   # optional, see above
+python3 -m pip install pyyaml jsonschema pymupdf
 python3 scripts/validate.py       # check the data
 quarto render                     # -> _output/: cv.pdf, cv.docx, cv.html, cv-bc.docx, cv.json
 python3 scripts/render_styles.py  # -> _output/cv-<style>.pdf and styles/previews/

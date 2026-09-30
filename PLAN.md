@@ -470,6 +470,7 @@ What was built, and where it departs from the plan above:
 
 - **Engine.** Python pre-render scripts instead of R chunks (see the decisions table). `cv.qmd` and `cv-bc.qmd` contain only headings and `{{< include >}}` lines.
 - **Publications.** Parsed from BibTeX with Pandoc (`quarto pandoc -t csljson`) and formatted by `cvlib.fmt_pub()` rather than by citeproc, so numbering, the bold owner name, mentee stars, the `R.` marker, and the form's Recent/Accepted/In Progress/Previous split are all under our control. `csl/apa-cv.csl` was therefore not needed.
+- **Generated sections.** The documents pull `_generated/*.md` in through `filters/cv-include.lua` (run `at: pre-ast`), not `{{< include >}}`. Quarto expands includes while scanning the project, before the pre-render script writes `_generated/`, so includes failed on any fresh checkout. Fixed 2026-09-30.
 - **Styles.** Quarto cannot render two Typst formats of the same document in one project pass (they share `cv.typ`), so `_quarto.yml` lists only the default style and `scripts/render_styles.py` renders the rest. All three share one Typst function API.
 - **Fonts.** Source Sans Pro (OFL) for classic and modern, Roboto (Apache 2.0) for awesome, bundled inside the extensions.
 - **Word.** `templates/reference.docx` and `reference-bc.docx` are generated from Pandoc's default reference by `scripts/make_reference_docx.py`, not cloned from the 2024 file, because the 2024 file uses direct formatting rather than styles. The form uses Arial headings and an 11 pt body like the original.

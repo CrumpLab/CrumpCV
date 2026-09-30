@@ -14,3 +14,4 @@ _generated/
 /*.html
 /*_files/
 __pycache__/
+.venv/

@@ -10,65 +10,80 @@ format:
 
 # I. Personal Data
 
-{{< include _generated/bc/personal.md >}}
+::: {.cv-include file="_generated/bc/personal.md"}
+:::
 
 # II. Higher Education
 
-{{< include _generated/bc/education.md >}}
+::: {.cv-include file="_generated/bc/education.md"}
+:::
 
 # III. Teaching Career
 
-{{< include _generated/bc/career.md >}}
+::: {.cv-include file="_generated/bc/career.md"}
+:::
 
 # IV. Experience and Educational Philosophy
 
 ## A. Teaching Experience
 
-{{< include _generated/bc/teaching.md >}}
+::: {.cv-include file="_generated/bc/teaching.md"}
+:::
 
 ### Student Mentorship
 
-{{< include _generated/bc/mentorship.md >}}
+::: {.cv-include file="_generated/bc/mentorship.md"}
+:::
 
 ### Curriculum Development
 
-{{< include _generated/bc/curriculum.md >}}
+::: {.cv-include file="_generated/bc/curriculum.md"}
+:::
 
 ### Web-Enhanced Tutorials
 
-{{< include data/narratives/web-tutorials.md >}}
+::: {.cv-include file="data/narratives/web-tutorials.md"}
+:::
 
-{{< include _generated/bc/certificates.md >}}
+::: {.cv-include file="_generated/bc/certificates.md"}
+:::
 
 ## B. Other Experience/Experience Outside Brooklyn College
 
-{{< include data/narratives/other-experience.md >}}
+::: {.cv-include file="data/narratives/other-experience.md"}
+:::
 
 ## C. Educational Philosophy
 
-{{< include data/narratives/educational-philosophy.md >}}
+::: {.cv-include file="data/narratives/educational-philosophy.md"}
+:::
 
 # V. Scholarly and Creative Activity
 
 ## A. Publications
 
-{{< include _generated/bc/publications.md >}}
+::: {.cv-include file="_generated/bc/publications.md"}
+:::
 
 ## B. Other Evidence of Scholarly or Creative Activity
 
-{{< include _generated/bc/other.md >}}
+::: {.cv-include file="_generated/bc/other.md"}
+:::
 
 # VI. Grants
 
-{{< include _generated/bc/grants.md >}}
+::: {.cv-include file="_generated/bc/grants.md"}
+:::
 
 # VII. Professional Awards
 
-{{< include _generated/bc/awards.md >}}
+::: {.cv-include file="_generated/bc/awards.md"}
+:::
 
 # VIII. University, College and Community Service
 
-{{< include _generated/bc/service.md >}}
+::: {.cv-include file="_generated/bc/service.md"}
+:::
 
 \
 

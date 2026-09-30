@@ -11,7 +11,7 @@ Built through Milestone 6 of `PLAN.md`. Content is current to March 2024; Milest
 - `data/*.yml`, `data/publications.bib`, `data/narratives/*.md`: the single source of truth. Never edit generated output by hand.
 - `schema/*.json` and `scripts/validate.py`: what a valid entry looks like. Run `python3 scripts/validate.py` after any data change.
 - `scripts/build.py` (+ `cvlib.py`, `build_bc.py`): pre-render step that writes `_generated/` (Markdown with raw Typst blocks per section, `meta.yml`, `cv.json`). Formatting rules for publications and talks (APA-like, bold owner name, mentee stars, refereed marker) live here.
-- `cv.qmd`: the academic CV. `cv-bc.qmd`: the Brooklyn College form (Word). Both are just headings plus includes of generated sections.
+- `cv.qmd`: the academic CV. `cv-bc.qmd`: the Brooklyn College form (Word). Both are just headings plus `::: {.cv-include file=...}` blocks that `filters/cv-include.lua` fills from `_generated/` at render time. Do not switch these to `{{< include >}}`: Quarto resolves includes before pre-render runs, so a fresh checkout fails.
 - `_extensions/cv-classic|cv-modern|cv-awesome`: Typst styles sharing one function API. Default style is set in `_quarto.yml`. `scripts/render_styles.py` renders all three and writes `styles/previews/`.
 - `templates/reference*.docx`: Word styles, produced by `scripts/make_reference_docx.py [bc]`.
 - `cv-config.yml`: content options (refereed marker, mentee stars, numbering, `recent_since` for the form).
