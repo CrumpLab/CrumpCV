@@ -4,7 +4,7 @@ A CV as code: structured data, rendered by Quarto to PDF, Word, and JSON for the
 
 ## Current stage
 
-Seeded from the Idea Console. Nothing is rendered yet. Before building, work through the open questions in `IDEA.md` with the user, then write `PLAN.md` with Goal, Scope, Milestones, Risks, and First steps.
+Planned, not yet built. `PLAN.md` records the decisions, data model, milestones, and first steps. Work through the milestones in order, starting with M0 housekeeping and M1 data seeding from the 2019 snapshot in `CV Examples/rvitae/Untitled/Untitled.Rmd`.
 
 ## Intended design
 
