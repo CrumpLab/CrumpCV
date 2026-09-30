@@ -148,7 +148,7 @@ write("software.md", bullets_block([
 SERVICE_GROUPS = [
     ("Service to Brooklyn College", [("college", "College committees"), ("division", "School and division committees"),
                                      ("department", "Department committees"), ("student-activities", "Student activities"), ("other-college", "Other service")]),
-    ("Service to the University and Graduate Center", [("university", "University committees"), ("doctoral-program", "Doctoral program committees")]),
+    ("Service to the University and Graduate Center", [("university", "University Service"), ("doctoral-program", "Doctoral program committees")]),
     ("Service Off-Campus", [("professional", "Professional activities and memberships"), ("community", "Community service")]),
 ]
 def svc_when(s): return s.get("when") or fmt_span(s.get("start"), s.get("end"))
