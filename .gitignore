@@ -1,0 +1,6 @@
+_site/
+_freeze/
+.quarto/
+*.pdf
+*.docx
+.DS_Store
