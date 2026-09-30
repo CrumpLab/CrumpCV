@@ -268,7 +268,7 @@ Each milestone ends in a pushed commit and something the user can look at.
 ### M0 Housekeeping (this branch, small)
 
 - Commit `PLAN.md`; point `README.md` and `CLAUDE.md` at it.
-- Fix `.gitignore`: keep ignoring rendered `*.pdf` and `*.docx`, but un-ignore `templates/reference.docx` and rendered previews in `styles/previews/`. Add `_output/`.
+- `.gitignore` no longer ignores `*.pdf` or `*.docx`, so example and reference documents can be committed. Decide later whether rendered outputs in `_output/` are committed or only published by CI.
 - Propose pruning `CV Examples/` to the useful files (`*.Rmd`, `*.bib`, `awesome-cv.cls`, `moderncv*.sty`, `fonts/`) and moving them to `examples/vitae/` without the space in the path. Ask before deleting the `.log`, `.aux`, `.bcf`, `.bbl`, `.blg`, `.out`, `.run.xml`, `.Rproj` build files.
 
 ### M1 Data model and seed
