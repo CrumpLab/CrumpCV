@@ -1,5 +1,14 @@
 # Grants, newest first. status: funded | submitted | declined. amount is a number in USD.
 # `when` renders verbatim; start/end are for sorting.
+- title: Generative AI methods and applications for Psychology and the Cognitive Sciences
+  funder: Brooklyn College
+  program: Provost Teaching Innovations Grant 2025-26
+  amount: 2500
+  role: PI
+  status: funded
+  when: Spring 2026
+  start: 2026
+  end: 2026
 - title: "Remembering and forgetting pictures: Testing a computational instance-based account"
   funder: PSC-CUNY
   program: Traditional B
