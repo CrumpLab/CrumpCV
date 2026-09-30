@@ -21,6 +21,12 @@
   start: 2015
   end: 2018
 - category: department
+  role: Chair, Department of Psychology
+  organization: Department of Psychology, Brooklyn College
+  when: Fall 2024 - present
+  start: 2024
+  end: null
+- category: department
   role: Department Self Study, Appendices working group
   organization: Department of Psychology, Brooklyn College
   when: '2024'
