@@ -4,7 +4,7 @@ A CV as code: structured data, rendered by Quarto to PDF, Word, and JSON for the
 
 ## Current stage
 
-Planned, not yet built. `PLAN.md` records the decisions, data model, milestones, and first steps. Work through the milestones in order, starting with M0 housekeeping and M1 data seeding from the 2019 snapshot in `CV Examples/rvitae/Untitled/Untitled.Rmd`.
+Planned, not yet built. `PLAN.md` records the decisions, data model, milestones, and first steps. Work through the milestones in order, starting with M0 housekeeping and M1 harvesting the March 2024 CV from `CV Examples/extracted/` (text extractions of `Crump_CV_2024_BC.docx` and `Crump_CV_24_formatted.pdf`). The PDF is newer and wins on conflicts.
 
 ## Intended design
 

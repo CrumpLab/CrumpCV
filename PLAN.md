@@ -2,354 +2,460 @@
 
 A CV as code. Structured data in `data/`, rendered by Quarto to PDF (Typst), Word, HTML, and a `cv.json` feed for the website. Updated by describing new items in chat.
 
-Written 2026-09-30 after reviewing `IDEA.md` and the three `vitae` projects in `CV Examples/`.
+Written 2026-09-30 after reviewing `IDEA.md`, the three `vitae` projects in `CV Examples/rvitae/`, and the two 2024 documents `CV Examples/Crump_CV_2024_BC.docx` and `CV Examples/Crump_CV_24_formatted.pdf`.
 
 ## Goal
 
 One source of truth for the CV that:
 
-1. renders to PDF, Word, and HTML in a style chosen from a few side-by-side variants,
-2. exports a single `cv.json` containing every section (profile, positions, education, grants, publications, talks, teaching, students, service) for the website,
-3. can be updated by a one-line description in chat, with validation and automatic re-rendering so nothing drifts.
+1. renders the academic CV to PDF, Word, and HTML in a style chosen from a few side-by-side variants,
+2. renders the Brooklyn College personnel-form CV (the sections I to VIII layout) as Word from the same data, so it never has to be hand-synced again,
+3. exports a single `cv.json` containing every section for the website,
+4. can be updated by a one-line description in chat, with validation and automatic re-rendering so nothing drifts.
 
 ## What the examples tell us
 
-`CV Examples/rvitae/` holds three R `vitae` projects (`awesome`, `modern`, `Untitled`) that share identical content and differ only in the output style:
+### The two 2024 documents are the content source
 
-| Folder | vitae output | Look | Build state |
-|---|---|---|---|
-| `awesome/` | `vitae::awesomecv` | Awesome-CV: Roboto, coloured accent, bold section rules, bundled fonts | Failed (fontspec, TeX Live 2019) |
-| `modern/` | `vitae::moderncv` | moderncv "casual": blue accent `#3873B3`, dates in a left column | Built, 7 pages |
-| `Untitled/` | `vitae::hyndman` | Plain, compact, serif; the classic academic CV | Built, 7 pages |
+| File | Date | What it is |
+|---|---|---|
+| `Crump_CV_2024_BC.docx` | Feb 14, 2024 | Brooklyn College personnel form: sections I Personal Data, II Higher Education, III Teaching Career, IV Experience and Educational Philosophy, V Scholarly and Creative Activity, VI Grants, VII Professional Awards, VIII Service. Arial headings, 30 tables, instruction text kept from the template. |
+| `Crump_CV_24_formatted.pdf` | Mar 5, 2024 | The same content re-laid-out as a standard academic CV, 18 pages, Letter. Sections: Positions Held, Education, Publications, Invited Talks, Abstracts and Papers at Meetings, Grants (Funded), Grants (Submitted), Professional Awards, Service, Mentorship, Dissertation Committees, Teaching Experience. |
 
-Content in the `.Rmd` files is a **2019 snapshot** of the whole CV, already semi-structured:
+They agree almost everywhere. Where they differ the PDF is newer (Honors Academy Reader runs to 2024, Psychology Club liaison ends 2015, SCiP DEI committee ends 2021, funded grants carry a PI marker). The PDF wins on conflicts; the docx supplies the prose sections and the form structure.
 
-- Positions and education as `tribble()` data frames rendered by `detailed_entries()`.
-- Funding (4 grants), invited talks (13), conference presentations (37), mentorship (postdocs, doctoral, master's, undergraduate, dissertation committees), teaching (undergrad, master's, doctoral courses), and service (college, department, doctoral program, professional, reviewing) as Markdown lists.
-- Publications from `Crump_pr.bib` (39 entries, 2006–2019, 37 articles + 2 chapters), sorted by descending date. `Crump.bib` is the same list with Zotero `url`/`urldate` fields still present. `works2.bib` (40 entries, 2006–2019, includes 3 books and 1 misc) looks like an ORCID export with different keys and messier journal names. `curie.bib` is the vitae sample file and can be ignored.
-- Header data: name, title, affiliation, office phone, email, website, Twitter, GitHub.
+Content inventory (2024):
 
-Takeaways that shape the plan:
+- 4 positions, 2 degrees plus postdoc, dissertation title, appointment and tenure dates.
+- 53 publications, numbered, reverse chronological, with an `R.` marker for refereed, `Invited.` for invited, asterisks marking postdoc, doctoral, and undergraduate co-authors, and OER textbooks listed as publications. The form splits them into Recent (2016 onward), Accepted, In Progress (2 preprints), and Previous.
+- 15 invited talks, 44 conference presentations, 6 funded grants, 8 submitted proposals, 4 awards, 8 software packages and websites.
+- Mentorship: 1 postdoc, 4 doctoral, 5 master's, 26 undergraduates, 12 dissertation committees.
+- Teaching: 10 undergraduate, 7 master's, 9 doctoral courses, 8 OER course resources with URLs.
+- Service: about 45 entries across college, division, department, student activities, other, doctoral program, professional and editorial, grant reviewing, and a list of 23 journals reviewed for.
+- Prose: educational philosophy, other experience, curriculum development, web tutorials, teaching certificate.
 
-- The `tribble` + `detailed_entries` pattern is exactly the data-to-layout split we want. We keep the idea, move the data out of the document into YAML, and swap LaTeX for Typst.
-- The three styles map directly onto the three style variants to build.
-- The 2019 snapshot is the seed for `data/`. Everything from 2019 to 2026 still has to be added (see Milestone 6 and the open questions).
-- The bib needs cleaning on import: drop `file`, `abstract`, `urldate`, keep `doi`. The office phone should not go into the public repo unless approved.
-- LaTeX font trouble is why the awesome build failed. Typst avoids the TeX toolchain entirely.
+Plain-text extractions of both files are in `CV Examples/extracted/` so any session can harvest from them without PDF or Word tooling. Tables from the docx are kept as pipe-delimited rows.
+
+### The vitae projects supply structured publications and three style references
+
+`CV Examples/rvitae/` holds three R `vitae` projects with identical 2019 content and three looks:
+
+| Folder | Look | Build |
+|---|---|---|
+| `awesome/` | Awesome-CV: Roboto, red accent on the first letters of headings, institution left and location right, tiny small-caps roles | Rendered `Crump_CV.pdf` present |
+| `modern/` | moderncv "casual": blue `#3873B3` accent, dates in a left column | Built once, PDF not kept |
+| `Untitled/` | hyndman: maroon accent, boxed header with icons, left date column, compact | Rendered `Untitled.pdf` present |
+
+`Crump_pr.bib` (39 entries, 2006 to 2019, Zotero export with `url` removed) is the structured seed for publications. `works2.bib` is an ORCID export of the same period with 3 books added and messier fields. `curie.bib` is vitae sample data.
+
+### The 2024 formatted CV is itself the fourth style reference
+
+It is the user's own current taste: Aptos, bold small-caps section titles with a rule beneath, a two-column contact header, a left date column for positions and education, numbered publications with the user's name in bold, and mentee stars. Replicating this look in Typst is the baseline style; the others are alternatives.
 
 ## Decisions on the open questions
 
 | Question | Decision |
 |---|---|
-| Current CV format | Unknown. Seed `data/` from the 2019 `.Rmd` snapshot now; the user shares the current CV (Word or PDF) to fill 2019–2026 in Milestone 6. |
-| Which example CVs drive style | The three vitae styles: awesome, modern, classic (hyndman). Each becomes a Typst format. |
-| Website and JSON shape | crumplab.com is a Quarto site. It will read `cv.json` published by this repo (stable URL on `gh-pages`). Shape is drafted below; the website spike is Milestone 7. |
-| Academic only, or short versions too | Academic CV only for v1. Entries carry optional `tags` so a two-page CV or biosketch is a filter later, not a new data model. |
-| Publications source | BibTeX in `data/publications.bib`, exported from Zotero (Better BibTeX). ORCID is the top-up source for the 2019–2026 gap. |
-| Typst or LaTeX | Typst. Quarto bundles it, it renders in under a second, styling is plain functions, no TeX Live in CI. |
-| Engine for data → document | R (knitr) chunks in `cv.qmd`, with helpers in `R/cv.R`. Matches the vitae code and the user's tooling. Python would work equally well and the helper layer is about 100 lines, so switching later is cheap. |
+| Current CV format | Answered. The 2024 docx and PDF are the source. Harvest them into `data/` in Milestone 1. The remaining gap is 2024 to 2026. |
+| Which example CVs drive style | Four references: the 2024 formatted CV (baseline, "classic"), Awesome-CV, moderncv, hyndman. Build classic first, then two alternates. |
+| Website and JSON shape | crumplab.com is a Quarto site. It will read `cv.json` published by this repo. Shape drafted below; website spike is Milestone 8. |
+| Academic only, or short versions too | Two documents from one dataset: the academic CV and the Brooklyn College form. Entries carry optional `tags` so a two-page CV or biosketch is a filter later. |
+| Publications source | BibTeX in `data/publications.bib`, seeded from `Crump_pr.bib` and topped up to 2024 from the PDF list (DOI lookups where possible). Zotero remains the editor of record; ORCID is a discovery source. |
+| Typst or LaTeX | Typst. Quarto bundles it, styling is plain functions, no TeX Live in CI. The awesome-cv LaTeX build in the examples failed on fonts. |
+| Engine for data to document | R (knitr) chunks with helpers in `R/cv.R`. Matches the vitae code and the user's tooling. Python would work equally well; the helper layer is small. |
 
 ## Scope
 
 In scope for v1:
 
 - `data/` files with a documented schema and a validation script.
-- `cv.qmd` rendering to `cv.pdf` (Typst), `cv.docx`, `cv.html` from the same data.
+- `cv.qmd` (academic CV) rendering to PDF, Word, and HTML from the same data.
+- `cv-bc.qmd` (Brooklyn College form) rendering to Word that matches the 2024 docx layout.
 - Three Typst style variants rendered side by side, one chosen as default.
 - `cv.json` export on every render.
 - GitHub Action that validates, renders, and publishes outputs to `gh-pages`.
 - A Claude skill and `CLAUDE.md` conventions for chat updates.
-- Seed content from the 2019 snapshot, then a refresh to 2026.
+- Content harvested from the 2024 documents, then refreshed to 2026.
 
 Out of scope for v1 (possible later):
 
-- Short CV, biosketch, or NSF/NIH formats.
+- Biosketch or NSF/NIH formats, two-page CV.
 - Automatic ORCID or Google Scholar sync.
 - Website integration beyond publishing `cv.json` and a documented fetch pattern.
-- JSON Resume compatibility (a mapping can be added on top of `cv.json`).
+- JSON Resume compatibility (a mapping on top of `cv.json`).
 
 ## Architecture
 
 ```
 CrumpCV/
-├── _quarto.yml                  project config: formats, pre/post-render scripts
-├── cv.qmd                       the document: headings + one R chunk per section
+├── _quarto.yml                  formats, pre-render and post-render scripts
+├── cv.qmd                       academic CV: headings + one R chunk per section
+├── cv-bc.qmd                    Brooklyn College form: same chunks, form order, form prose
 ├── data/
-│   ├── profile.yml              name, title, affiliation, email, links, interests
+│   ├── profile.yml              name, title, affiliation, links, interests, appointment dates
 │   ├── positions.yml
-│   ├── education.yml
-│   ├── grants.yml
-│   ├── publications.bib         Zotero / Better BibTeX export
+│   ├── education.yml            degrees, dissertation, advisors, postdoc
+│   ├── publications.bib         Zotero / Better BibTeX export; keywords drive categories
 │   ├── talks.yml                invited talks and conference presentations
-│   ├── teaching.yml
-│   ├── students.yml             mentees and dissertation committees
-│   └── service.yml
-├── schema/*.json                JSON Schema per section, used by validate + CI
-├── R/cv.R                       read_section(), cv_entries(), cv_list(), cv_bib()
+│   ├── grants.yml               funded and submitted, with role
+│   ├── awards.yml
+│   ├── software.yml             packages, websites, other creative work
+│   ├── teaching.yml             courses with level, notes, OER URL
+│   ├── students.yml             mentees by level, and dissertation committees
+│   ├── service.yml              categorised to match the BC form subsections
+│   ├── reviewing.yml            journals reviewed for, grant panels
+│   └── narratives/*.md          educational philosophy, other experience, curriculum development
+├── schema/*.json                JSON Schema per section
+├── R/cv.R                       read_section(), cv_entries(), cv_list(), cv_table(), cv_pubs()
 ├── scripts/
-│   ├── validate.R               schema checks, ordering, privacy lint
-│   └── build_json.R             post-render: data + bib → _output/cv.json
-├── csl/apa-cv.csl               APA 7 sorted by descending date (from the CSL repo)
+│   ├── validate.R               schema, ordering, privacy lint
+│   ├── build_pubs.R             pre-render: bib → CSL-JSON + formatted strings (pandoc)
+│   ├── build_json.R             post-render: everything → _output/cv.json
+│   └── harvest/                 one-off parsers used in M1, kept for reference
+├── csl/apa-cv.csl               APA 7 sorted by descending date
 ├── _extensions/
-│   ├── cv-classic/              Typst format, hyndman-like
-│   ├── cv-modern/               Typst format, moderncv-like
-│   └── cv-awesome/              Typst format, Awesome-CV-like, bundled fonts
-├── templates/reference.docx     Word styles
+│   ├── cv-classic/              Typst format matching the 2024 formatted CV
+│   ├── cv-modern/               moderncv-like
+│   └── cv-awesome/              Awesome-CV-like, bundled Roboto + FontAwesome
+├── templates/
+│   ├── reference.docx           Word styles for the academic CV
+│   └── reference-bc.docx        Word styles cloned from Crump_CV_2024_BC.docx
 ├── styles/README.md             gallery of page-1 previews, decision log
-├── _output/                     rendered files (ignored, published by CI)
+├── _output/                     rendered files, published by CI
 ├── .github/workflows/render.yml
 ├── .claude/skills/add-entry/SKILL.md
-└── examples/vitae/              the pruned CV Examples (see Milestone 0)
+└── CV Examples/                 the source documents and vitae projects (pruned in M0)
 ```
 
 Data flow:
 
 ```
-data/*.yml + publications.bib
-        │  (validate.R, pre-render)
+data/*.yml + publications.bib + narratives/*.md
+        │  validate.R, build_pubs.R  (pre-render)
         ▼
-cv.qmd ── R/cv.R ──► Markdown + raw Typst blocks
+cv.qmd, cv-bc.qmd ── R/cv.R ──► Markdown + raw Typst blocks
         │
-        ├─► typst  ──► _output/cv.pdf         (one per style while comparing)
-        ├─► docx   ──► _output/cv.docx        (reference.docx styles)
-        ├─► html   ──► _output/cv.html
+        ├─► typst ──► _output/cv.pdf            (cv-classic, cv-modern, cv-awesome while comparing)
+        ├─► docx  ──► _output/cv.docx, _output/cv-bc.docx
+        ├─► html  ──► _output/cv.html
         └─► build_json.R (post-render) ──► _output/cv.json
 ```
 
-Each helper emits two representations of an entry: a raw ```` ```{=typst} ```` block calling the style's `#cv-entry()` function, and a Markdown fallback wrapped in `::: {.content-visible unless-format="typst"}` for Word and HTML. Typst gets full layout control; Word and HTML get a clean, plainer rendering from the same call.
+Each helper emits two representations of an entry: a raw ```` ```{=typst} ```` block calling the style's `#cv-entry()` function, and a Markdown fallback wrapped in `::: {.content-visible unless-format="typst"}` for Word and HTML. Typst gets full layout control; Word and HTML get a clean, plainer rendering from the same call. The BC form is Word-first and uses tables, so its helpers emit Markdown tables that `reference-bc.docx` styles.
+
+### Publications are rendered as data, not by in-document citeproc
+
+The 2024 CV needs things citeproc alone cannot do: numbering that restarts per subsection, the user's name in bold, mentee stars derived from `students.yml`, an `R.` refereed marker, and the form's Recent / Accepted / In Progress / Previous split by date and status. So publications are pre-rendered once and then treated like any other section:
+
+1. `build_pubs.R` runs `quarto pandoc data/publications.bib -t csljson` for structured data, and a citeproc run with `csl/apa-cv.csl` to get one formatted Markdown string per entry.
+2. It joins the two by citation key and adds `refereed`, `category`, `status`, and `mentees` from the bib fields (`keywords`, `note`, custom `status = {inpress|inprogress}`), writing `_data/publications.json`.
+3. `cv_pubs()` in `R/cv.R` filters, sorts, numbers, bolds the user's name, marks mentee co-authors by matching surnames and initials against `students.yml`, and emits the list.
+
+Categories via `keywords`: `article`, `chapter`, `proceedings`, `book`, `oer`, `preprint`, `review`, `other`. The mentee-star logic is a lookup, so a new student in `students.yml` automatically stars their future papers.
 
 ### Data model
 
-Conventions: one YAML list per file, newest first, years as integers, `end: null` for ongoing, optional `tags` list on any entry, optional `note` free text. IDs are only needed where another file refers to an entry.
+Conventions: one YAML list per file, newest first, years as integers, `end: null` for ongoing, optional `tags` list, optional `note` free text, optional `when` free text that renders verbatim when a date does not fit (for example `Summer 2013`). Sorting uses `start` or `year`.
 
 ```yaml
 # data/profile.yml
 name: Matthew J. C. Crump
+short_name: Crump, M. J. C.          # used to bold the user's name in author lists
 title: Professor of Psychology
-affiliation: Brooklyn College of CUNY
 department: Department of Psychology
+affiliation: Brooklyn College of CUNY
+address: 2900 Bedford Avenue, Brooklyn, NY 11210    # institutional, already public
+phone: null                          # office line is in the public CV; include only if approved
 email: mcrump@brooklyn.cuny.edu
 website: https://crumplab.com
 github: CrumpLab
-orcid: null            # add if wanted
+orcid: null
 interests:
   - Learning, memory, attention, and performance
   - Computational modeling of semantic cognition
   - Pattern learning and recognition
+appointment:                         # BC form section I
+  initial_appointment: 2011-01-28
+  tenure_date: 2018-09-01
+  present_rank: Full Professor
+  present_rank_since: 2022-09-01
+  promotions: [2016-09-01, 2022-09-01]
 
 # data/positions.yml
-- title: Professor
+- title: Full Professor
   institution: Brooklyn College of CUNY
+  department: Department of Psychology
   location: Brooklyn, NY
-  start: 2022
+  start: 2022-09
   end: null
-- title: Visiting Research Professor
-  institution: University of Manitoba
-  location: Winnipeg, MB
-  start: 2019-10
-  end: 2019-10
+- title: Postdoctoral Researcher
+  institution: Vanderbilt University
+  department: Department of Psychology
+  location: Nashville, TN
+  start: 2007
+  end: 2011
+  advisor: Gordon D. Logan
 
 # data/education.yml
 - degree: Ph.D.
   field: Psychology
   institution: McMaster University
-  location: Hamilton, ON
-  year: 2007
+  location: Hamilton, ON, Canada
+  start: 2002
+  end: 2007
+  conferred: 2007-11-16
+  dissertation: "Context-specific learning and control: An instance based view of flexible online control"
+  advisor: Bruce Milliken
+- degree: B.Sc. (Hon.)
+  field: Psychology
+  institution: University of Lethbridge
+  location: Lethbridge, AB, Canada
+  start: 1999
+  end: 2002
+  advisor: John Vokey
 
 # data/grants.yml
-- title: Acquisition of hierarchical control in skilled action sequencing
-  funder: National Science Foundation
-  program: null
-  number: "1353360"
-  amount: 356073
+- title: Remembering and forgetting pictures: Testing a computational instance-based account
+  funder: PSC-CUNY
+  program: Traditional B
+  number: null
+  amount: 6000
   currency: USD
   role: PI
-  start: 2014-07
-  end: 2017-06
+  status: funded            # funded | submitted | declined
+  start: 2023
+  end: 2024
+- title: Answering questions with data: Teaching computational skills in introductory statistics to psychology undergraduates
+  funder: NSF
+  amount: 299470
+  role: PI
+  status: submitted
+  submitted: 2021-02
 
 # data/talks.yml
 - type: invited            # invited | conference | workshop
-  year: 2018
+  year: 2022
   authors: [Crump, M. J. C.]
-  title: "Betrayed by your fingertips: Keystroke dynamics in typing as cognitive fingerprints"
-  venue: ConCats seminar, New York University
+  title: Instance theory as a domain-general intuition pump for cognition
+  venue: CCP colloquium, The Graduate Center of CUNY
   location: New York, NY
+- type: conference
+  year: 2022
+  authors: [Shives, D. W., Ihejirika, P., Crump, M. J. C.]
+  title: The role of stimulus duration in directed forgetting for natural scenes
+  venue: Psychonomic Society Annual Meeting
+  location: Boston, MA
+
+# data/awards.yml
+- title: Doctoral Thesis Award, Certificate of Academic Excellence
+  organization: Canadian Psychological Association
+  year: 2008
+
+# data/software.yml
+- name: Vertical
+  description: R-studio project template and workflow for sharing psychological research projects as a website
+  type: r-package
+  url: https://www.crumplab.com/vertical/
 
 # data/teaching.yml
-- level: undergraduate     # undergraduate | masters | doctoral
-  code: PSYC 3400
-  title: Statistics
-  note: Large sections, OER
+- level: undergraduate     # undergraduate | masters | doctoral | other
+  code: PSYC 2530
+  title: Introduction to Cognitive Psychology
+  note: In-person, async, sync, large sections
+  oer: https://www.crumplab.com/cognition/
+  institution: Brooklyn College of CUNY
 
 # data/students.yml
 - level: doctoral          # postdoc | doctoral | masters | undergraduate
-  name: Nicholaus Brosowsky
-  start: 2014
-  end: 2019
-  program: Cognition, Language, and Development
-  note: null
+  name: Drew Shives
+  surname: Shives
+  initials: D. W.
+  start: 2021
+  end: null
+  program: Cognitive and Comparative Psychology training area
+- level: undergraduate
+  name: Patrick Ihejirika
+  surname: Ihejirika
+  initials: P.
+  note: MARC; honors thesis; Goldwater scholarship winner
 - level: committee
-  role: Chair
-  student: Nicholaus Brosowsky
+  role: Committee member
+  student: Janani Rajagopalan
   institution: Graduate Center of CUNY
-  year: 2019
+  year: 2023
 
 # data/service.yml
-- category: department     # college | department | doctoral-program | professional | reviewing
-  role: Director of Experimental Psychology Graduate Program
-  organization: Brooklyn College of CUNY
-  start: 2019
+- category: department     # college | division | department | student-activities | other-college
+                           # | doctoral-program | university | professional | community
+  role: Appointments Committee (elected)
+  organization: Department of Psychology, Brooklyn College
+  when: "May 2018 – June 2021; May 2022 – present"
+  start: 2018
   end: null
-- category: reviewing
-  role: Ad hoc reviewer
-  organization: Psychonomic Bulletin & Review
+
+# data/reviewing.yml
+grant_panels:
+  - organization: PSC-CUNY
+    role: Grant Review Panel, Cycle 55
+    year: 2024
+journals:
+  - Acta Psychologica
+  - Attention, Perception, and Psychophysics
 ```
 
-Publications stay in BibTeX because Quarto's citeproc formats them for free in every output format. `csl/apa-cv.csl` sorts by descending date, and `nocite: '@*'` prints the whole file. Sub-sections (peer-reviewed, chapters, books, preprints) are driven by the `keywords` field in each entry; `cv_bib(section = "peer-reviewed")` filters on it. If Pandoc's single-bibliography limit gets in the way, the `multibib` Lua filter or one `.bib` per subsection is the fallback.
+`data/narratives/` holds `educational-philosophy.md`, `other-experience.md`, `curriculum-development.md`, `web-tutorials.md`, and `certificates.md`, used only by the BC form and included with `{{< include >}}`.
 
 ### JSON shape
 
-`_output/cv.json` is the data files merged, plus publications as CSL-JSON with a preformatted APA string, plus metadata. The website never re-formats anything it does not want to.
+`_output/cv.json` is the data files merged, with publications as CSL-JSON plus the formatted string, plus metadata.
 
 ```json
 {
   "meta": { "generated": "2026-09-30T12:00:00Z", "commit": "abc1234", "schema": 1 },
   "profile": { "name": "…", "title": "…", "affiliation": "…", "email": "…", "website": "…", "interests": ["…"] },
-  "positions": [ { "title": "…", "institution": "…", "location": "…", "start": 2022, "end": null } ],
+  "positions": [ { "title": "…", "institution": "…", "start": "2022-09", "end": null } ],
   "education": [ … ],
-  "grants": [ … ],
   "publications": [
     { "id": "crumpEvaluatingAmazonMechanical2013", "type": "article-journal", "title": "…",
       "author": [ { "family": "Crump", "given": "M. J. C." } ], "issued": { "date-parts": [[2013]] },
       "container-title": "PLoS ONE", "DOI": "10.1371/journal.pone.0057410",
-      "keywords": ["peer-reviewed"], "formatted": "Crump, M. J. C., McDonnell, J. V., & Gureckis, T. M. (2013). …" }
+      "category": "article", "refereed": true, "mentee_coauthors": [],
+      "formatted": "Crump, M. J. C., McDonnell, J. V., & Gureckis, T. M. (2013). …" }
   ],
-  "talks": [ … ], "teaching": [ … ], "students": [ … ], "service": [ … ]
+  "talks": [ … ], "grants": [ … ], "awards": [ … ], "software": [ … ],
+  "teaching": [ … ], "students": [ … ], "service": [ … ], "reviewing": { … }
 }
 ```
 
-CSL-JSON comes from `quarto pandoc data/publications.bib -t csljson`; the `formatted` strings come from a plain-text citeproc run over the same bib with the same CSL. Both are already in Quarto, so no extra bib parser is needed.
+Narratives are not exported by default.
 
 ### Style variants
 
-All three render from the same `cv.qmd` by listing three Typst formats in `_quarto.yml`. `quarto render` produces `cv-classic.pdf`, `cv-modern.pdf`, `cv-awesome.pdf` in one go. Each extension defines the same small API so the document does not care which style is active:
+All three Typst styles render from `cv.qmd` by listing three formats in `_quarto.yml`; one `quarto render` yields `cv-classic.pdf`, `cv-modern.pdf`, `cv-awesome.pdf`. Each extension implements the same small API:
 
-- `#cv-header(profile)`: name block and contact line.
+- `#cv-header(profile)`: name block and contact lines.
 - `#cv-section(title)`: section heading.
-- `#cv-entry(what, when, with, where, details)`: the `detailed_entries` equivalent.
-- `#cv-item(when, text)`: the `brief_entries` equivalent, used for talks, service, students.
-- Bibliography styling: numbering, hanging indent, spacing.
+- `#cv-entry(what, when, with, where, details)`: positions, education, committees.
+- `#cv-item(when, text)` and `#cv-numbered(items)`: talks, service, publications.
+- `#cv-table(rows)`: grants.
 
-Starting points, so nothing is written from scratch:
+Starting points:
 
-- classic: hand-written, roughly 80 lines of Typst. Serif, small caps section titles, dates flush right. Closest to the hyndman look and the safest for Word parity.
+- classic: hand-written Typst matching the 2024 formatted CV. Letter size, bold small-caps headings with a rule, two-column header, left date column, numbered publications with bold self-name and mentee stars. Aptos is proprietary, so use an open metric-compatible substitute (Source Sans 3 or Inter) shipped in the extension.
 - modern: adapt `moderner-cv` from Typst Universe or hand-write with the `#3873B3` accent and left date column from `modern.tex`.
-- awesome: adapt `modern-cv` (Typst Universe, based on Awesome-CV) or `quarto-awesomecv-typst`; ship the Roboto and FontAwesome files already in `CV Examples/rvitae/awesome/fonts/`.
+- awesome: adapt `modern-cv` from Typst Universe (based on Awesome-CV) or `quarto-awesomecv-typst`, shipping the Roboto and FontAwesome files from `CV Examples/rvitae/awesome/fonts/`.
 
-Comparison workflow: `styles/README.md` shows page-1 PNGs of each variant (made with `pdftoppm -png -r 80 -f 1 -l 1`) and a short notes column. One round of tweaks per style, then the user picks. The chosen style becomes the default `format`; the other two stay in `_extensions/` as cheap options unless the user wants them removed. Style options that should be easy to flip after the choice: accent colour, font family, page size (Letter), date column width, whether publications are numbered.
+Comparison workflow: `styles/README.md` shows page-1 PNGs of each variant beside the 2024 PDF's page 1, with a notes column. One tweak round per style, then the user picks. The chosen style becomes the default; the others stay as cheap options unless removed. Easy-to-flip options after the choice: accent colour, font, page size, date column width, whether publications are numbered, whether mentee stars show.
+
+### The Brooklyn College form
+
+`cv-bc.qmd` reproduces sections I to VIII in the form's order, keeps the form's instruction sentences as static text, and fills every table from data. `reference-bc.docx` is derived from the 2024 docx so headings, fonts, and table styles match. Parameters at the top of the file: `recent_since` (the cutoff for Recent vs Previous publications, 2016 in the 2024 version) and `as_of` date. The Word output is the deliverable; a PDF of it is a bonus.
 
 ### Update workflow
 
-The point of the data layer is that an update is a diff to one YAML file.
-
 1. User says, for example, "Add a talk: invited colloquium at NYU, October 2026, title X".
 2. The `add-entry` skill maps it to `data/talks.yml`, inserts at the top in the existing shape, runs `Rscript scripts/validate.R`, and commits with `Add talk: X`.
-3. Push triggers the Action: validate, render all formats, build `cv.json`, publish to `gh-pages`, attach outputs to the run.
-4. `https://crumplab.github.io/CrumpCV/cv.pdf` and `cv.json` are always current.
+3. Push triggers the Action: validate, build publications, render all documents, build `cv.json`, publish to `gh-pages`, attach outputs to the run.
+4. `https://crumplab.github.io/CrumpCV/cv.pdf`, `cv-bc.docx`, and `cv.json` are always current.
 
-Because CI renders, chat updates never depend on Quarto or R being installed in the session. A session that does have them can run `quarto render` for a local check. New publications: export from Zotero to `data/publications.bib` (Better BibTeX auto-export keeps it current) or paste a BibTeX entry in chat.
+Because CI renders, chat updates never depend on Quarto or R in the session. New publications: export from Zotero to `data/publications.bib`, or paste a BibTeX entry or DOI in chat and the skill fetches BibTeX from doi.org. New mentees added to `students.yml` automatically get stars on their papers.
 
-Validation (`scripts/validate.R`) checks: every file parses; each entry matches its JSON Schema; lists are in reverse chronological order; no phone numbers or street addresses anywhere; every bib entry has `author`, `title`, `year` or `date`, and a `keywords` category; no duplicate bib keys.
+Validation checks: every file parses; each entry matches its schema; lists are in reverse chronological order; no personal phone numbers or home addresses; every bib entry has `author`, `title`, a date, and a category keyword; no duplicate bib keys; every mentee co-author string in a bib `note` matches a `students.yml` entry.
 
 ## Milestones
 
 Each milestone ends in a pushed commit and something the user can look at.
 
-### M0 Housekeeping (this branch, small)
+### M0 Housekeeping
 
-- Commit `PLAN.md`; point `README.md` and `CLAUDE.md` at it.
-- `.gitignore` no longer ignores `*.pdf` or `*.docx`, so example and reference documents can be committed. Decide later whether rendered outputs in `_output/` are committed or only published by CI.
-- Propose pruning `CV Examples/` to the useful files (`*.Rmd`, `*.bib`, `awesome-cv.cls`, `moderncv*.sty`, `fonts/`) and moving them to `examples/vitae/` without the space in the path. Ask before deleting the `.log`, `.aux`, `.bcf`, `.bbl`, `.blg`, `.out`, `.run.xml`, `.Rproj` build files.
+- Commit this plan and the text extractions in `CV Examples/extracted/`.
+- Propose pruning `CV Examples/rvitae/` to the useful files (`*.Rmd`, `*.bib`, the two rendered PDFs, `awesome-cv.cls`, `moderncv*.sty`, `fonts/`) and deleting the `.log`, `.aux`, `.bcf`, `.bbl`, `.blg`, `.out`, `.run.xml`, `.Rproj` build files. Ask before deleting. Keep the folder name.
+- `.gitignore` already allows PDF and Word files; add `_output/` and `_data/` once rendering exists and decide whether rendered outputs are committed.
 
-### M1 Data model and seed
+### M1 Harvest the 2024 documents into `data/`
 
-- Write `schema/*.json` and the YAML files above.
-- Convert the 2019 snapshot from `Untitled.Rmd` into `data/*.yml`: 4 positions, 2 degrees, 4 grants, 13 invited talks, 37 conference presentations, 1 postdoc, 3 doctoral, 4 master's, and 21 undergraduate mentees, 9 committees, 19 courses, about 30 service items, and the reviewing journal list.
-- Import `Crump_pr.bib` as `data/publications.bib`: strip `file`, `abstract`, `urldate`; keep `doi`; add `keywords = {peer-reviewed}` or `{chapter}`; cross-check against `works2.bib` for the 3 books (textbook, course website, lab manual) and add them tagged `book` or `oer`.
-- `scripts/validate.R` passing on the seed data.
-- Deliverable: `data/` complete for 2019, validated. Commit `Seed data from 2019 vitae snapshot`.
+- Write `schema/*.json` and `scripts/validate.R`.
+- From `CV Examples/extracted/`, build every YAML file listed above. The docx tables give teaching, grants, service, committees, and mentees row by row; the PDF gives talks, awards, software, and the newer service dates.
+- Publications: start from `Crump_pr.bib` (39 entries, strip `file`, `abstract`, `urldate`), add the 14 entries from 2019 to 2023 that the PDF lists (fetch BibTeX by DOI where available, hand-write the OER textbooks and proceedings), add the 2 preprints as `status = {inprogress}`, tag every entry with a category keyword and `refereed`. Record mentee co-authorship in a `note` or custom field only where the star lookup cannot infer it.
+- Narratives copied into `data/narratives/*.md`.
+- Resolve the small conflicts using the 2024 values (B.Sc. 2002 not 2001, postdoc from 2007 not 2008, Ph.D. conferred November 2007) and list them for the user.
+- Deliverable: `data/` complete as of March 2024, validated. Commits per section, then `Harvest 2024 CV into data/`.
 
 ### M2 Render pipeline with the classic style
 
-- `_quarto.yml` with `cv-classic-typst`, `docx`, and `html` formats, `output-dir: _output`, `pre-render: Rscript scripts/validate.R`.
+- `_quarto.yml` with `cv-classic-typst`, `docx`, and `html` formats, `output-dir: _output`, pre-render `validate.R` and `build_pubs.R`.
 - `R/cv.R` helpers and `cv.qmd` with one chunk per section.
-- `_extensions/cv-classic/` Typst format (template, show rules, the five functions).
-- `csl/apa-cv.csl`, `nocite: '@*'`, publications subsections via keywords.
+- `_extensions/cv-classic/` matching the 2024 formatted CV.
+- `csl/apa-cv.csl`, publications via `cv_pubs()` with numbering, bold self-name, mentee stars, refereed marker.
 - `templates/reference.docx` with Heading 1/2, body, and a two-column entry table style.
-- Deliverable: `quarto render` produces `cv.pdf`, `cv.docx`, `cv.html` from the seed data. Commit `Render pipeline: classic Typst, Word, HTML`.
+- Deliverable: `quarto render` produces `cv.pdf`, `cv.docx`, `cv.html` that match the 2024 CV's content page for page. Commit `Render pipeline: classic Typst, Word, HTML`.
 
 ### M3 Style exploration
 
-- Add `_extensions/cv-modern/` and `_extensions/cv-awesome/` implementing the same five functions.
-- Render all three, generate `styles/previews/*.png`, write `styles/README.md` with the gallery and notes.
-- User reviews; one tweak round each; user picks. Record the decision in `styles/README.md` and set the default format.
-- Deliverable: three PDFs plus gallery, then a chosen default. Commits `Add modern and awesome Typst styles`, `Choose <style> as default CV style`.
+- Add `_extensions/cv-modern/` and `_extensions/cv-awesome/` implementing the same API.
+- Render all three, generate `styles/previews/*.png`, write `styles/README.md` with the gallery beside the 2024 PDF.
+- User reviews; one tweak round each; user picks. Record the decision and set the default format.
+- Deliverable: three PDFs plus gallery, then a chosen default.
 
-### M4 JSON export and CI
+### M4 Brooklyn College form
 
-- `scripts/build_json.R` as a `post-render` step producing `_output/cv.json` (shape above), including CSL-JSON and formatted strings.
-- `.github/workflows/render.yml`: on push to `main` and on PRs, set up Quarto (pinned version) and R (r-lib/actions, packages: yaml, jsonlite, knitr, rmarkdown), validate, render, upload `_output/` as an artifact; on `main` also publish `_output/` to `gh-pages`.
+- `cv-bc.qmd` and `templates/reference-bc.docx` cloned from the 2024 docx.
+- Render and diff against `Crump_CV_2024_BC.docx` section by section (text extraction of both, compared with `diff`).
+- Deliverable: `cv-bc.docx` that a reviewer could not tell from the hand-made one, apart from newer entries. Commit `Add Brooklyn College form output`.
+
+### M5 JSON export and CI
+
+- `scripts/build_json.R` as a post-render step producing `_output/cv.json`.
+- `.github/workflows/render.yml`: on push to `main` and on PRs, set up Quarto (pinned) and R (r-lib/actions, packages: yaml, jsonlite, knitr, rmarkdown, jsonvalidate), validate, render, upload `_output/` as an artifact; on `main` also publish to `gh-pages`.
 - README documents the stable URLs.
-- Deliverable: green Action, `cv.pdf`, `cv.docx`, `cv.json` reachable at `https://crumplab.github.io/CrumpCV/`. Commit `Export cv.json and render in CI`.
+- Deliverable: green Action, outputs reachable at `https://crumplab.github.io/CrumpCV/`.
 
-### M5 Chat update workflow
+### M6 Chat update workflow
 
-- `.claude/skills/add-entry/SKILL.md`: intake questions (which section, required fields), insertion rules, validate, commit message format, when to ask (removals, rewording, ambiguous section).
-- Expand `CLAUDE.md`: file map, schema summary, ordering rules, privacy rules, how to render locally, how to add a publication.
-- Dry run: add three real items by chat (a talk, a service role, a bib entry) and confirm CI publishes them.
-- Deliverable: a working end-to-end update by chat. Commit `Add add-entry skill and conventions`.
+- `.claude/skills/add-entry/SKILL.md`: section detection, required fields, insertion rules, DOI-to-BibTeX, validate, commit message format, when to ask (removals, rewording, ambiguous section).
+- Expand `CLAUDE.md`: file map, schema summary, ordering and privacy rules, how to render locally, how to add a publication or a student.
+- Dry run: add three real items by chat and confirm CI publishes them.
 
-### M6 Content refresh to 2026
+### M7 Content refresh to 2026
 
-- User shares the current CV (any format). Diff it against `data/` section by section and add the missing 2019–2026 entries: positions (Professor 2022, chair role), grants, talks, students, teaching, service.
-- Top up `publications.bib` from Zotero or an ORCID export; dedupe against existing keys.
+- Add everything since March 2024: positions or roles (including chair duties), grants, talks, students, teaching, service, publications from Zotero or ORCID.
 - Fold in the Chair Activities Inventory as service entries once that list exists.
-- Deliverable: a current CV. Several commits, one per section.
+- Deliverable: a current CV in both layouts.
 
-### M7 Website integration spike (after v1)
+### M8 Website integration spike (after v1)
 
-- In the crumplab.com Quarto project, try the two candidate patterns: an OJS cell fetching `cv.json`, or a Quarto custom listing with an EJS template over a copy of the section data. Pick one and document the fetch URL and shape in this repo's README.
+- In the crumplab.com Quarto project, try an OJS cell fetching `cv.json` and a custom listing with an EJS template over the section data. Pick one and document the fetch URL and shape here.
 
 ## Risks
 
 | Risk | Mitigation |
 |---|---|
-| Rendering cannot be verified in Claude web sessions (no Quarto or R in the container today). | CI is the render check. Optionally add a SessionStart setup script that installs Quarto and R so sessions can render locally. |
-| Word output looks plain next to the Typst PDF. | Accept it as the editable format. Invest in `reference.docx` styles once, after the Typst style is chosen. |
-| Typst font embedding and licensing for the awesome style. | Ship fonts inside the extension; Roboto and FontAwesome are already in the examples under open licences. |
-| Publications gap 2019–2026 and messy exports (ORCID keys, journal names). | Zotero is the source; ORCID only for discovery. Validation rejects entries without a category keyword. |
-| Pandoc supports one bibliography per document. | Keywords plus filtering in `cv_bib()` first; `multibib` filter or per-section bib files as fallback. |
-| Public repo privacy. | Validation lints for phone numbers and addresses. Office phone from the examples is not carried over unless approved. `CLAUDE.md` already forbids private data. |
-| Style exploration expands without end. | Three variants, one tweak round each, then a decision recorded in `styles/README.md`. |
-| Quarto or Typst version drift breaks the build. | Pin the Quarto version in the Action and note it in README. |
-| Chat updates introduce malformed data. | Schema validation in the skill and in CI; commits are small and reviewable. |
-| Dates in mixed formats (`2019-10`, `Summer 2013`, `Spring 2019`). | Schema allows year, year-month, or a `when` free-text override that renders verbatim; sorting uses `start`/`year`. |
+| Rendering cannot be verified in Claude web sessions (no Quarto or R in the container). | CI is the render check. Optionally a SessionStart script installs Quarto and R. Data work, harvesting, and validation logic can all be developed here. |
+| Harvest errors: 53 publications and about 200 other entries typed from text. | Harvest by script from the extractions where the structure allows (tables), review each YAML file against the PDF once, and keep the extractions in the repo for spot checks. |
+| Publication formatting needs beyond citeproc (stars, bold name, per-section numbering). | Pre-rendered strings plus `cv_pubs()` post-processing, described above. |
+| Word fidelity for the BC form. | Clone styles from the 2024 docx, compare text extractions with `diff`, accept minor layout differences. |
+| Aptos is not available on Linux or in Typst. | Ship an open substitute in the classic extension; note the swap in `styles/README.md`. |
+| Public repo privacy. | Validation lints for phone numbers and home addresses. Office phone stays out unless approved. Student names are already public in the 2024 CV. |
+| Style exploration expands without end. | Three variants, one tweak round each, then a recorded decision. |
+| Quarto or Typst version drift. | Pin the Quarto version in the Action and note it in README. |
+| Chat updates introduce malformed data. | Schema validation in the skill and CI; commits are small and reviewable. |
+| Mixed date formats (`Summer 2013`, `Spring 2019`, `Elected May 2018 – June 2021; May 2022 – present`). | `start`/`end` for sorting plus an optional `when` string that renders verbatim. |
 
 ## First steps
 
-In order, starting on this branch:
+In order, on this branch:
 
-1. Commit `PLAN.md` and the README and CLAUDE.md pointers.
-2. Fix `.gitignore` (un-ignore `templates/reference.docx`, ignore `_output/`).
-3. Get approval to prune and move `CV Examples/` to `examples/vitae/`.
-4. Write `schema/` and `data/profile.yml`, `positions.yml`, `education.yml` by hand from the snapshot; write `scripts/validate.R`; run it.
-5. Convert talks, grants, teaching, students, and service from `Untitled.Rmd` into YAML.
-6. Clean and import `Crump_pr.bib` with keywords.
-7. Build `_quarto.yml`, `R/cv.R`, `cv.qmd`, and the classic Typst extension; render locally or via the Action; open the PDF.
+1. Commit this plan and `CV Examples/extracted/`.
+2. Get approval to prune the vitae build files.
+3. Write `schema/` and `scripts/validate.R`.
+4. Harvest `profile.yml`, `positions.yml`, `education.yml`, `grants.yml`, `awards.yml`, `software.yml` from the extractions and validate.
+5. Harvest `teaching.yml`, `students.yml`, `service.yml`, `reviewing.yml`, `talks.yml`, then the narratives.
+6. Build `publications.bib`: clean `Crump_pr.bib`, add 2019 to 2023 entries and the preprints, tag categories.
+7. Build `_quarto.yml`, `R/cv.R`, `cv.qmd`, and the classic Typst extension; render via CI or locally; compare with the 2024 PDF.
 8. Add the modern and awesome styles, generate previews, and hand the gallery to the user for the style decision.
 
 ## Environment notes
 
-- Local: Quarto 1.6 or later (Typst bundled), R 4.3 or later with `yaml`, `jsonlite`, `knitr`, `rmarkdown`, and `jsonvalidate` for schema checks. No TeX installation needed. `poppler-utils` for `pdftoppm` previews.
-- CI: `quarto-dev/quarto-actions/setup`, `r-lib/actions/setup-r` and `setup-r-dependencies`, `peaceiris/actions-gh-pages` or `actions/deploy-pages` for publishing.
-- This cloud session has Python only. Data and schema work is possible here; rendering waits for CI or a local machine.
+- Local: Quarto 1.6 or later (Typst bundled), R 4.3 or later with `yaml`, `jsonlite`, `knitr`, `rmarkdown`, `jsonvalidate`. No TeX needed. `poppler-utils` for previews.
+- CI: `quarto-dev/quarto-actions/setup`, `r-lib/actions/setup-r` and `setup-r-dependencies`, `actions/deploy-pages` or `peaceiris/actions-gh-pages`.
+- This cloud session has Python only. `pymupdf` can be pip-installed here for PDF text and page images; the docx is readable by unzipping its XML. Rendering waits for CI or a local machine.
