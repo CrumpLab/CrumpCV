@@ -10,12 +10,14 @@ New entries can be added by describing them to Claude in chat.
 
 ## Status
 
-Just seeded. See `IDEA.md` for the idea and its open questions. The next step is to settle those questions and write `PLAN.md`.
+Planned. `PLAN.md` holds the goal, scope, milestones, risks, and first steps. `IDEA.md` is the originating idea. `CV Examples/` holds three earlier `vitae` CV projects used as style references and as the seed for the data files.
 
 ## Layout (planned)
 
 ```
 data/           structured CV content, one file per section
+CV Examples/    earlier vitae (R Markdown + LaTeX) CVs: style references and seed content
+PLAN.md         the implementation plan
 IDEA.md         the originating idea, snapshot from the Idea Console
 idea/idea.json  the same idea as JSON
 CLAUDE.md       conventions for Claude sessions in this repo
