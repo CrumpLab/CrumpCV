@@ -1,6 +1,5 @@
-// CV classic: a Typst reproduction of the 2024 formatted CV.
-// Bold small-caps section titles with a rule, two-column contact header, left date column,
-// numbered lists with hanging indent. Fonts: Source Sans Pro (bundled).
+// CV awesome: a Typst take on Awesome-CV. Roboto, centred name with light/bold weights,
+// red accent on the first letters of each section title, thin rules. Fonts bundled.
 
 // ---------------------------------------------------------------------------
 // Shared entry functions. Every style defines the same names so cv.qmd does
@@ -56,59 +55,58 @@
 
 #let cv(
   title: [Curriculum Vitae],
-  subtitle: none,
+  first-name: [],
+  last-name: [],
+  position: none,
+  affiliation: none,
   contact-left: (),
   contact-right: (),
   date: none,
-  accent: rgb("#000000"),
-  font: "Source Sans Pro",
-  fontsize: 10.5pt,
+  accent: rgb("#DC3522"),
+  font: "Roboto",
+  fontsize: 10pt,
   body,
 ) = {
   set document(title: title)
   set page(
     paper: "us-letter",
-    margin: (x: 0.9in, top: 0.8in, bottom: 0.8in),
-    header: context {
-      if counter(page).get().first() > 1 {
-        set text(size: 8.5pt, fill: luma(110))
-        grid(columns: (1fr, auto), title + [ | CV], if date != none { date })
-      }
-    },
+    margin: (x: 0.85in, top: 0.75in, bottom: 0.75in),
     footer: context {
-      set text(size: 8.5pt, fill: luma(110))
-      align(center, counter(page).display("1"))
+      set text(size: 8pt, fill: luma(120), tracking: 0.08em)
+      grid(columns: (1fr, 1fr, 1fr),
+        align(left, if date != none { upper(date) }),
+        align(center, upper(first-name + [ ] + last-name + [ · Curriculum Vitae])),
+        align(right, counter(page).display("1")))
     },
   )
-  set text(font: font, size: fontsize, lang: "en")
-  set par(justify: false, leading: 0.5em, spacing: 0.75em)
+  set text(font: font, size: fontsize, lang: "en", fill: luma(30))
+  set par(justify: false, leading: 0.5em, spacing: 0.7em)
 
   show heading.where(level: 1): it => {
-    block(width: 100%, above: 1.15em, below: 0.55em, breakable: false,
+    let s = to-string(it.body)
+    block(width: 100%, above: 1.3em, below: 0.6em, breakable: false,
       stack(dir: ttb, spacing: 0.3em,
-        text(size: fontsize + 0.5pt, weight: "bold", fill: accent, tracking: 0.04em, upper(it.body)),
-        line(length: 100%, stroke: 0.6pt + accent),
+        text(size: fontsize + 5pt, weight: "bold", tracking: 0.01em,
+          text(fill: accent, s.slice(0, calc.min(3, s.len()))) + s.slice(calc.min(3, s.len()))),
+        line(length: 100%, stroke: 0.6pt + luma(60)),
       ))
   }
   show heading.where(level: 2): it => {
-    block(above: 0.9em, below: 0.4em, text(size: fontsize, weight: "bold", it.body))
+    block(above: 0.9em, below: 0.4em, text(size: fontsize + 1pt, weight: "bold", fill: luma(50), it.body))
   }
   show heading.where(level: 3): it => {
-    block(above: 0.7em, below: 0.3em, text(size: fontsize, weight: "semibold", style: "italic", it.body))
+    block(above: 0.7em, below: 0.3em, text(size: fontsize, weight: "medium", style: "italic", fill: luma(80), it.body))
   }
-  show link: it => text(fill: accent.darken(20%), it)
+  show link: it => text(fill: luma(30), it)
 
-  // Header block
-  block(below: 1.1em, {
-    text(size: fontsize + 5pt, weight: "bold", title)
-    if subtitle != none { text(size: fontsize + 5pt, weight: "bold", [ | ] + subtitle) }
-    v(0.5em)
-    grid(
-      columns: (1fr, 1fr),
-      gutter: 1em,
-      contact-left.join(linebreak()),
-      contact-right.join(linebreak()),
-    )
-  })
+  // Header: centred name, position, one-line contact
+  align(center, block(below: 1.2em, {
+    text(size: 28pt, weight: "light", first-name) + text(size: 28pt, weight: "bold", [ ] + last-name)
+    v(0.2em)
+    if position != none { text(size: 9pt, fill: accent, weight: "medium", tracking: 0.1em, upper(position)) }
+    if affiliation != none { linebreak(); text(size: 9pt, style: "italic", fill: luma(90), affiliation) }
+    v(0.4em)
+    text(size: 8.5pt, fill: luma(70), (contact-left.slice(2) + contact-right).join([ #h(0.4em) | #h(0.4em) ]))
+  }))
   body
 }

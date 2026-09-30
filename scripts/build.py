@@ -220,7 +220,7 @@ except Exception:
 cv = {"meta": {"generated": datetime.now(timezone.utc).isoformat(timespec="seconds"), "commit": commit or None, "schema": 1},
       "profile": {k: v for k, v in P.items() if k != "phone"},
       "positions": D["positions"], "education": D["education"], "publications": pub_json,
-      "talks": [dict(t, formatted=to_md(fmt_talk(t, P, IDX, set()))) for t in D["talks"]],
+      "talks": [dict(t, formatted=to_md(fmt_talk(t, P, IDX, set())), formatted_plain=to_plain(fmt_talk(t, P, IDX, set()))) for t in D["talks"]],
       "grants": D["grants"], "awards": D["awards"], "software": D["software"],
       "teaching": D["teaching"], "students": D["students"], "service": D["service"], "reviewing": D["reviewing"]}
 (GEN / "cv.json").write_text(json.dumps(jsonable(cv), indent=2, ensure_ascii=False) + "\n")

@@ -2,6 +2,8 @@
 
 A CV as code. Structured data in `data/`, rendered by Quarto to PDF (Typst), Word, HTML, and a `cv.json` feed for the website. Updated by describing new items in chat.
 
+**Status (2026-09-30): Milestones 0 to 6 are implemented.** Content is current to March 2024. Milestone 7 (refresh to 2026) needs items only the user can supply; see the end of this file. Milestone 8 (website) is still to do.
+
 Written 2026-09-30 after reviewing `IDEA.md`, the three `vitae` projects in `CV Examples/rvitae/`, and the two 2024 documents `CV Examples/Crump_CV_2024_BC.docx` and `CV Examples/Crump_CV_24_formatted.pdf`.
 
 ## Goal
@@ -62,7 +64,7 @@ It is the user's own current taste: Aptos, bold small-caps section titles with a
 | Academic only, or short versions too | Two documents from one dataset: the academic CV and the Brooklyn College form. Entries carry optional `tags` so a two-page CV or biosketch is a filter later. |
 | Publications source | BibTeX in `data/publications.bib`, seeded from `Crump_pr.bib` and topped up to 2024 from the PDF list (DOI lookups where possible). Zotero remains the editor of record; ORCID is a discovery source. |
 | Typst or LaTeX | Typst. Quarto bundles it, styling is plain functions, no TeX Live in CI. The awesome-cv LaTeX build in the examples failed on fonts. |
-| Engine for data to document | R (knitr) chunks with helpers in `R/cv.R`. Matches the vitae code and the user's tooling. Python would work equally well; the helper layer is small. |
+| Engine for data to document | **Python pre-render scripts** (`scripts/build.py`), no R or Jupyter. Changed from the original R plan on 2026-09-30 because Quarto and Python were available in the build session while R was not, and because CI then needs only Quarto and pip. The generated sections are plain Markdown plus raw Typst, so the choice of language is invisible to the documents. |
 
 ## Scope
 
@@ -106,11 +108,12 @@ CrumpCV/
 │   ├── reviewing.yml            journals reviewed for, grant panels
 │   └── narratives/*.md          educational philosophy, other experience, curriculum development
 ├── schema/*.json                JSON Schema per section
-├── R/cv.R                       read_section(), cv_entries(), cv_list(), cv_table(), cv_pubs()
 ├── scripts/
-│   ├── validate.R               schema, ordering, privacy lint
-│   ├── build_pubs.R             pre-render: bib → CSL-JSON + formatted strings (pandoc)
-│   ├── build_json.R             post-render: everything → _output/cv.json
+│   ├── validate.py              schema, ordering, privacy lint, bib checks
+│   ├── build.py + cvlib.py      pre-render: data → _generated/*.md (Markdown + raw Typst), meta.yml, cv.json
+│   ├── build_bc.py              the Brooklyn College form sections
+│   ├── render_styles.py         render every Typst style and write previews
+│   ├── make_reference_docx.py   build the Word reference documents
 │   └── harvest/                 one-off parsers used in M1, kept for reference
 ├── csl/apa-cv.csl               APA 7 sorted by descending date
 ├── _extensions/
@@ -459,3 +462,29 @@ In order, on this branch:
 - Local: Quarto 1.6 or later (Typst bundled), R 4.3 or later with `yaml`, `jsonlite`, `knitr`, `rmarkdown`, `jsonvalidate`. No TeX needed. `poppler-utils` for previews.
 - CI: `quarto-dev/quarto-actions/setup`, `r-lib/actions/setup-r` and `setup-r-dependencies`, `actions/deploy-pages` or `peaceiris/actions-gh-pages`.
 - This cloud session has Python only. `pymupdf` can be pip-installed here for PDF text and page images; the docx is readable by unzipping its XML. Rendering waits for CI or a local machine.
+
+
+## Implementation notes (2026-09-30)
+
+What was built, and where it departs from the plan above:
+
+- **Engine.** Python pre-render scripts instead of R chunks (see the decisions table). `cv.qmd` and `cv-bc.qmd` contain only headings and `{{< include >}}` lines.
+- **Publications.** Parsed from BibTeX with Pandoc (`quarto pandoc -t csljson`) and formatted by `cvlib.fmt_pub()` rather than by citeproc, so numbering, the bold owner name, mentee stars, the `R.` marker, and the form's Recent/Accepted/In Progress/Previous split are all under our control. `csl/apa-cv.csl` was therefore not needed.
+- **Styles.** Quarto cannot render two Typst formats of the same document in one project pass (they share `cv.typ`), so `_quarto.yml` lists only the default style and `scripts/render_styles.py` renders the rest. All three share one Typst function API.
+- **Fonts.** Source Sans Pro (OFL) for classic and modern, Roboto (Apache 2.0) for awesome, bundled inside the extensions.
+- **Word.** `templates/reference.docx` and `reference-bc.docx` are generated from Pandoc's default reference by `scripts/make_reference_docx.py`, not cloned from the 2024 file, because the 2024 file uses direct formatting rather than styles. The form uses Arial headings and an 11 pt body like the original.
+- **Harvest corrections.** The 2024 documents disagree with the 2019 vitae files on three dates; the 2024 values were used: B.Sc. 2002 (not 2001), postdoc 2007-2011 (not 2008), Ph.D. conferred November 2007. One 2019 bib entry listed the first author as "Jr, L. P. Behmer"; fixed. One had "Crump, M. J." without the C; fixed. "Trends in cognitive sciences" capitalised.
+- **Privacy.** The office phone number that appears in the 2024 PDF is not in `data/profile.yml` (`phone: null`); add it if a public listing is wanted.
+
+## Milestone 7: what the user needs to supply
+
+Nothing after March 2024 is in the data. Network access to Crossref, ORCID, and doi.org was blocked in the build session, so no automatic top-up was possible. To refresh:
+
+1. **Publications 2024-2026.** Export from Zotero (Better BibTeX) or paste BibTeX/DOIs in chat. The `add-entry` skill adds them with categories.
+2. **Positions and roles.** Any chair or administrative appointment (the Chair Activities Inventory idea), with start dates; set `end` on superseded entries.
+3. **Grants** funded or submitted since 2024. **Awards.**
+4. **Talks** since 2023 (invited and conference). **Students** who joined or graduated (new mentees get stars on their papers automatically). **Courses** added. **Service** roles begun or ended (set `end`).
+5. **Reviewing** additions (journals, panels).
+6. Whether the office phone should appear.
+
+A chat message per section is enough; each becomes one commit.

@@ -50,12 +50,19 @@ pdf_titles = {}
 for it in numbered_items(sections()["PUBLICATIONS"]):
     d = split_citation(it["text"])
     if "title" in d: pdf_titles[(d["year"], norm(d["title"]))] = d["title"].strip().rstrip(".")
+import difflib
+REPLACED = []
 def pdf_title_for(f):
-    y = int(f.get("year", "0")[:4]) if f.get("year", "")[:4].isdigit() else 0; t = norm(re.sub(r"[{}]", "", f.get("title", "")))
-    words = set(t.split()[:6])
+    """Best same-year PDF title with similarity >= 0.7 on the normalised text, else None."""
+    y = int(f.get("year", "0")[:4]) if f.get("year", "")[:4].isdigit() else 0
+    t = norm(re.sub(r"[{}]", "", f.get("title", "")))
+    best, score = None, 0.0
     for (py, pt), title in pdf_titles.items():
-        if py in (y, y - 1, y + 1) and words and len(words & set(pt.split())) >= min(4, len(words)):
-            return title
+        if py != y: continue
+        r = difflib.SequenceMatcher(None, t, pt).ratio()
+        if r > score: best, score = title, r
+    if best and score >= 0.7:
+        REPLACED.append((score, re.sub(r"[{}]", "", f.get("title", "")), best)); return best
     return None
 
 out = []
@@ -245,5 +252,28 @@ header = """% Publications. Source of truth for the publication list.
 % Keep entries roughly newest first; rendering sorts by year anyway.
 
 """
-Path("data/publications.bib").write_text(header + NEW.strip() + "\n\n" + "\n\n".join(out) + "\n")
+def protect(text):
+    """Pandoc lowercases unprotected words in BibTeX titles. Titles here are already sentence case,
+    so every capitalised word after the first (and not right after a colon or question mark) is a
+    proper noun or acronym: wrap it in braces to keep its case."""
+    def fix_title(m):
+        words = m.group(2).split(" ")
+        out = [words[0]]
+        for prev, w in zip(words, words[1:]):
+            if w[:1].isupper() and not prev.endswith((":", "?", ".")) and not w.startswith("{"):
+                m2 = re.match(r"^([A-Za-z0-9'’\-]+)(.*)$", w)
+                w = "{" + m2.group(1) + "}" + m2.group(2) if m2 else w
+            out.append(w)
+        return m.group(1) + " ".join(out) + m.group(3)
+    text = re.sub(r"(\n  title = \{)(.*?)(\},?\n)", fix_title, text)
+    text = re.sub(r"(\n  (?:booktitle|journal) = \{)(.*?)(\},?\n)", lambda m: m.group(1) + "{" + m.group(2) + "}" + m.group(3), text)
+    return text
+
+JOURNAL_FIX = {"Trends in cognitive sciences": "Trends in Cognitive Sciences"}
+result = header + NEW.strip() + "\n\n" + "\n\n".join(out) + "\n"
+for a, b in JOURNAL_FIX.items(): result = result.replace(a, b)
+result = result.replace("Crump, M. J. and", "Crump, M. J. C. and").replace("Crump, M. J.}", "Crump, M. J. C.}")
+Path("data/publications.bib").write_text(protect(result))
 print(len(out), "cleaned +", NEW.count("@"), "new")
+for score, a, b in sorted(REPLACED):
+    if score < 0.97: print(f"  {score:.2f} | {a[:60]} -> {b[:60]}")

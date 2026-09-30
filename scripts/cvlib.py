@@ -47,9 +47,17 @@ def authors_sort_key(e):
 
 # ---------- names, stars, bold ----------
 def initials(given):
+    """'Matthew J C' -> 'M. J. C.'; 'JC' -> 'J. C.'; 'Jean-Paul' -> 'J.-P.'"""
     if not given: return ""
-    parts = re.split(r"[\s.\-]+", given.strip())
-    return " ".join(p[0] + "." for p in parts if p)
+    out = []
+    for token in re.split(r"[\s.]+", given.strip()):
+        if not token: continue
+        if "-" in token:
+            out.append("-".join(t[0] + "." for t in token.split("-") if t)); continue
+        if token.isupper() and len(token) <= 3:
+            out.extend(c + "." for c in token); continue
+        out.append(token[0] + ".")
+    return " ".join(out)
 
 def person_short(p):
     """CSL name -> 'Family, I. I.'"""
@@ -196,6 +204,10 @@ def to_typst(s):
         i = m.end()
     out.append(typst_escape(s[i:]))
     return "".join(out)
+
+def to_plain(s):
+    """Drop the internal markers, keeping their text (for plain-text consumers)."""
+    return _TOKEN.sub(lambda m: m.group(1) or m.group(2) or m.group(3) or "", s)
 
 _MD_ESC = re.compile(r"([\\*_#<>\[\]`])")
 def md_escape(s):

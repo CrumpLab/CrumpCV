@@ -1,0 +1,77 @@
+name: Render CV
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: render-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install pyyaml jsonschema pymupdf
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: "1.6.43"
+
+      - name: Validate data
+        run: python3 scripts/validate.py
+
+      - name: Render CV (default style, Word, HTML) and the Brooklyn College form
+        run: quarto render
+
+      - name: Render alternate styles and previews
+        run: python3 scripts/render_styles.py --pages 2
+
+      - name: Upload outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-outputs
+          path: |
+            _output/
+            styles/previews/
+
+      - name: Prepare site
+        if: github.ref == 'refs/heads/main'
+        run: |
+          mkdir -p site
+          cp _output/* site/
+          cp -r styles/previews site/previews
+          cat > site/index.html <<'HTML'
+          <!doctype html><meta charset="utf-8"><title>CrumpCV outputs</title>
+          <h1>CrumpCV</h1>
+          <ul>
+            <li><a href="cv.pdf">cv.pdf</a> (default style)</li>
+            <li><a href="cv.docx">cv.docx</a></li>
+            <li><a href="cv.html">cv.html</a></li>
+            <li><a href="cv-bc.docx">cv-bc.docx</a> (Brooklyn College form)</li>
+            <li><a href="cv.json">cv.json</a></li>
+            <li>Styles: <a href="cv-classic.pdf">classic</a>, <a href="cv-modern.pdf">modern</a>, <a href="cv-awesome.pdf">awesome</a></li>
+          </ul>
+          HTML
+
+      - name: Publish to gh-pages
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          force_orphan: true

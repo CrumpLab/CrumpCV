@@ -1,6 +1,6 @@
-// CV classic: a Typst reproduction of the 2024 formatted CV.
-// Bold small-caps section titles with a rule, two-column contact header, left date column,
-// numbered lists with hanging indent. Fonts: Source Sans Pro (bundled).
+// CV modern: a Typst take on moderncv "casual". Blue accent, name large and light with the
+// position beneath, contact block at the right, section titles preceded by a short accent rule
+// in the date column, dates in grey. Uses Source Sans Pro from the classic extension.
 
 // ---------------------------------------------------------------------------
 // Shared entry functions. Every style defines the same names so cv.qmd does
@@ -56,11 +56,14 @@
 
 #let cv(
   title: [Curriculum Vitae],
-  subtitle: none,
+  first-name: [],
+  last-name: [],
+  position: none,
+  affiliation: none,
   contact-left: (),
   contact-right: (),
   date: none,
-  accent: rgb("#000000"),
+  accent: rgb("#3873B3"),
   font: "Source Sans Pro",
   fontsize: 10.5pt,
   body,
@@ -69,46 +72,38 @@
   set page(
     paper: "us-letter",
     margin: (x: 0.9in, top: 0.8in, bottom: 0.8in),
-    header: context {
-      if counter(page).get().first() > 1 {
-        set text(size: 8.5pt, fill: luma(110))
-        grid(columns: (1fr, auto), title + [ | CV], if date != none { date })
-      }
-    },
     footer: context {
       set text(size: 8.5pt, fill: luma(110))
-      align(center, counter(page).display("1"))
+      grid(columns: (1fr, 1fr), align(left, first-name + [ ] + last-name + [ — Curriculum Vitae]), align(right, counter(page).display("1")))
     },
   )
   set text(font: font, size: fontsize, lang: "en")
-  set par(justify: false, leading: 0.5em, spacing: 0.75em)
+  set par(justify: false, leading: 0.5em, spacing: 0.7em)
 
   show heading.where(level: 1): it => {
-    block(width: 100%, above: 1.15em, below: 0.55em, breakable: false,
-      stack(dir: ttb, spacing: 0.3em,
-        text(size: fontsize + 0.5pt, weight: "bold", fill: accent, tracking: 0.04em, upper(it.body)),
-        line(length: 100%, stroke: 0.6pt + accent),
-      ))
+    block(width: 100%, above: 1.3em, below: 0.6em, breakable: false,
+      grid(columns: (1.15in, 1fr), column-gutter: 0.8em, align: (right + horizon, left + horizon),
+        line(length: 100%, stroke: 2pt + accent),
+        text(size: fontsize + 5pt, weight: "bold", fill: accent, it.body)))
   }
   show heading.where(level: 2): it => {
-    block(above: 0.9em, below: 0.4em, text(size: fontsize, weight: "bold", it.body))
+    block(above: 0.9em, below: 0.4em, text(size: fontsize + 1pt, weight: "bold", fill: accent.darken(30%), it.body))
   }
   show heading.where(level: 3): it => {
     block(above: 0.7em, below: 0.3em, text(size: fontsize, weight: "semibold", style: "italic", it.body))
   }
-  show link: it => text(fill: accent.darken(20%), it)
+  show link: it => text(fill: accent, it)
 
-  // Header block
-  block(below: 1.1em, {
-    text(size: fontsize + 5pt, weight: "bold", title)
-    if subtitle != none { text(size: fontsize + 5pt, weight: "bold", [ | ] + subtitle) }
+  // Header: name and position left, contact right, rule below
+  block(below: 1.2em, width: 100%, {
+    grid(columns: (1fr, auto), column-gutter: 1em, align: (left + bottom, right + bottom),
+      {
+        text(size: 30pt, weight: "light", fill: luma(50), first-name + [ ] + text(weight: "bold", fill: accent, last-name))
+        if position != none { linebreak(); text(size: 12pt, style: "italic", fill: luma(90), position) }
+      },
+      text(size: 9pt, fill: luma(80), (contact-left + contact-right).join(linebreak())))
     v(0.5em)
-    grid(
-      columns: (1fr, 1fr),
-      gutter: 1em,
-      contact-left.join(linebreak()),
-      contact-right.join(linebreak()),
-    )
+    line(length: 100%, stroke: 0.5pt + luma(150))
   })
   body
 }

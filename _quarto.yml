@@ -3,6 +3,7 @@ project:
   output-dir: _output
   render:
     - cv.qmd
+    - cv-bc.qmd
   pre-render:
     - python3 scripts/validate.py
     - python3 scripts/build.py
@@ -10,9 +11,11 @@ project:
     - python3 scripts/postrender.py
 
 # Every format renders from the same cv.qmd. Typst styles live in _extensions/.
+# Quarto cannot render two Typst formats of one document in a single pass, so only the
+# default style is listed here; `python3 scripts/render_styles.py` renders all styles.
 format:
-  cv-classic-typst:
-    output-file: cv-classic.pdf
+  cv-classic-typst:          # the default PDF style; alternates: scripts/render_styles.py
+    output-file: cv.pdf
   docx:
     output-file: cv.docx
     reference-doc: templates/reference.docx
