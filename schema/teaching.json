@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "teaching",
+  "type": "object",
+  "properties": {
+    "courses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "when": {
+            "type": "string"
+          },
+          "level": {
+            "enum": [
+              "undergraduate",
+              "masters",
+              "doctoral",
+              "other"
+            ]
+          },
+          "code": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "oer": {
+            "type": "string"
+          },
+          "oer_extra": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "url"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "institution": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "level",
+          "code",
+          "title"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "notes": {
+      "type": "string"
+    },
+    "certificates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "when": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "organization": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "title",
+          "organization",
+          "year"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "courses"
+  ],
+  "additionalProperties": false
+}

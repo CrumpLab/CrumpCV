@@ -1,0 +1,26 @@
+project:
+  type: default
+  output-dir: _output
+  render:
+    - cv.qmd
+  pre-render:
+    - python3 scripts/validate.py
+    - python3 scripts/build.py
+  post-render:
+    - python3 scripts/postrender.py
+
+# Every format renders from the same cv.qmd. Typst styles live in _extensions/.
+format:
+  cv-classic-typst:
+    output-file: cv-classic.pdf
+  docx:
+    output-file: cv.docx
+    reference-doc: templates/reference.docx
+    toc: false
+  html:
+    output-file: cv.html
+    embed-resources: true
+    toc: true
+    toc-depth: 1
+    theme: cosmo
+    fontsize: 0.95em

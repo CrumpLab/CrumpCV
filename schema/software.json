@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "software",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "note": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "when": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "type": {
+        "enum": [
+          "r-package",
+          "python-package",
+          "website",
+          "template",
+          "app",
+          "other"
+        ]
+      },
+      "url": {
+        "type": "string"
+      },
+      "year": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "name",
+      "description",
+      "type"
+    ],
+    "additionalProperties": false
+  }
+}

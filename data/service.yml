@@ -1,0 +1,265 @@
+# Service, newest first within category.
+# category: college | division | department | student-activities | other-college
+#           | doctoral-program | university | professional | community
+# `when` renders verbatim; start/end sort. end: null means ongoing.
+- category: college
+  role: Curriculum Committee for the Interdisciplinary Undergraduate Major in Data Analytics
+  organization: Brooklyn College
+  when: Spring 2021 - present
+  start: 2021
+  end: null
+- category: division
+  role: 'Faculty Council: Natural and Behavioral Sciences Representative'
+  organization: Brooklyn College
+  when: Fall 2015 - May 2018
+  start: 2015
+  end: 2018
+- category: department
+  role: Department Self Study, Appendices working group
+  organization: Department of Psychology, Brooklyn College
+  when: '2024'
+  start: 2024
+  end: 2024
+- category: department
+  role: Open Area Search Committee
+  organization: Department of Psychology, Brooklyn College
+  when: Fall 2022 - Spring 2023
+  start: 2022
+  end: 2023
+- category: department
+  role: Master of Science in Psychological Research program reboot committee
+  organization: Department of Psychology, Brooklyn College
+  when: 2022 - present
+  start: 2022
+  end: null
+- category: department
+  role: Experimental Psychology Masters Comprehensive Exam Evaluator
+  organization: Department of Psychology, Brooklyn College
+  when: '2021'
+  start: 2021
+  end: 2021
+- category: department
+  role: Co-chair, search committee for lecturer line
+  organization: Department of Psychology, Brooklyn College
+  when: Spring 2019
+  start: 2019
+  end: 2019
+- category: department
+  role: Director of the Experimental Psychology Graduate Program
+  organization: Department of Psychology, Brooklyn College
+  when: Spring 2019
+  start: 2019
+  end: 2019
+- category: department
+  role: Appointments Committee (elected)
+  organization: Department of Psychology, Brooklyn College
+  when: May 2018 - June 2021; May 2022 - present
+  start: 2018
+  end: null
+- category: department
+  role: Experimental Psychology Masters Executive Committee
+  organization: Department of Psychology, Brooklyn College
+  when: 2018, Spring 2019, Fall 2020, 2021, 2022, 2023
+  start: 2018
+  end: 2023
+- category: department
+  role: Ad Hoc Independent Research Course Committee (chair)
+  organization: Department of Psychology, Brooklyn College
+  when: '2018'
+  start: 2018
+  end: 2018
+- category: department
+  role: Doctoral Student Funding Committee
+  organization: Department of Psychology, Brooklyn College
+  when: February 2017
+  start: 2017
+  end: 2017
+- category: department
+  role: Quantitative Job Search Committee
+  organization: Department of Psychology, Brooklyn College
+  when: Fall 2014
+  start: 2014
+  end: 2014
+- category: department
+  role: Department Website Author
+  organization: Department of Psychology, Brooklyn College
+  when: Fall 2014 - present
+  start: 2014
+  end: null
+- category: department
+  role: Library Technology Liaison
+  organization: Department of Psychology, Brooklyn College
+  when: Fall 2014 - Spring 2018
+  start: 2014
+  end: 2018
+- category: department
+  role: Experimental Psychology Master's Program Curriculum Committee
+  organization: Department of Psychology, Brooklyn College
+  when: Summer 2014 - Fall 2014
+  start: 2014
+  end: 2014
+- category: department
+  role: Psychology Undergraduate Program Assessments Ad Hoc Committee
+  organization: Department of Psychology, Brooklyn College
+  when: Spring 2014
+  start: 2014
+  end: 2014
+- category: department
+  role: Experimental Masters Admissions Committee
+  organization: Department of Psychology, Brooklyn College
+  when: 2013, 2017, 2018, 2019
+  start: 2013
+  end: 2019
+- category: department
+  role: Behavioral Neuroscience Job Search Committee
+  organization: Department of Psychology, Brooklyn College
+  when: Fall 2013
+  start: 2013
+  end: 2013
+- category: department
+  role: Master's Program Review Committee
+  organization: Department of Psychology, Brooklyn College
+  when: Spring 2013
+  start: 2013
+  end: 2013
+- category: department
+  role: Undergraduate Honors Committee
+  organization: Department of Psychology, Brooklyn College
+  when: Spring 2012 - present
+  start: 2012
+  end: null
+- category: department
+  role: Library Liaison
+  organization: Department of Psychology, Brooklyn College
+  when: Fall 2011 - Spring 2013
+  start: 2011
+  end: 2013
+- category: student-activities
+  role: Faculty liaison to the Undergraduate Psychology Club
+  organization: Brooklyn College
+  when: Fall 2013 - 2015
+  start: 2013
+  end: 2015
+- category: student-activities
+  role: Introductory lectures for visiting high school students
+  organization: Brooklyn College
+  when: Spring 2012, Fall 2012
+  start: 2012
+  end: 2012
+- category: other-college
+  role: Brooklyn College Honors Academy Reader
+  organization: Brooklyn College
+  when: 2011, 2012, 2013, 2014, 2016, 2017, 2021, 2022, 2023, 2024
+  start: 2011
+  end: 2024
+- category: other-college
+  role: Course pack author for PSYC 2530 Introduction to Cognitive Psychology
+  organization: Brooklyn College
+- category: other-college
+  role: Course pack author for PSYC 3530 Advanced Cognitive Psychology
+  organization: Brooklyn College
+- category: other-college
+  role: Website creator for the Cognitive and Comparative Psychology training area
+  organization: Graduate Center of CUNY
+- category: other-college
+  role: Brooklyn College Day coordinator
+  organization: Department of Psychology, Brooklyn College
+- category: other-college
+  role: Ad hoc Internet Satisfaction Committee
+  organization: Brooklyn College
+- category: doctoral-program
+  role: PSC-CUNY Grant Review Panel, Cycle 55 (reviewer)
+  organization: CUNY
+  when: '2024'
+  start: 2024
+  end: 2024
+- category: doctoral-program
+  role: Psychology Quantitative Research Ad Hoc Committee
+  organization: Graduate Center of CUNY
+  when: Spring 2021
+  start: 2021
+  end: 2021
+- category: doctoral-program
+  role: Cognition and Comparative Psychology Training Area Executive Committee
+  organization: Graduate Center of CUNY
+  when: 2018 - present
+  start: 2018
+  end: null
+- category: doctoral-program
+  role: Merger Committee to merge the Cognition, Language, and Development training area with the Animal Behavior and Comparative Psychology training area
+  organization: Graduate Center of CUNY
+  when: 2017 - May 2018
+  start: 2017
+  end: 2018
+- category: doctoral-program
+  role: Cognition, Language, and Development Training Area Executive Committee
+  organization: Graduate Center of CUNY
+  when: January 2015 - May 2018
+  start: 2015
+  end: 2018
+- category: doctoral-program
+  role: Training Area and Cluster Organization Committee
+  organization: Graduate Center of CUNY
+  when: January 2015 - 2017
+  start: 2015
+  end: 2017
+- category: doctoral-program
+  role: Head of the Cognition, Language, and Development Training Area
+  organization: Graduate Center of CUNY
+  when: December 2014 - May 2018
+  start: 2014
+  end: 2018
+- category: doctoral-program
+  role: Cognition, Language, and Development Admissions Committee
+  organization: Graduate Center of CUNY
+  when: Fall 2014, 2015, 2016, 2017, 2018
+  start: 2014
+  end: 2018
+- category: doctoral-program
+  role: Cognition, Language, and Development Ad Hoc Curriculum Committee
+  organization: Graduate Center of CUNY
+  when: Fall 2013
+  start: 2013
+  end: 2013
+- category: doctoral-program
+  role: Cognition, Brain and Behavior Executive Committee
+  organization: Graduate Center of CUNY
+  when: Fall 2012
+  start: 2012
+  end: 2012
+- category: professional
+  role: Diversity, Equity and Inclusion Committee
+  organization: Society for Computation in Psychology (SCiP)
+  when: 2020-2021
+  start: 2020
+  end: 2021
+- category: professional
+  role: Consulting Editor
+  organization: Psychonomic Bulletin & Review
+  when: 2019 - present
+  start: 2019
+  end: null
+- category: professional
+  role: Review Board
+  organization: 'Journal of Experimental Psychology: Learning, Memory, and Cognition'
+  when: 2018 - present
+  start: 2018
+  end: null
+- category: professional
+  role: Steering Committee
+  organization: Society for Computation in Psychology (SCiP)
+  when: Fall 2014 - present
+  start: 2014
+  end: null
+- category: professional
+  role: Review Board
+  organization: Canadian Journal of Experimental Psychology
+  when: Fall 2012 - present
+  start: 2012
+  end: null
+- category: professional
+  role: Member
+  organization: Eastern Psychological Association
+- category: professional
+  role: Member
+  organization: Psychonomic Society

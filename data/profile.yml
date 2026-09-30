@@ -1,0 +1,28 @@
+# Profile and header information. Public repo: no personal phone or home address.
+name: Matthew J. C. Crump
+short_name: Crump, M. J. C.        # how the name appears in author lists; used to bold it
+first_name: Matthew
+last_name: Crump
+title: Professor of Psychology
+department: Department of Psychology
+affiliation: Brooklyn College of CUNY
+affiliation_short: Brooklyn College, CUNY
+address:                            # institutional address, already public
+  - 2900 Bedford Avenue
+  - Brooklyn, NY 11210
+phone: null                         # office line appears in the public CV; add here only if approved
+email: mcrump@brooklyn.cuny.edu
+website: https://crumplab.com
+github: CrumpLab
+orcid: null
+interests:
+  - Learning, memory, attention, and performance
+  - Computational modeling of semantic cognition
+  - Pattern learning and recognition
+appointment:                        # Brooklyn College form, section I
+  candidate_for: []                 # e.g. [Tenure, CCE, Promotion]
+  initial_appointment: "2011-01-28"
+  tenure_date: "2018-09-01"
+  present_rank: Full Professor
+  present_rank_since: "2022-09-01"
+  promotion_effective: "2022-09-01"

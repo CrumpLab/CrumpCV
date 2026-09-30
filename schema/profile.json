@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "profile",
+  "type": "object",
+  "properties": {
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "when": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "short_name": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "affiliation": {
+      "type": "string"
+    },
+    "affiliation_short": {
+      "type": "string"
+    },
+    "address": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "phone": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "website": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "orcid": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "interests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "appointment": {
+      "type": "object",
+      "properties": {
+        "candidate_for": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "initial_appointment": {
+          "type": "string"
+        },
+        "tenure_date": {
+          "type": "string"
+        },
+        "present_rank": {
+          "type": "string"
+        },
+        "present_rank_since": {
+          "type": "string"
+        },
+        "promotion_effective": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "initial_appointment"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "name",
+    "short_name",
+    "title",
+    "affiliation",
+    "email"
+  ],
+  "additionalProperties": false
+}

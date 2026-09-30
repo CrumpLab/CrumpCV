@@ -1,0 +1,116 @@
+# Grants, newest first. status: funded | submitted | declined. amount is a number in USD.
+# `when` renders verbatim; start/end are for sorting.
+- title: "Remembering and forgetting pictures: Testing a computational instance-based account"
+  funder: PSC-CUNY
+  program: Traditional B
+  amount: 6000
+  role: PI
+  status: funded
+  when: 2023-2024
+  start: 2023
+  end: 2024
+- title: "Instances of cognition: An open-educational resource for introductory Cognitive Psychology"
+  funder: CUNY OER Initiative
+  amount: 15000
+  role: PI
+  status: funded
+  when: "2021"
+  start: 2021
+  end: 2021
+- title: Recruitment of cognitive control for action sequencing
+  funder: PSC-CUNY
+  program: Traditional B
+  amount: 5419.23
+  role: PI
+  status: funded
+  when: July 2017 - June 2018
+  start: "2017-07"
+  end: "2018-06"
+- title: Acquisition of hierarchical control in skilled action sequencing
+  funder: National Science Foundation
+  number: "1353360"
+  amount: 356073
+  role: PI
+  status: funded
+  when: July 2014 - June 2017
+  start: "2014-07"
+  end: "2017-06"
+- title: Validating web-based technology for investigating strategic and stimulus-driven attentional control
+  funder: PSC-CUNY
+  program: Traditional A
+  number: 66163-00 44
+  amount: 3478
+  role: PI
+  status: funded
+  when: Summer 2013
+  start: 2013
+  end: 2013
+- title: Chronometric investigations of explicit and implicit error detection processes in skilled typing
+  funder: PSC-CUNY
+  program: Traditional A
+  number: 65075-00 43
+  amount: 3418
+  role: PI
+  status: funded
+  when: Summer 2012
+  start: 2012
+  end: 2012
+# Submitted, not funded
+- title: "Answering questions with data: Teaching computational skills in introductory statistics to psychology undergraduates"
+  funder: National Science Foundation
+  amount: 299470
+  role: PI
+  status: submitted
+  when: Submitted February 2021
+  start: "2021-02"
+- title: Cognitive, competitive, and emergent control processes for action sequencing
+  funder: National Science Foundation
+  amount: 484575
+  role: PI
+  status: submitted
+  when: Submitted August 2017
+  start: "2017-08"
+- title: Cognitive control for action sequencing
+  funder: National Science Foundation
+  amount: 138000
+  role: Co-PI
+  status: submitted
+  when: Submitted November 2016
+  start: "2016-11"
+- title: Dynamics of cue-driven control over selection for attention and action
+  funder: National Science Foundation
+  amount: 411790
+  role: PI
+  status: submitted
+  when: Submitted August 2016
+  start: "2016-08"
+- title: Designing and testing mediated physical spaces with human interaction sensing for increased multi-party goal satisfaction
+  funder: National Science Foundation
+  amount: 980172
+  role: Co-PI
+  status: submitted
+  when: Submitted January 2016
+  start: "2016-01"
+- title: Contingency assessment ability and associative processing in normal, anxiety, orbitofrontal, and dorsolateral pre-frontal lesioned populations
+  funder: National Institutes of Health (SCORE program)
+  amount: 285384
+  amount_note: direct costs
+  role: PI
+  status: submitted
+  when: Submitted January 2012
+  start: "2012-01"
+- title: "Unraveling the serial-order problem in skilled performance: Investigating dynamic online control and learning of sequential structure in skilled typing"
+  funder: CUNY Junior Faculty Research Awards in Science and Engineering
+  amount: 50000
+  role: PI
+  status: submitted
+  when: Submitted November 2011
+  start: "2011-11"
+- title: Control hierarchies in error detection and correction
+  funder: PSC-CUNY
+  program: Traditional B
+  amount: 5000
+  role: PI
+  status: submitted
+  when: Submitted February 2011
+  start: "2011-02"

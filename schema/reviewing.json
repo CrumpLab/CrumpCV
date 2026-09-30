@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "reviewing",
+  "type": "object",
+  "properties": {
+    "grant_reviewing": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "when": {
+            "type": "string"
+          },
+          "organization": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "organization",
+          "role",
+          "year"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "journals": {
+      "type": "object",
+      "properties": {
+        "role": {
+          "type": "string"
+        },
+        "when": {
+          "type": "string"
+        },
+        "titles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "titles"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "grant_reviewing",
+    "journals"
+  ],
+  "additionalProperties": false
+}

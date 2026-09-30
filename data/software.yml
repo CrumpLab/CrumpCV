@@ -1,0 +1,33 @@
+# Software, websites, and other creative work. Newest first where dates are known.
+- name: midiblender
+  description: An R package for generative MIDI sequencing and analysis
+  type: r-package
+  url: https://www.crumplab.com/midiblender/
+- name: NSFrmarkdown
+  description: An R Markdown template for NSF grants
+  type: r-package
+  url: https://github.com/CrumpLab/NSFrmarkdown
+- name: Semantic Librarian
+  description: A website of cognitively inspired search engines for journal abstracts in the APA database, the CSBBCS conference database, the Society for Computation in Psychology database, and Psychonomics 2019
+  type: website
+  url: https://www.semanticlibrarian.com
+- name: conflictPower
+  description: Monte Carlo power analysis for cognitive control designs
+  type: r-package
+  url: https://www.crumplab.com/conflictPower/
+- name: playjareyesores
+  description: Functions for detecting textual overlap between documents
+  type: r-package
+  url: https://www.crumplab.com/playjareyesores/
+- name: jspsychr
+  description: Write and run jsPsych experiments from RStudio
+  type: r-package
+  url: https://www.crumplab.com/jspsychr/
+- name: RsemanticLibrarian
+  description: R functions for creating semantic librarians, a tool for vectorizing and visualizing semantic spaces from text
+  type: r-package
+  url: https://www.crumplab.com/RsemanticLibrarian/
+- name: vertical
+  description: RStudio project template and workflow for sharing psychological research projects as a website
+  type: r-package
+  url: https://www.crumplab.com/vertical/
