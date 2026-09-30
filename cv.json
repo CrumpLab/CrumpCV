@@ -1,0 +1,4285 @@
+{
+  "meta": {
+    "generated": "2026-09-30T21:16:31+00:00",
+    "commit": "3b94cb8",
+    "schema": 1
+  },
+  "profile": {
+    "name": "Matthew J. C. Crump",
+    "short_name": "Crump, M. J. C.",
+    "first_name": "Matthew",
+    "last_name": "Crump",
+    "title": "Professor of Psychology",
+    "department": "Department of Psychology",
+    "affiliation": "Brooklyn College of CUNY",
+    "affiliation_short": "Brooklyn College, CUNY",
+    "address": [
+      "2900 Bedford Avenue",
+      "Brooklyn, NY 11210"
+    ],
+    "email": "mcrump@brooklyn.cuny.edu",
+    "website": "https://crumplab.com",
+    "github": "CrumpLab",
+    "orcid": null,
+    "interests": [
+      "Learning, memory, attention, and performance",
+      "Computational modeling of semantic cognition",
+      "Pattern learning and recognition"
+    ],
+    "appointment": {
+      "candidate_for": [],
+      "initial_appointment": "2011-01-28",
+      "tenure_date": "2018-09-01",
+      "present_rank": "Full Professor",
+      "present_rank_since": "2022-09-01",
+      "promotion_effective": "2022-09-01"
+    }
+  },
+  "positions": [
+    {
+      "title": "Chairperson",
+      "institution": "Brooklyn College of CUNY",
+      "department": "Department of Psychology",
+      "location": "Brooklyn, NY",
+      "start": 2024,
+      "end": null
+    },
+    {
+      "title": "Full Professor",
+      "institution": "Brooklyn College of CUNY",
+      "department": "Department of Psychology",
+      "location": "Brooklyn, NY",
+      "start": "2022-09",
+      "end": null
+    },
+    {
+      "title": "Associate Professor",
+      "institution": "Brooklyn College of CUNY",
+      "department": "Department of Psychology",
+      "location": "Brooklyn, NY",
+      "start": "2016-09",
+      "end": "2022-09"
+    },
+    {
+      "title": "Assistant Professor",
+      "institution": "Brooklyn College of CUNY",
+      "department": "Department of Psychology",
+      "location": "Brooklyn, NY",
+      "start": "2011-01",
+      "end": "2016-09"
+    },
+    {
+      "title": "Doctoral Faculty",
+      "institution": "Graduate Center of CUNY",
+      "department": "Psychology",
+      "location": "New York, NY",
+      "start": 2011,
+      "end": null
+    },
+    {
+      "title": "Postdoctoral Researcher",
+      "institution": "Vanderbilt University",
+      "department": "Department of Psychology",
+      "location": "Nashville, TN",
+      "start": 2007,
+      "end": 2011,
+      "advisor": "Gordon D. Logan"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Psychology",
+      "institution": "McMaster University",
+      "location": "Hamilton, ON, Canada",
+      "start": 2002,
+      "end": 2007,
+      "conferred": "2007-11-16",
+      "dissertation": "Context-specific learning and control: An instance based view of flexible online control",
+      "advisor": "Bruce Milliken"
+    },
+    {
+      "degree": "B.Sc. (Hon.)",
+      "field": "Psychology",
+      "institution": "University of Lethbridge",
+      "location": "Lethbridge, AB, Canada",
+      "start": 1999,
+      "end": 2002,
+      "advisor": "John Vokey"
+    }
+  ],
+  "publications": [
+    {
+      "DOI": "10.1515/lingvan-2024-0201",
+      "author": [
+        {
+          "family": "Johns",
+          "given": "Brendan T."
+        },
+        {
+          "family": "Jamieson",
+          "given": "Randall K."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Jones",
+          "given": "Michael N."
+        }
+      ],
+      "container-title": "Linguistics Vanguard",
+      "id": "johnsInstanceMemoryModels2026",
+      "issue": "s1",
+      "issued": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "page": "163-172",
+      "title": "Instance memory models as a general computational framework for exploring language processing: Bringing the lexicon to life",
+      "title-short": "Instance memory models as a general computational framework for exploring language processing",
+      "type": "article-journal",
+      "volume": "12",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2026,
+      "status": "published",
+      "formatted": "Johns, B. T., Jamieson, R. K., **Crump, M. J. C.**, & Jones, M. N. (2026). Instance memory models as a general computational framework for exploring language processing: Bringing the lexicon to life. *Linguistics Vanguard*, *12*(s1), 163-172. <https://doi.org/10.1515/lingvan-2024-0201>",
+      "formatted_plain": "Johns, B. T., Jamieson, R. K., Crump, M. J. C., & Jones, M. N. (2026). Instance memory models as a general computational framework for exploring language processing: Bringing the lexicon to life. Linguistics Vanguard, 12(s1), 163-172. https://doi.org/10.1515/lingvan-2024-0201"
+    },
+    {
+      "URL": "https://scholarlypublishingcollective.org/uip/ajp/article-abstract/138/2/231/404898/An-Instance-Model-of-Associative-Inference",
+      "author": [
+        {
+          "family": "Jamieson",
+          "given": "Randall K."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "The American Journal of Psychology",
+      "id": "jamiesonInstanceModelAssociative2025",
+      "issue": "2",
+      "issued": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "page": "231-247",
+      "title": "An instance model of associative inference",
+      "type": "article-journal",
+      "volume": "138",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2025,
+      "status": "published",
+      "formatted": "Jamieson, R. K., & **Crump, M. J. C.** (2025). An instance model of associative inference. *The American Journal of Psychology*, *138*(2), 231-247. <https://scholarlypublishingcollective.org/uip/ajp/article-abstract/138/2/231/404898/An-Instance-Model-of-Associative-Inference>",
+      "formatted_plain": "Jamieson, R. K., & Crump, M. J. C. (2025). An instance model of associative inference. The American Journal of Psychology, 138(2), 231-247. https://scholarlypublishingcollective.orgp/ajp/article-abstract/138/2/231/404898/An-Instance-Model-of-Associative-Inference"
+    },
+    {
+      "author": [
+        {
+          "family": "Schneider",
+          "given": "Darryl W."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Verbruggen",
+          "given": "Frederick"
+        }
+      ],
+      "container-title": "The American Journal of Psychology",
+      "id": "schneiderPrefaceLoganFestschrift2025",
+      "issue": "2",
+      "issued": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "note": "Preface to the Gordon D. Logan Festschrift",
+      "title": "Preface",
+      "type": "article-journal",
+      "volume": "138",
+      "category": "other",
+      "invited": false,
+      "refereed": false,
+      "year": 2025,
+      "status": "published",
+      "formatted": "Schneider, D. W., **Crump, M. J. C.**, & Verbruggen, F. (2025). Preface. *The American Journal of Psychology*, *138*(2). Preface to the Gordon D. Logan Festschrift.",
+      "formatted_plain": "Schneider, D. W., Crump, M. J. C., & Verbruggen, F. (2025). Preface. The American Journal of Psychology, 138(2). Preface to the Gordon D. Logan Festschrift."
+    },
+    {
+      "author": [
+        {
+          "family": "Behmer",
+          "given": "Lawrence P.",
+          "suffix": "Jr."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Jantzen",
+          "given": "Kelly J."
+        }
+      ],
+      "container-title": "Motor Control",
+      "id": "behmerMotorEvokedPotentials2023",
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "note": "Published online ahead of print",
+      "title": "Motor-evoked potentials for early individual elements of an action sequence during planning reflect parallel activation processes",
+      "type": "article-journal",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2023,
+      "status": "published",
+      "formatted": "\\*Behmer, L. P., Jr., **Crump, M. J. C.**, & Jantzen, K. J. (2023). Motor-evoked potentials for early individual elements of an action sequence during planning reflect parallel activation processes. *Motor Control*. Published online ahead of print.",
+      "formatted_plain": "*Behmer, L. P., Jr., Crump, M. J. C., & Jantzen, K. J. (2023). Motor-evoked potentials for early individual elements of an action sequence during planning reflect parallel activation processes. Motor Control. Published online ahead of print."
+    },
+    {
+      "DOI": "10.1037/cep0000221",
+      "author": [
+        {
+          "family": "Brosowsky",
+          "given": "Nicholaus P."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "Canadian Journal of Experimental Psychology",
+      "id": "brosowskyContextualRecruitmentSelective2021",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "page": "19-34",
+      "title": "Contextual recruitment of selective attention can be updated via changes in task relevance",
+      "type": "article-journal",
+      "volume": "75",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2021,
+      "status": "published",
+      "formatted": "\\*\\*Brosowsky, N. P., & **Crump, M. J. C.** (2021). Contextual recruitment of selective attention can be updated via changes in task relevance. *Canadian Journal of Experimental Psychology*, *75*, 19-34. <https://doi.org/10.1037/cep0000221>",
+      "formatted_plain": "**Brosowsky, N. P., & Crump, M. J. C. (2021). Contextual recruitment of selective attention can be updated via changes in task relevance. Canadian Journal of Experimental Psychology, 75, 19-34. https://doi.org/10.1037/cep0000221"
+    },
+    {
+      "DOI": "10.31234/osf.io/p39sc",
+      "author": [
+        {
+          "family": "Brosowsky",
+          "given": "Nicholaus P."
+        },
+        {
+          "family": "Parshina",
+          "given": "Olga"
+        },
+        {
+          "family": "Locicero",
+          "given": "Alexandra"
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "id": "brosowskyTeachingUndergraduateStudents2021",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "publisher": "PsyArXiv",
+      "title": "Teaching undergraduate students to read empirical articles: An evaluation and revision of the QALMRI method",
+      "title-short": "Teaching undergraduate students to read empirical articles",
+      "type": "",
+      "category": "preprint",
+      "invited": false,
+      "refereed": false,
+      "year": 2021,
+      "status": "inprogress",
+      "formatted": "\\*\\*Brosowsky, N. P., Parshina, O., Locicero, A., & **Crump, M. J. C.** (2021). Teaching undergraduate students to read empirical articles: An evaluation and revision of the QALMRI method. PsyArXiv. <https://doi.org/10.31234/osf.io/p39sc>",
+      "formatted_plain": "**Brosowsky, N. P., Parshina, O., Locicero, A., & Crump, M. J. C. (2021). Teaching undergraduate students to read empirical articles: An evaluation and revision of the QALMRI method. PsyArXiv. https://doi.org/10.31234/osf.io/p39sc"
+    },
+    {
+      "URL": "https://www.crumplab.com/cognition/textbook/",
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "id": "crumpInstancesCognition2021",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "note": "Undergraduate textbook",
+      "publisher": "Open educational resource",
+      "title": "Instances of cognition: Questions, methods, findings, explanations, applications, and implications",
+      "title-short": "Instances of cognition",
+      "type": "book",
+      "category": "oer",
+      "invited": false,
+      "refereed": false,
+      "year": 2021,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.** (2021). *Instances of cognition: Questions, methods, findings, explanations, applications, and implications*. Undergraduate textbook. Open educational resource. <https://www.crumplab.com/cognition/textbook/>",
+      "formatted_plain": "Crump, M. J. C. (2021). Instances of cognition: Questions, methods, findings, explanations, applications, and implications. Undergraduate textbook. Open educational resource. https://www.crumplab.com/cognition/textbook"
+    },
+    {
+      "URL": "https://www.crumplab.com/rstatsforpsych",
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "id": "crumpReproducibleStatistics2021",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "note": "Graduate textbook",
+      "publisher": "Open educational resource",
+      "title": "Reproducible statistics for psychologists with R: Lab tutorials",
+      "title-short": "Reproducible statistics for psychologists with R",
+      "type": "book",
+      "category": "oer",
+      "invited": false,
+      "refereed": false,
+      "year": 2021,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.** (2021). *Reproducible statistics for psychologists with R: Lab tutorials*. Graduate textbook. Open educational resource. <https://www.crumplab.com/rstatsforpsych>",
+      "formatted_plain": "Crump, M. J. C. (2021). Reproducible statistics for psychologists with R: Lab tutorials. Graduate textbook. Open educational resource. https://www.crumplab.com/rstatsforpsych"
+    },
+    {
+      "DOI": "10.21203/rs.3.rs-671507/v1",
+      "author": [
+        {
+          "family": "Piech",
+          "given": "Richard M."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Zald",
+          "given": "David H."
+        }
+      ],
+      "id": "piechNegativeContingencyIllusion2021",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "publisher": "Research Square",
+      "title": "The negative contingency illusion: A cognitive bias leading to misjudgement of protection",
+      "title-short": "The negative contingency illusion",
+      "type": "",
+      "category": "preprint",
+      "invited": false,
+      "refereed": false,
+      "year": 2021,
+      "status": "inprogress",
+      "formatted": "Piech, R. M., **Crump, M. J. C.**, & Zald, D. H. (2021). The negative contingency illusion: A cognitive bias leading to misjudgement of protection. Research Square. <https://doi.org/10.21203/rs.3.rs-671507/v1>",
+      "formatted_plain": "Piech, R. M., Crump, M. J. C., & Zald, D. H. (2021). The negative contingency illusion: A cognitive bias leading to misjudgement of protection. Research Square. https://doi.org/10.21203/rs.3.rs-671507/v1"
+    },
+    {
+      "DOI": "10.3758/s13428-020-01436-x",
+      "author": [
+        {
+          "family": "Vuorre",
+          "given": "Matti"
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "Behavior Research Methods",
+      "id": "vuorreSharingOrganizingResearch2021",
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "page": "792-802",
+      "title": "Sharing and organizing research products as R packages",
+      "type": "article-journal",
+      "volume": "53",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2021,
+      "status": "published",
+      "formatted": "Vuorre, M., & **Crump, M. J. C.** (2021). Sharing and organizing research products as R packages. *Behavior Research Methods*, *53*, 792-802. <https://doi.org/10.3758/s13428-020-01436-x>",
+      "formatted_plain": "Vuorre, M., & Crump, M. J. C. (2021). Sharing and organizing research products as R packages. Behavior Research Methods, 53, 792-802. https://doi.org/10.3758/s13428-020-01436-x"
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Jamieson",
+          "given": "Randall K."
+        },
+        {
+          "family": "Johns",
+          "given": "Brendan T."
+        },
+        {
+          "family": "Jones",
+          "given": "Michael N."
+        }
+      ],
+      "container-title": "Proceedings of the 42nd Annual Conference of the Cognitive Science Society",
+      "editor": [
+        {
+          "family": "Denison",
+          "given": "S."
+        },
+        {
+          "family": "Mack",
+          "given": "M."
+        },
+        {
+          "family": "Xu",
+          "given": "Y."
+        },
+        {
+          "family": "Armstrong",
+          "given": "B. C."
+        }
+      ],
+      "id": "crumpControllingRetrievalGeneral2020",
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "page": "3261-3267",
+      "publisher": "Cognitive Science Society",
+      "title": "Controlling the retrieval of general vs specific semantic knowledge in the instance theory of semantic memory",
+      "type": "paper-conference",
+      "category": "proceedings",
+      "invited": false,
+      "refereed": true,
+      "year": 2020,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, Jamieson, R. K., Johns, B. T., & Jones, M. N. (2020). Controlling the retrieval of general vs specific semantic knowledge in the instance theory of semantic memory. In S. Denison, M. Mack, Y. Xu, & B. C. Armstrong (Eds.), *Proceedings of the 42nd Annual Conference of the Cognitive Science Society* (pp. 3261-3267). Cognitive Science Society.",
+      "formatted_plain": "Crump, M. J. C., Jamieson, R. K., Johns, B. T., & Jones, M. N. (2020). Controlling the retrieval of general vs specific semantic knowledge in the instance theory of semantic memory. In S. Denison, M. Mack, Y. Xu, & B. C. Armstrong (Eds.), Proceedings of the 42nd Annual Conference of the Cognitive Science Society (pp. 3261-3267). Cognitive Science Society."
+    },
+    {
+      "DOI": "10.1016/j.jml.2020.104165",
+      "author": [
+        {
+          "family": "Johns",
+          "given": "Brendan T."
+        },
+        {
+          "family": "Jamieson",
+          "given": "Randall K."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Jones",
+          "given": "Michael N."
+        },
+        {
+          "family": "Mewhort",
+          "given": "D. J. K."
+        }
+      ],
+      "container-title": "Journal of Memory and Language",
+      "id": "johnsProductionWithoutRules2020",
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "page": "104165",
+      "title": "Production without rules: Using an instance memory model to exploit structure in natural language",
+      "title-short": "Production without rules",
+      "type": "article-journal",
+      "volume": "115",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2020,
+      "status": "published",
+      "formatted": "Johns, B. T., Jamieson, R. K., **Crump, M. J. C.**, Jones, M. N., & Mewhort, D. J. K. (2020). Production without rules: Using an instance memory model to exploit structure in natural language. *Journal of Memory and Language*, *115*, 104165. <https://doi.org/10.1016/j.jml.2020.104165>",
+      "formatted_plain": "Johns, B. T., Jamieson, R. K., Crump, M. J. C., Jones, M. N., & Mewhort, D. J. K. (2020). Production without rules: Using an instance memory model to exploit structure in natural language. Journal of Memory and Language, 115, 104165. https://doi.org/10.1016/j.jml.2020.104165"
+    },
+    {
+      "DOI": "10/gf6cmv",
+      "author": [
+        {
+          "family": "Aujla",
+          "given": "Harinder"
+        },
+        {
+          "family": "Crump",
+          "given": "Matthew J. C."
+        },
+        {
+          "family": "Cook",
+          "given": "Matthew T."
+        },
+        {
+          "family": "Jamieson",
+          "given": "Randall K."
+        }
+      ],
+      "container-title": "Behavior Research Methods",
+      "container-title-short": "Behav Res",
+      "id": "aujlaSemanticLibrarianSearch2019",
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "page": "2405-2418",
+      "title": "The Semantic Librarian: A search engine built from vector-space models of semantics",
+      "title-short": "The Semantic Librarian",
+      "type": "article-journal",
+      "volume": "51",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2019,
+      "status": "published",
+      "formatted": "Aujla, H., **Crump, M. J. C.**, Cook, M. T., & Jamieson, R. K. (2019). The Semantic Librarian: A search engine built from vector-space models of semantics. *Behavior Research Methods*, *51*, 2405-2418. <https://doi.org/10/gf6cmv>",
+      "formatted_plain": "Aujla, H., Crump, M. J. C., Cook, M. T., & Jamieson, R. K. (2019). The Semantic Librarian: A search engine lt from vector-space models of semantics. Behavior Research Methods, 51, 2405-2418. https://doi.org/10/gf6cmv"
+    },
+    {
+      "DOI": "10/gf48x7",
+      "author": [
+        {
+          "family": "Braem",
+          "given": "Senne"
+        },
+        {
+          "family": "Bugg",
+          "given": "Julie M."
+        },
+        {
+          "family": "Schmidt",
+          "given": "James R."
+        },
+        {
+          "family": "Crump",
+          "given": "Matthew JC"
+        },
+        {
+          "family": "Weissman",
+          "given": "Daniel H."
+        },
+        {
+          "family": "Notebaert",
+          "given": "Wim"
+        },
+        {
+          "family": "Egner",
+          "given": "Tobias"
+        }
+      ],
+      "container-title": "Trends in Cognitive Sciences",
+      "id": "braemMeasuringAdaptiveControl2019",
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "page": "769-783",
+      "title": "Measuring adaptive control in conflict tasks",
+      "type": "article-journal",
+      "volume": "23",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2019,
+      "status": "published",
+      "formatted": "Braem, S., Bugg, J. M., Schmidt, J. R., **Crump, M. J. C.**, Weissman, D. H., Notebaert, W., & Egner, T. (2019). Measuring adaptive control in conflict tasks. *Trends in Cognitive Sciences*, *23*, 769-783. <https://doi.org/10/gf48x7>",
+      "formatted_plain": "Braem, S., Bugg, J. M., Schmidt, J. R., Crump, M. J. C., Weissman, D. H., Notebaert, W., & Egner, T. (2019). Measuring adaptive control in conflict tasks. Trends in Cognitive Sciences, 23, 769-783. https://doi.org/10/gf48x7"
+    },
+    {
+      "DOI": "10.1038/s41562-019-0733-0",
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "Nature Human Behaviour",
+      "id": "crumpPortfolioProsper2019",
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "page": "1008",
+      "title": "Portfolio and prosper",
+      "type": "article-journal",
+      "volume": "3",
+      "category": "commentary",
+      "invited": true,
+      "refereed": false,
+      "year": 2019,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.** (2019). Portfolio and prosper. Invited. *Nature Human Behaviour*, *3*, 1008. <https://doi.org/10.1038/s41562-019-0733-0>",
+      "formatted_plain": "Crump, M. J. C. (2019). Portfolio and prosper. Invited. Nature Human Behaviour, 3, 1008. https://doi.org/10.1038/s41562-019-0733-0"
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "Matthew J. C."
+        },
+        {
+          "family": "Lai",
+          "given": "Walter"
+        },
+        {
+          "family": "Brosowsky",
+          "given": "Nicholaus P."
+        }
+      ],
+      "container-title": "Canadian Journal of Experimental Psychology",
+      "id": "crumpInstanceTheoryPredictsInpress",
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "page": "203-215",
+      "title": "Instance theory predicts information theory: Episodic uncertainty as a determinant of keystroke dynamics",
+      "title-short": "Instance theory predicts information theory",
+      "type": "article-journal",
+      "volume": "73",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2019,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, \\*\\*\\*Lai, W., & \\*\\*Brosowsky, N. P. (2019). Instance theory predicts information theory: Episodic uncertainty as a determinant of keystroke dynamics. *Canadian Journal of Experimental Psychology*, *73*, 203-215.",
+      "formatted_plain": "Crump, M. J. C., ***Lai, W., & **Brosowsky, N. P. (2019). Instance theory predicts information theory: Episodic uncertainty as a determinant of keystroke dynamics. Canadian Journal of Experimental Psychology, 73, 203-215."
+    },
+    {
+      "DOI": "10.1037/xhp0000507",
+      "author": [
+        {
+          "family": "Behmer",
+          "given": "Lawrence P.",
+          "suffix": "Jr."
+        },
+        {
+          "family": "Jantzen",
+          "given": "Kelly J."
+        },
+        {
+          "family": "Martinez",
+          "given": "S."
+        },
+        {
+          "family": "Walls",
+          "given": "R."
+        },
+        {
+          "family": "Amir-Brownstein",
+          "given": "E."
+        },
+        {
+          "family": "Jaye",
+          "given": "A."
+        },
+        {
+          "family": "Leytze",
+          "given": "M."
+        },
+        {
+          "family": "Lucier",
+          "given": "K."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "Journal of Experimental Psychology: Human Perception and Performance",
+      "id": "jrParallelRegulationPresent2018",
+      "issue": "8",
+      "issued": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "page": "1147-1152",
+      "title": "Parallel regulation of past, present, and future actions during sequencing",
+      "type": "article-journal",
+      "volume": "44",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2018,
+      "status": "published",
+      "formatted": "\\*Behmer, L. P., Jr., Jantzen, K. J., Martinez, S., Walls, R., Amir-Brownstein, E., Jaye, A., Leytze, M., Lucier, K., & **Crump, M. J. C.** (2018). Parallel regulation of past, present, and future actions during sequencing. *Journal of Experimental Psychology: Human Perception and Performance*, *44*(8), 1147-1152. <https://doi.org/10.1037/xhp0000507>",
+      "formatted_plain": "*Behmer, L. P., Jr., Jantzen, K. J., Martinez, S., Walls, R., Amir-Brownstein, E., Jaye, A., Leytze, M., Lucier, K., & Crump, M. J. C. (2018). Parallel regulation of past, present, and future actions during sequencing. Journal of Experimental Psychology: Human Perception and Performance, 44(8), 1147-1152. https://doi.org/10.1037/xhp0000507"
+    },
+    {
+      "author": [
+        {
+          "family": "Brosowsky",
+          "given": "Nicholaus P."
+        },
+        {
+          "family": "Crump",
+          "given": "Matthew J. C."
+        }
+      ],
+      "container-title": "Journal of Experimental Psychology: General",
+      "container-title-short": "Journal of Experimental Psychology: General",
+      "id": "brosowskyMemoryguidedSelectiveAttention2018b",
+      "issue": "8",
+      "issued": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "page": "1134-1153",
+      "title": "Memory-guided selective attention: Experiences with conflict have long-lasting effects on cognitive control",
+      "title-short": "Memory-guided selective attention",
+      "type": "article-journal",
+      "volume": "147",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2018,
+      "status": "published",
+      "formatted": "\\*\\*Brosowsky, N. P., & **Crump, M. J. C.** (2018). Memory-guided selective attention: Experiences with conflict have long-lasting effects on cognitive control. *Journal of Experimental Psychology: General*, *147*(8), 1134-1153.",
+      "formatted_plain": "**Brosowsky, N. P., & Crump, M. J. C. (2018). Memory-guided selective attention: Experiences with conflict have long-lasting effects on cognitive control. Journal of Experimental Psychology: General, 147(8), 1134-1153."
+    },
+    {
+      "URL": "https://crumplab.github.io/statisticsLab/",
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Krishnan",
+          "given": "Anjali"
+        },
+        {
+          "family": "Volz",
+          "given": "Stephen"
+        },
+        {
+          "family": "Chavarga",
+          "given": "Alla"
+        },
+        {
+          "family": "Suzuki",
+          "given": "Jeffrey"
+        }
+      ],
+      "id": "crumpAnsweringQuestionsLabManual2018",
+      "issued": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "note": "Undergraduate textbook",
+      "publisher": "Open educational resource",
+      "title": "Answering questions with data: The lab manual",
+      "title-short": "Answering questions with data",
+      "type": "book",
+      "category": "oer",
+      "invited": false,
+      "refereed": false,
+      "year": 2018,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, Krishnan, A., Volz, S., Chavarga, A., & Suzuki, J. (2018). *Answering questions with data: The lab manual*. Undergraduate textbook. Open educational resource. <https://crumplab.github.io/statisticsLab/>",
+      "formatted_plain": "Crump, M. J. C., Krishnan, A., Volz, S., Chavarga, A., & Suzuki, J. (2018). Answering questions with data: The lab manual. Undergraduate textbook. Open educational resource. https://crumplab.github.io/statisticsLa⸩"
+    },
+    {
+      "DOI": "10.1037/cep0000145",
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Milliken",
+          "given": "Bruce"
+        },
+        {
+          "family": "Leboe-McGowan",
+          "given": "Jason P."
+        },
+        {
+          "family": "Leboe-McGowan",
+          "given": "Launa C."
+        },
+        {
+          "family": "Gao",
+          "given": "X"
+        }
+      ],
+      "container-title": "Canadian Journal of Experimental Psychology",
+      "id": "crumpContextdependentControlAttention2018",
+      "issued": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "page": "91-104",
+      "title": "Context-dependent control of attention capture: Evidence from proportion congruent effects",
+      "title-short": "Context-dependent control of attention capture",
+      "type": "article-journal",
+      "volume": "72",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2018,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, Milliken, B., Leboe-McGowan, J. P., Leboe-McGowan, L. C., & Gao, X. (2018). Context-dependent control of attention capture: Evidence from proportion congruent effects. *Canadian Journal of Experimental Psychology*, *72*, 91-104. <https://doi.org/10.1037/cep0000145>",
+      "formatted_plain": "Crump, M. J. C., Milliken, B., Leboe-McGowan, J. P., Leboe-McGowan, L. C., & Gao, X. (2018). Context-dependent control of attention capture: Evidence from proportion congruent effects. Canadian Journal of Experimental Psychology, 72, 91-104. https://doi.org/10.1037/cep0000145"
+    },
+    {
+      "URL": "https://crumplab.github.io/statistics/",
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Navarro",
+          "given": "Danielle"
+        },
+        {
+          "family": "Suzuki",
+          "given": "Jeffrey"
+        }
+      ],
+      "id": "crumpAnsweringQuestionsData2018",
+      "issued": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "note": "Undergraduate textbook",
+      "publisher": "Open educational resource",
+      "title": "Answering questions with data: Introductory statistics for psychology students",
+      "title-short": "Answering questions with data",
+      "type": "book",
+      "category": "oer",
+      "invited": false,
+      "refereed": false,
+      "year": 2018,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, Navarro, D., & Suzuki, J. (2018). *Answering questions with data: Introductory statistics for psychology students*. Undergraduate textbook. Open educational resource. <https://crumplab.github.io/statistics/>",
+      "formatted_plain": "Crump, M. J. C., Navarro, D., & Suzuki, J. (2018). Answering questions with data: Introductory statistics for psychology students. Undergraduate textbook. Open educational resource. https://crumplab.github.io/statistics"
+    },
+    {
+      "author": [
+        {
+          "family": "Behmer",
+          "given": "Lawrence P."
+        },
+        {
+          "family": "Crump",
+          "given": "Matthew J. C."
+        }
+      ],
+      "container-title": "Journal of Experimental Psychology: Human Perception and Performance",
+      "id": "behmerDynamicRangeResponse2017",
+      "issue": "3",
+      "issued": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "page": "537-554",
+      "title": "The dynamic range of response set activation during action sequencing",
+      "type": "article-journal",
+      "volume": "43",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2017,
+      "status": "published",
+      "formatted": "\\*Behmer, L. P., & **Crump, M. J. C.** (2017). The dynamic range of response set activation during action sequencing. *Journal of Experimental Psychology: Human Perception and Performance*, *43*(3), 537-554.",
+      "formatted_plain": "*Behmer, L. P., & Crump, M. J. C. (2017). The dynamic range of response set activation during action sequencing. Journal of Experimental Psychology: Human Perception and Performance, 43(3), 537-554."
+    },
+    {
+      "author": [
+        {
+          "family": "Behmer",
+          "given": "Lawrence P."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "Big Data in Cognitive Science",
+      "editor": [
+        {
+          "family": "Jones",
+          "given": "Michael N."
+        }
+      ],
+      "id": "behmerCrunchingBigData2017",
+      "issued": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "page": "319-341",
+      "publisher": "Routledge",
+      "title": "Crunching big data with finger tips: How typists tune their performance toward the statistics of natural language",
+      "title-short": "Crunching big data with finger tips",
+      "type": "chapter",
+      "category": "chapter",
+      "invited": false,
+      "refereed": true,
+      "year": 2017,
+      "status": "published",
+      "formatted": "\\*Behmer, L. P., & **Crump, M. J. C.** (2017). Crunching big data with finger tips: How typists tune their performance toward the statistics of natural language. In M. N. Jones (Ed.), *Big Data in Cognitive Science* (pp. 319-341). Routledge.",
+      "formatted_plain": "*Behmer, L. P., & Crump, M. J. C. (2017). Crunching big data with finger tips: How typists tune their performance toward the statistics of natural language. In M. N. Jones (Ed.), Big Data in Cognitive Science (pp. 319-341). Routledge."
+    },
+    {
+      "DOI": "10.3758/s13414-017-1389-3",
+      "author": [
+        {
+          "family": "Behmer",
+          "given": "Lawrence P."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "Attention, Perception & Psychophysics",
+      "id": "behmerSpatialKnowledgeSkilled2017",
+      "issued": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "page": "2435-2448",
+      "title": "Spatial knowledge during skilled action sequencing: Hierarchical versus non-hierarchical representations",
+      "title-short": "Spatial knowledge during skilled action sequencing",
+      "type": "article-journal",
+      "volume": "79",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2017,
+      "status": "published",
+      "formatted": "\\*Behmer, L. P., & **Crump, M. J. C.** (2017). Spatial knowledge during skilled action sequencing: Hierarchical versus non-hierarchical representations. *Attention, Perception & Psychophysics*, *79*, 2435-2448. <https://doi.org/10.3758/s13414-017-1389-3>",
+      "formatted_plain": "*Behmer, L. P., & Crump, M. J. C. (2017). Spatial knowledge during skilled action sequencing: Hierarchical versus non-hierarchical representations. Attention, Perception & Psychophysics, 79, 2435-2448. https://doi.org/10.3758/s13414-017-1389-3"
+    },
+    {
+      "URL": "https://crumplab.github.io/programmingforpsych/",
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "id": "crumpProgrammingPsychologists2017",
+      "issued": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "note": "Undergraduate textbook",
+      "publisher": "Open educational resource",
+      "title": "Programming for psychologists: Data creation and analysis",
+      "title-short": "Programming for psychologists",
+      "type": "book",
+      "category": "oer",
+      "invited": false,
+      "refereed": false,
+      "year": 2017,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.** (2017). *Programming for psychologists: Data creation and analysis*. Undergraduate textbook. Open educational resource. <https://crumplab.github.io/programmingforpsych/>",
+      "formatted_plain": "Crump, M. J. C. (2017). Programming for psychologists: Data creation and analysis. Undergraduate textbook. Open educational resource. https://crumplab.github.io/programmingforpsych"
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Brosowsky",
+          "given": "Nicholaus P."
+        },
+        {
+          "family": "Milliken",
+          "given": "Bruce"
+        }
+      ],
+      "container-title": "The Quarterly Journal of Experimental Psychology",
+      "id": "crumpReproducingLocationbasedContextspecific2016",
+      "issued": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "page": "1792-1807",
+      "title": "Reproducing the location-based context-specific proportion congruent effect for frequency unbiased items: A reply to Hutcheon & Spieler (2016)",
+      "title-short": "Reproducing the location-based context-specific proportion congruent effect for frequency unbiased items",
+      "type": "article-journal",
+      "volume": "70",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2017,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, \\*\\*Brosowsky, N. P., & Milliken, B. (2017). Reproducing the location-based context-specific proportion congruent effect for frequency unbiased items: A reply to Hutcheon & Spieler (2016). *The Quarterly Journal of Experimental Psychology*, *70*, 1792-1807.",
+      "formatted_plain": "Crump, M. J. C., **Brosowsky, N. P., & Milliken, B. (2017). Reproducing the location-based context-specific proportion congruent effect for frequency unbiased items: A reply to Hutcheon & Spieler (2016). The Quarterly Journal of Experimental Psychology, 70, 1792-1807."
+    },
+    {
+      "URL": "https://crumplab.github.io/ResearchMethods/",
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Price",
+          "given": "Paul C."
+        },
+        {
+          "family": "Jhangiani",
+          "given": "Rajiv"
+        },
+        {
+          "family": "Chiang",
+          "given": "I-Chant A."
+        },
+        {
+          "family": "Leighton",
+          "given": "Dana C."
+        }
+      ],
+      "id": "crumpResearchMethodsPsychology2017",
+      "issued": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "note": "Undergraduate textbook",
+      "publisher": "Open educational resource",
+      "title": "Research methods in psychology",
+      "type": "book",
+      "category": "oer",
+      "invited": false,
+      "refereed": false,
+      "year": 2017,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, Price, P. C., Jhangiani, R., Chiang, I.-C. A., & Leighton, D. C. (2017). *Research methods in psychology*. Undergraduate textbook. Open educational resource. <https://crumplab.github.io/ResearchMethods/>",
+      "formatted_plain": "Crump, M. J. C., Price, P. C., Jhangiani, R., Chiang, I.-C. A., & Leighton, D. C. (2017). Research methods in psychology. Undergraduate textbook. Open educational resource. https://crumplab.github.io/ResearchMethods"
+    },
+    {
+      "DOI": "10.1016/j.jhsa.2016.10.005",
+      "author": [
+        {
+          "family": "Zumsteg",
+          "given": "Justin W."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Logan",
+          "given": "Gordon D."
+        },
+        {
+          "family": "Weikert",
+          "given": "Douglas R."
+        },
+        {
+          "family": "Lee",
+          "given": "Donald H."
+        }
+      ],
+      "container-title": "The Journal of Hand Surgery",
+      "id": "zumstegEffectCarpalTunnel2017",
+      "issued": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "page": "17-23",
+      "title": "The effect of carpal tunnel release on typing performance",
+      "type": "article-journal",
+      "volume": "42",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2017,
+      "status": "published",
+      "formatted": "Zumsteg, J. W., **Crump, M. J. C.**, Logan, G. D., Weikert, D. R., & Lee, D. H. (2017). The effect of carpal tunnel release on typing performance. *The Journal of Hand Surgery*, *42*, 17-23. <https://doi.org/10.1016/j.jhsa.2016.10.005>",
+      "formatted_plain": "Zumsteg, J. W., Crump, M. J. C., Logan, G. D., Weikert, D. R., & Lee, D. H. (2017). The effect of carpal tunnel release on typing performance. The Journal of Hand Surgery, 42, 17-23. https://doi.org/10.1016/j.jhsa.2016.10.005"
+    },
+    {
+      "DOI": "10.1016/j.concog.2016.07.001",
+      "author": [
+        {
+          "family": "Brosowsky",
+          "given": "Nicholaus P."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "Consciousness and Cognition",
+      "id": "brosowskyContextspecificAttentionalSampling2016",
+      "issued": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "page": "146-160",
+      "title": "Context-specific attentional sampling: Intentional control as a pre-requisite for contextual control",
+      "title-short": "Context-specific attentional sampling",
+      "type": "article-journal",
+      "volume": "44",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2016,
+      "status": "published",
+      "formatted": "\\*\\*Brosowsky, N. P., & **Crump, M. J. C.** (2016). Context-specific attentional sampling: Intentional control as a pre-requisite for contextual control. *Consciousness and Cognition*, *44*, 146-160. <https://doi.org/10.1016/j.concog.2016.07.001>",
+      "formatted_plain": "**Brosowsky, N. P., & Crump, M. J. C. (2016). Context-specific attentional sampling: Intentional control as a pre-requisite for contextual control. Consciousness and Cognition, 44, 146-160. https://doi.org/10.1016/j.concog.2016.07.001"
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "Canadian Journal of Experimental Psychology",
+      "id": "crumpLearningSelectivelyAttend2016",
+      "issued": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "page": "59-77",
+      "title": "Learning to selectively attend from context-specific attentional histories: A demonstration and some constraints",
+      "title-short": "Learning to selectively attend from context-specific attentional histories",
+      "type": "article-journal",
+      "volume": "70",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2016,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.** (2016). Learning to selectively attend from context-specific attentional histories: A demonstration and some constraints. *Canadian Journal of Experimental Psychology*, *70*, 59-77.",
+      "formatted_plain": "Crump, M. J. C. (2016). Learning to selectively attend from context-specific attentional histories: A demonstration and some constraints. Canadian Journal of Experimental Psychology, 70, 59-77."
+    },
+    {
+      "author": [
+        {
+          "family": "Curtis",
+          "given": "Evan T."
+        },
+        {
+          "family": "Chubala",
+          "given": "Chrissy M."
+        },
+        {
+          "family": "Spear",
+          "given": "Jackie"
+        },
+        {
+          "family": "Jamieson",
+          "given": "Randall K."
+        },
+        {
+          "family": "Hockley",
+          "given": "William E."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "Memory",
+      "id": "curtisFalseRecognitionInstructionset2016",
+      "issued": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "page": "32-43",
+      "title": "False recognition of instruction-set lures",
+      "type": "article-journal",
+      "volume": "24",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2016,
+      "status": "published",
+      "formatted": "Curtis, E. T., Chubala, C. M., Spear, J., Jamieson, R. K., Hockley, W. E., & **Crump, M. J. C.** (2016). False recognition of instruction-set lures. *Memory*, *24*, 32-43.",
+      "formatted_plain": "Curtis, E. T., Chubala, C. M., Spear, J., Jamieson, R. K., Hockley, W. E., & Crump, M. J. C. (2016). False recognition of instruction-set lures. Memory, 24, 32-43."
+    },
+    {
+      "author": [
+        {
+          "family": "Johns",
+          "given": "Brendan T."
+        },
+        {
+          "family": "Jamieson",
+          "given": "Randall K."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Jones",
+          "given": "Michael N."
+        },
+        {
+          "family": "Mewhort",
+          "given": "D. J. K."
+        }
+      ],
+      "container-title": "Proceedings of the 38th Annual Conference of the Cognitive Science Society",
+      "id": "johnsCombinatorialPowerExperience2016",
+      "issued": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "publisher": "Cognitive Science Society",
+      "title": "The combinatorial power of experience",
+      "type": "paper-conference",
+      "category": "proceedings",
+      "invited": false,
+      "refereed": true,
+      "year": 2016,
+      "status": "published",
+      "formatted": "Johns, B. T., Jamieson, R. K., **Crump, M. J. C.**, Jones, M. N., & Mewhort, D. J. K. (2016). The combinatorial power of experience. In *Proceedings of the 38th Annual Conference of the Cognitive Science Society*. Cognitive Science Society.",
+      "formatted_plain": "Johns, B. T., Jamieson, R. K., Crump, M. J. C., Jones, M. N., & Mewhort, D. J. K. (2016). The combinatorial power of experience. In Proceedings of the 38th Annual Conference of the Cognitive Science Society. Cognitive Science Society."
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Logan",
+          "given": "Gordon D."
+        }
+      ],
+      "container-title": "Journal of Experimental Psychology: General",
+      "id": "crumpPreventionCorrectionPosterror2013",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "692-709",
+      "title": "Prevention and correction in post-error performance: An ounce of prevention, a pound of cure",
+      "title-short": "Prevention and correction in post-error performance",
+      "type": "article-journal",
+      "volume": "142",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2013,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, & Logan, G. D. (2013). Prevention and correction in post-error performance: An ounce of prevention, a pound of cure. *Journal of Experimental Psychology: General*, *142*, 692-709.",
+      "formatted_plain": "Crump, M. J. C., & Logan, G. D. (2013). Prevention and correction in post-error performance: An ounce of prevention, a pound of cure. Journal of Experimental Psychology: General, 142, 692-709."
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "McDonnell",
+          "given": "John V."
+        },
+        {
+          "family": "Gureckis",
+          "given": "Todd M."
+        }
+      ],
+      "container-title": "PLoS ONE",
+      "editor": [
+        {
+          "family": "Gilbert",
+          "given": "Sam"
+        }
+      ],
+      "id": "crumpEvaluatingAmazonMechanical2013",
+      "issue": "3",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "e57410",
+      "title": "Evaluating Amazon’s mechanical Turk as a tool for experimental behavioral research",
+      "type": "article-journal",
+      "volume": "8",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2013,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, McDonnell, J. V., & Gureckis, T. M. (2013). Evaluating Amazon’s mechanical Turk as a tool for experimental behavioral research. *PLoS ONE*, *8*(3), e57410.",
+      "formatted_plain": "Crump, M. J. C., McDonnell, J. V., & Gureckis, T. M. (2013). Evaluating Amazon’s mechanical Turk as a tool for experimental behavioral research. PLoS ONE, 8(3), e57410."
+    },
+    {
+      "author": [
+        {
+          "family": "Yamaguchi",
+          "given": "Motonori"
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Logan",
+          "given": "Gordon D."
+        }
+      ],
+      "container-title": "Journal of Experimental Psychology: Human Perception and Performance",
+      "id": "yamaguchiSpeedAccuracyTradeoff2013",
+      "issue": "3",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "678-699",
+      "title": "Speed accuracy-tradeoff in skilled typewriting: Decomposing the contributions of hierarchical control loops",
+      "title-short": "Speed accuracy-tradeoff in skilled typewriting",
+      "type": "article-journal",
+      "volume": "39",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2013,
+      "status": "published",
+      "formatted": "Yamaguchi, M., **Crump, M. J. C.**, & Logan, G. D. (2013). Speed accuracy-tradeoff in skilled typewriting: Decomposing the contributions of hierarchical control loops. *Journal of Experimental Psychology: Human Perception and Performance*, *39*(3), 678-699.",
+      "formatted_plain": "Yamaguchi, M., Crump, M. J. C., & Logan, G. D. (2013). Speed accuracy-tradeoff in skilled typewriting: Decomposing the contrtions of hierarchical control loops. Journal of Experimental Psychology: Human Perception and Performance, 39(3), 678-699."
+    },
+    {
+      "author": [
+        {
+          "family": "Bugg",
+          "given": "Julie M."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "Frontiers in Psychology",
+      "id": "buggSupportDistinctionVoluntary2012",
+      "issue": "367",
+      "issued": {
+        "date-parts": [
+          [
+            2012
+          ]
+        ]
+      },
+      "page": "1-16",
+      "title": "In support of a distinction between voluntary and stimulus-driven control: A review of the literature on proportion congruent effects",
+      "title-short": "In support of a distinction between voluntary and stimulus-driven control",
+      "type": "article-journal",
+      "volume": "3",
+      "category": "review-article",
+      "invited": false,
+      "refereed": true,
+      "year": 2012,
+      "status": "published",
+      "formatted": "Bugg, J. M., & **Crump, M. J. C.** (2012). In support of a distinction between voluntary and stimulus-driven control: A review of the literature on proportion congruent effects. *Frontiers in Psychology*, *3*(367), 1-16.",
+      "formatted_plain": "Bugg, J. M., & Crump, M. J. C. (2012). In support of a distinction between voluntary and stimulus-driven control: A review of the literature on proportion congruent effects. Frontiers in Psychology, 3(367), 1-16."
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "id": "crumpReviewGuitarZero2012",
+      "issued": {
+        "date-parts": [
+          [
+            2012
+          ]
+        ]
+      },
+      "title": "Review of Guitar Zero: The new musician and the science of learning",
+      "title-short": "Review of Guitar Zero",
+      "type": "article-journal",
+      "category": "book-review",
+      "invited": false,
+      "refereed": false,
+      "year": 2012,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.** (2012). Review of Guitar Zero: The new musician and the science of learning.",
+      "formatted_plain": "Crump, M. J. C. (2012). Review of Guitar Zero: The new musician and the science of learning."
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Logan",
+          "given": "Gordon D."
+        },
+        {
+          "family": "Kimbrough",
+          "given": "Jerry"
+        }
+      ],
+      "container-title": "Music Perception: An Interdisciplinary Journal",
+      "id": "crumpKeepingEyeGuitar2012",
+      "issue": "1",
+      "issued": {
+        "date-parts": [
+          [
+            2012
+          ]
+        ]
+      },
+      "page": "37-47",
+      "title": "Keeping an eye on guitar skill: Visual representations of guitar chords",
+      "title-short": "Keeping an eye on guitar skill",
+      "type": "article-journal",
+      "volume": "30",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2012,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, Logan, G. D., & Kimbrough, J. (2012). Keeping an eye on guitar skill: Visual representations of guitar chords. *Music Perception: An Interdisciplinary Journal*, *30*(1), 37-47.",
+      "formatted_plain": "Crump, M. J. C., Logan, G. D., & Kimbrough, J. (2012). Keeping an eye on guitar skill: Visual representations of guitar chords. Music Perception: An Interdisciplinary Journal, 30(1), 37-47."
+    },
+    {
+      "author": [
+        {
+          "family": "Jamieson",
+          "given": "Randall K."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Hannah",
+          "given": "Samuel D."
+        }
+      ],
+      "container-title": "Learning & Behavior",
+      "id": "jamiesonInstanceTheoryAssociative2012",
+      "issue": "1",
+      "issued": {
+        "date-parts": [
+          [
+            2012
+          ]
+        ]
+      },
+      "page": "61-82",
+      "title": "An instance theory of associative learning",
+      "type": "article-journal",
+      "volume": "40",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2012,
+      "status": "published",
+      "formatted": "Jamieson, R. K., **Crump, M. J. C.**, & Hannah, S. D. (2012). An instance theory of associative learning. *Learning & Behavior*, *40*(1), 61-82.",
+      "formatted_plain": "Jamieson, R. K., Crump, M. J. C., & Hannah, S. D. (2012). An instance theory of associative learning. Learning & Behavior, 40(1), 61-82."
+    },
+    {
+      "author": [
+        {
+          "family": "Logan",
+          "given": "Gordon D."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "Psychology of Learning and Motivation",
+      "editor": [
+        {
+          "family": "Ross",
+          "given": "B. H."
+        }
+      ],
+      "id": "loganHierarchicalControlCognitive2011",
+      "issued": {
+        "date-parts": [
+          [
+            2011
+          ]
+        ]
+      },
+      "page": "1-27",
+      "publisher": "Elsevier",
+      "title": "Hierarchical control of cognition and action: The case for skilled typewriting",
+      "title-short": "Hierarchical control of cognition and action",
+      "type": "chapter",
+      "volume": "54",
+      "category": "chapter",
+      "invited": false,
+      "refereed": true,
+      "year": 2011,
+      "status": "published",
+      "formatted": "Logan, G. D., & **Crump, M. J. C.** (2011). Hierarchical control of cognition and action: The case for skilled typewriting. In B. H. Ross (Ed.), *Psychology of Learning and Motivation* (Vol. 54, pp. 1-27). Elsevier.",
+      "formatted_plain": "Logan, G. D., & Crump, M. J. C. (2011). Hierarchical control of cognition and action: The case for skilled typewriting. In B. H. Ross (Ed.), Psychology of Learning and Motivation (Vol. 54, pp. 1-27). Elsevier."
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Logan",
+          "given": "Gordon D."
+        }
+      ],
+      "container-title": "Psychonomic Bulletin & Review",
+      "id": "crumpWarningThisKeyboard2010",
+      "issue": "3",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "394-399",
+      "title": "Warning, this keyboard will de-construct: The role of the keyboard in skilled typewriting",
+      "title-short": "Warning, this keyboard will de-construct",
+      "type": "article-journal",
+      "volume": "17",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2010,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, & Logan, G. D. (2010). Warning, this keyboard will de-construct: The role of the keyboard in skilled typewriting. *Psychonomic Bulletin & Review*, *17*(3), 394-399.",
+      "formatted_plain": "Crump, M. J. C., & Logan, G. D. (2010). Warning, this keyboard will de-construct: The role of the keyboard in skilled typewriting. Psychonomic Bulletin & Review, 17(3), 394-399."
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Logan",
+          "given": "Gordon D."
+        }
+      ],
+      "container-title": "Attention, Perception & Psychophysics",
+      "id": "crumpContextualControlTaskset2010",
+      "issue": "8",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "2047-2053",
+      "title": "Contextual control over task-set retrieval",
+      "type": "article-journal",
+      "volume": "72",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2010,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, & Logan, G. D. (2010). Contextual control over task-set retrieval. *Attention, Perception & Psychophysics*, *72*(8), 2047-2053.",
+      "formatted_plain": "Crump, M. J. C., & Logan, G. D. (2010). Contextual control over task-set retrieval. Attention, Perception & Psychophysics, 72(8), 2047-2053."
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Logan",
+          "given": "Gordon D."
+        }
+      ],
+      "container-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+      "id": "crumpHierarchicalControlSkilled2010",
+      "issue": "6",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "1369-1380",
+      "title": "Hierarchical control and skilled typing: Evidence for word level control over the execution of individual keystrokes",
+      "title-short": "Hierarchical control and skilled typing",
+      "type": "article-journal",
+      "volume": "36",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2010,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, & Logan, G. D. (2010). Hierarchical control and skilled typing: Evidence for word level control over the execution of individual keystrokes. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, *36*(6), 1369-1380.",
+      "formatted_plain": "Crump, M. J. C., & Logan, G. D. (2010). Hierarchical control and skilled typing: Evidence for word level control over the execution of individual keystrokes. Journal of Experimental Psychology: Learning, Memory, and Cognition, 36(6), 1369-1380."
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Logan",
+          "given": "Gordon D."
+        }
+      ],
+      "container-title": "Journal of Experimental Psychology: Human Perception and Performance",
+      "id": "crumpEpisodicContributionsSequential2010",
+      "issue": "3",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "662-672",
+      "title": "Episodic contributions to sequential control: Learning from a typist’s touch",
+      "title-short": "Episodic contributions to sequential control",
+      "type": "article-journal",
+      "volume": "36",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2010,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, & Logan, G. D. (2010). Episodic contributions to sequential control: Learning from a typist’s touch. *Journal of Experimental Psychology: Human Perception and Performance*, *36*(3), 662-672.",
+      "formatted_plain": "Crump, M. J. C., & Logan, G. D. (2010). Episodic contrtions to sequential control: Learning from a typist’s touch. Journal of Experimental Psychology: Human Perception and Performance, 36(3), 662-672."
+    },
+    {
+      "author": [
+        {
+          "family": "Jamieson",
+          "given": "Randall K."
+        },
+        {
+          "family": "Hannah",
+          "given": "Samuel D."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "Canadian Journal of Experimental Psychology",
+      "id": "jamiesonMemorybasedAccountRetrospective2010",
+      "issue": "3",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "153-164",
+      "title": "A memory-based account of retrospective revaluation",
+      "type": "article-journal",
+      "volume": "64",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2010,
+      "status": "published",
+      "formatted": "Jamieson, R. K., Hannah, S. D., & **Crump, M. J. C.** (2010). A memory-based account of retrospective revaluation. *Canadian Journal of Experimental Psychology*, *64*(3), 153-164.",
+      "formatted_plain": "Jamieson, R. K., Hannah, S. D., & Crump, M. J. C. (2010). A memory-based account of retrospective revaluation. Canadian Journal of Experimental Psychology, 64(3), 153-164."
+    },
+    {
+      "author": [
+        {
+          "family": "Liu",
+          "given": "Xianyun"
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Logan",
+          "given": "Gordon D."
+        }
+      ],
+      "container-title": "Memory & Cognition",
+      "id": "liuYouKnowWhere2010",
+      "issue": "4",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "474-484",
+      "title": "Do you know where your fingers have been? Explicit knowledge of the spatial layout of the keyboard in skilled typists",
+      "type": "article-journal",
+      "volume": "38",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2010,
+      "status": "published",
+      "formatted": "Liu, X., **Crump, M. J. C.**, & Logan, G. D. (2010). Do you know where your fingers have been? Explicit knowledge of the spatial layout of the keyboard in skilled typists. *Memory & Cognition*, *38*(4), 474-484.",
+      "formatted_plain": "Liu, X., Crump, M. J. C., & Logan, G. D. (2010). Do you know where your fingers have been? Explicit knowledge of the spatial layout of the keyboard in skilled typists. Memory & Cognition, 38(4), 474-484."
+    },
+    {
+      "author": [
+        {
+          "family": "Logan",
+          "given": "Gordon D."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "Science",
+      "id": "loganCognitiveIllusionsAuthorship2010",
+      "issue": "6004",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "683-686",
+      "title": "Cognitive illusions of authorship reveal hierarchical error detection in skilled typists",
+      "type": "article-journal",
+      "volume": "330",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2010,
+      "status": "published",
+      "formatted": "Logan, G. D., & **Crump, M. J. C.** (2010). Cognitive illusions of authorship reveal hierarchical error detection in skilled typists. *Science*, *330*(6004), 683-686.",
+      "formatted_plain": "Logan, G. D., & Crump, M. J. C. (2010). Cognitive illusions of authorship reveal hierarchical error detection in skilled typists. Science, 330(6004), 683-686."
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Milliken",
+          "given": "Bruce"
+        }
+      ],
+      "container-title": "The Quarterly Journal of Experimental Psychology",
+      "id": "crumpFlexibilityContextspecificControl2009",
+      "issue": "8",
+      "issued": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "page": "1523-1532",
+      "title": "The flexibility of context-specific control: Evidence for context-driven generalization of item-specific control settings",
+      "title-short": "The flexibility of context-specific control",
+      "type": "article-journal",
+      "volume": "62",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2009,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, & Milliken, B. (2009). The flexibility of context-specific control: Evidence for context-driven generalization of item-specific control settings. *The Quarterly Journal of Experimental Psychology*, *62*(8), 1523-1532.",
+      "formatted_plain": "Crump, M. J. C., & Milliken, B. (2009). The flexlity of context-specific control: Evidence for context-driven generalization of item-specific control settings. The Quarterly Journal of Experimental Psychology, 62(8), 1523-1532."
+    },
+    {
+      "author": [
+        {
+          "family": "Hannah",
+          "given": "Samuel D."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Allan",
+          "given": "Lorraine G."
+        },
+        {
+          "family": "Siegel",
+          "given": "Shepard"
+        }
+      ],
+      "container-title": "Canadian Journal of Experimental Psychology/Revue canadienne de psychologie expérimentale",
+      "id": "hannahCueinteractionEffectsContingency2009",
+      "issue": "2",
+      "issued": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "page": "103-112",
+      "title": "Cue-interaction effects in contingency judgments using the streamed-trials procedure",
+      "type": "article-journal",
+      "volume": "63",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2009,
+      "status": "published",
+      "formatted": "Hannah, S. D., **Crump, M. J. C.**, Allan, L. G., & Siegel, S. (2009). Cue-interaction effects in contingency judgments using the streamed-trials procedure. *Canadian Journal of Experimental Psychology/Revue canadienne de psychologie expérimentale*, *63*(2), 103-112.",
+      "formatted_plain": "Hannah, S. D., Crump, M. J. C., Allan, L. G., & Siegel, S. (2009). Cue-interaction effects in contingency judgments using the streamed-trials procedure. Canadian Journal of Experimental Psychology/Revue canadienne de psychologie expérimentale, 63(2), 103-112."
+    },
+    {
+      "author": [
+        {
+          "family": "Logan",
+          "given": "Gordon D."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        }
+      ],
+      "container-title": "Psychological Science",
+      "id": "loganLeftHandDoesn2009",
+      "issue": "10",
+      "issued": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "page": "1296-1300",
+      "title": "The left hand doesn’t know what the right hand is doing: The disruptive effects of attention to the hands in skilled typewriting",
+      "title-short": "The left hand doesn’t know what the right hand is doing",
+      "type": "article-journal",
+      "volume": "20",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2009,
+      "status": "published",
+      "formatted": "Logan, G. D., & **Crump, M. J. C.** (2009). The left hand doesn’t know what the right hand is doing: The disruptive effects of attention to the hands in skilled typewriting. *Psychological Science*, *20*(10), 1296-1300.",
+      "formatted_plain": "Logan, G. D., & Crump, M. J. C. (2009). The left hand doesn’t know what the right hand is doing: The disruptive effects of attention to the hands in skilled typewriting. Psychological Science, 20(10), 1296-1300."
+    },
+    {
+      "author": [
+        {
+          "family": "Siegel",
+          "given": "Shepard"
+        },
+        {
+          "family": "Allan",
+          "given": "Lorraine G."
+        },
+        {
+          "family": "Hannah",
+          "given": "Samuel D."
+        },
+        {
+          "family": "Crump",
+          "given": "Matthew J. C."
+        }
+      ],
+      "container-title": "Comparative Cognition & Behavior Reviews",
+      "id": "siegelApplyingSignalDetection2009",
+      "issued": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "page": "116-134",
+      "title": "Applying signal detection theory to contingency assessment",
+      "type": "article-journal",
+      "volume": "4",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2009,
+      "status": "published",
+      "formatted": "Siegel, S., Allan, L. G., Hannah, S. D., & **Crump, M. J. C.** (2009). Applying signal detection theory to contingency assessment. *Comparative Cognition & Behavior Reviews*, *4*, 116-134.",
+      "formatted_plain": "Siegel, S., Allan, L. G., Hannah, S. D., & Crump, M. J. C. (2009). Applying signal detection theory to contingency assessment. Comparative Cognition & Behavior Reviews, 4, 116-134."
+    },
+    {
+      "author": [
+        {
+          "family": "Allan",
+          "given": "Lorraine G."
+        },
+        {
+          "family": "Hannah",
+          "given": "Samuel D."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Siegel",
+          "given": "Shepard"
+        }
+      ],
+      "container-title": "Journal of Experimental Psychology: General",
+      "id": "allanPsychophysicsContingencyAssessment2008",
+      "issue": "2",
+      "issued": {
+        "date-parts": [
+          [
+            2008
+          ]
+        ]
+      },
+      "page": "226-243",
+      "title": "The psychophysics of contingency assessment",
+      "type": "article-journal",
+      "volume": "137",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2008,
+      "status": "published",
+      "formatted": "Allan, L. G., Hannah, S. D., **Crump, M. J. C.**, & Siegel, S. (2008). The psychophysics of contingency assessment. *Journal of Experimental Psychology: General*, *137*(2), 226-243.",
+      "formatted_plain": "Allan, L. G., Hannah, S. D., Crump, M. J. C., & Siegel, S. (2008). The psychophysics of contingency assessment. Journal of Experimental Psychology: General, 137(2), 226-243."
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "Matthew J. C."
+        },
+        {
+          "family": "Milliken",
+          "given": "Bruce"
+        },
+        {
+          "family": "Ansari",
+          "given": "Imran"
+        }
+      ],
+      "container-title": "Psicológica",
+      "id": "crumpShiftingViewsSymbolic2008",
+      "issue": "1",
+      "issued": {
+        "date-parts": [
+          [
+            2008
+          ]
+        ]
+      },
+      "page": "97-114",
+      "title": "Shifting views on the symbolic cueing effect: Cueing attention through previous experience",
+      "title-short": "Shifting views on the symbolic cueing effect",
+      "type": "article-journal",
+      "volume": "29",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2008,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, Milliken, B., & Ansari, I. (2008). Shifting views on the symbolic cueing effect: Cueing attention through previous experience. *Psicológica*, *29*(1), 97-114.",
+      "formatted_plain": "Crump, M. J. C., Milliken, B., & Ansari, I. (2008). Shifting views on the symbolic cueing effect: Cueing attention through previous experience. Psicológica, 29(1), 97-114."
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Vaquero",
+          "given": "Joaquín M. M."
+        },
+        {
+          "family": "Milliken",
+          "given": "Bruce"
+        }
+      ],
+      "container-title": "Consciousness and Cognition",
+      "id": "crumpContextspecificLearningControl2008",
+      "issue": "1",
+      "issued": {
+        "date-parts": [
+          [
+            2008
+          ]
+        ]
+      },
+      "page": "22-36",
+      "title": "Context-specific learning and control: The role of awareness, task-relevance, and relative salience",
+      "title-short": "Context-specific learning and control",
+      "type": "article-journal",
+      "volume": "17",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2008,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, Vaquero, J. M. M., & Milliken, B. (2008). Context-specific learning and control: The role of awareness, task-relevance, and relative salience. *Consciousness and Cognition*, *17*(1), 22-36.",
+      "formatted_plain": "Crump, M. J. C., Vaquero, J. M. M., & Milliken, B. (2008). Context-specific learning and control: The role of awareness, task-relevance, and relative salience. Consciousness and Cognition, 17(1), 22-36."
+    },
+    {
+      "author": [
+        {
+          "family": "Leboe",
+          "given": "J. P."
+        },
+        {
+          "family": "Wong",
+          "given": "J."
+        },
+        {
+          "family": "Crump",
+          "given": "Matthew J. C."
+        },
+        {
+          "family": "Stobbe",
+          "given": "K."
+        }
+      ],
+      "container-title": "Perception & Psychophysics",
+      "id": "leboeProbespecificProportionTask2008",
+      "issue": "6",
+      "issued": {
+        "date-parts": [
+          [
+            2008
+          ]
+        ]
+      },
+      "page": "935-945",
+      "title": "Probe-specific proportion task repetition effects on switching costs",
+      "type": "article-journal",
+      "volume": "70",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2008,
+      "status": "published",
+      "formatted": "Leboe, J. P., Wong, J., **Crump, M. J. C.**, & Stobbe, K. (2008). Probe-specific proportion task repetition effects on switching costs. *Perception & Psychophysics*, *70*(6), 935-945.",
+      "formatted_plain": "Leboe, J. P., Wong, J., Crump, M. J. C., & Stobbe, K. (2008). Probe-specific proportion task repetition effects on switching costs. Perception & Psychophysics, 70(6), 935-945."
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Hannah",
+          "given": "Samuel D."
+        },
+        {
+          "family": "Allan",
+          "given": "Lorraine G."
+        },
+        {
+          "family": "Hord",
+          "given": "Lauren K."
+        }
+      ],
+      "container-title": "The Quarterly Journal of Experimental Psychology",
+      "id": "crumpContingencyJudgementsFly2007",
+      "issue": "6",
+      "issued": {
+        "date-parts": [
+          [
+            2007
+          ]
+        ]
+      },
+      "page": "753-761",
+      "title": "Contingency judgments on the fly",
+      "type": "article-journal",
+      "volume": "60",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2007,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, Hannah, S. D., Allan, L. G., & Hord, L. K. (2007). Contingency judgments on the fly. *The Quarterly Journal of Experimental Psychology*, *60*(6), 753-761.",
+      "formatted_plain": "Crump, M. J. C., Hannah, S. D., Allan, L. G., & Hord, L. K. (2007). Contingency judgments on the fly. The Quarterly Journal of Experimental Psychology, 60(6), 753-761."
+    },
+    {
+      "author": [
+        {
+          "family": "Schmidt",
+          "given": "James R."
+        },
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Cheesman",
+          "given": "Jim"
+        },
+        {
+          "family": "Besner",
+          "given": "Derek"
+        }
+      ],
+      "container-title": "Consciousness and Cognition",
+      "id": "schmidtContingencyLearningAwareness2007",
+      "issue": "2",
+      "issued": {
+        "date-parts": [
+          [
+            2007
+          ]
+        ]
+      },
+      "page": "421-435",
+      "title": "Contingency learning without awareness: Evidence for implicit control",
+      "title-short": "Contingency learning without awareness",
+      "type": "article-journal",
+      "volume": "16",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2007,
+      "status": "published",
+      "formatted": "Schmidt, J. R., **Crump, M. J. C.**, Cheesman, J., & Besner, D. (2007). Contingency learning without awareness: Evidence for implicit control. *Consciousness and Cognition*, *16*(2), 421-435.",
+      "formatted_plain": "Schmidt, J. R., Crump, M. J. C., Cheesman, J., & Besner, D. (2007). Contingency learning without awareness: Evidence for implicit control. Consciousness and Cognition, 16(2), 421-435."
+    },
+    {
+      "author": [
+        {
+          "family": "Crump",
+          "given": "M. J. C."
+        },
+        {
+          "family": "Gong",
+          "given": "Zhiyu"
+        },
+        {
+          "family": "Milliken",
+          "given": "Bruce"
+        }
+      ],
+      "container-title": "Psychonomic Bulletin & Review",
+      "id": "crumpContextspecificProportionCongruent2006",
+      "issue": "2",
+      "issued": {
+        "date-parts": [
+          [
+            2006
+          ]
+        ]
+      },
+      "page": "316-321",
+      "title": "The context-specific proportion congruent effect: Location as a contextual cue",
+      "title-short": "The context-specific proportion congruent effect",
+      "type": "article-journal",
+      "volume": "13",
+      "category": "article",
+      "invited": false,
+      "refereed": true,
+      "year": 2006,
+      "status": "published",
+      "formatted": "**Crump, M. J. C.**, Gong, Z., & Milliken, B. (2006). The context-specific proportion congruent effect: Location as a contextual cue. *Psychonomic Bulletin & Review*, *13*(2), 316-321.",
+      "formatted_plain": "Crump, M. J. C., Gong, Z., & Milliken, B. (2006). The context-specific proportion congruent effect: Location as a contextual cue. Psychonomic Bulletin & Review, 13(2), 316-321."
+    }
+  ],
+  "talks": [
+    {
+      "type": "invited",
+      "year": 2022,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Instance theory as a domain-general intuition pump for cognition",
+      "venue": "CCP colloquium @ The Graduate Center of CUNY",
+      "formatted": "**Crump, M. J. C.** (2022). Instance theory as a domain-general intuition pump for cognition. CCP colloquium @ The Graduate Center of CUNY.",
+      "formatted_plain": "Crump, M. J. C. (2022). Instance theory as a domain-general intuition pump for cognition. CCP colloquium @ The Graduate Center of CUNY."
+    },
+    {
+      "type": "invited",
+      "year": 2019,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Betrayed by your fingertips: Keystroke dynamics in typing as cognitive fingerprints",
+      "venue": "Brain and Cognitive Sciences Seminar @ University of Manitoba, Winnipeg, Manitoba, Canada",
+      "formatted": "**Crump, M. J. C.** (2019). Betrayed by your fingertips: Keystroke dynamics in typing as cognitive fingerprints. Brain and Cognitive Sciences Seminar @ University of Manitoba, Winnipeg, Manitoba, Canada.",
+      "formatted_plain": "Crump, M. J. C. (2019). Betrayed by your fingertips: Keystroke dynamics in typing as cognitive fingerprints. Brain and Cognitive Sciences Seminar @ University of Manitoba, Winnipeg, Manitoba, Canada."
+    },
+    {
+      "type": "invited",
+      "year": 2018,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Betrayed by your fingertips: Keystroke dynamics in typing as cognitive fingerprints",
+      "venue": "ConCats seminar @ NYU, New York, NY",
+      "formatted": "**Crump, M. J. C.** (2018). Betrayed by your fingertips: Keystroke dynamics in typing as cognitive fingerprints. ConCats seminar @ NYU, New York, NY.",
+      "formatted_plain": "Crump, M. J. C. (2018). Betrayed by your fingertips: Keystroke dynamics in typing as cognitive fingerprints. ConCats seminar @ NYU, New York, NY."
+    },
+    {
+      "type": "invited",
+      "year": 2018,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Creating Interactive Open Educational Resources with Hypothesis",
+      "venue": "Faculty Day Conference @ Brooklyn College, Brooklyn, NY",
+      "formatted": "**Crump, M. J. C.** (2018). Creating Interactive Open Educational Resources with Hypothesis. Faculty Day Conference @ Brooklyn College, Brooklyn, NY.",
+      "formatted_plain": "Crump, M. J. C. (2018). Creating Interactive Open Educational Resources with Hypothesis. Faculty Day Conference @ Brooklyn College, Brooklyn, NY."
+    },
+    {
+      "type": "invited",
+      "year": 2018,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Coordinating cognition at the fingertips: Insights from investigations into skilled typing ability",
+      "venue": "Department of Psychology, City Tech, Brooklyn, NY",
+      "formatted": "**Crump, M. J. C.** (2018). Coordinating cognition at the fingertips: Insights from investigations into skilled typing ability. Department of Psychology, City Tech, Brooklyn, NY.",
+      "formatted_plain": "Crump, M. J. C. (2018). Coordinating cognition at the fingertips: Insights from investigations into skilled typing ability. Department of Psychology, City Tech, Brooklyn, NY."
+    },
+    {
+      "type": "invited",
+      "year": 2017,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Coordinating cognition at the fingertips: Insights from investigations into skilled typing ability",
+      "venue": "Colloquium series, Department of Psychology, Bard College, Annandale-On-Hudson, NY",
+      "formatted": "**Crump, M. J. C.** (2017). Coordinating cognition at the fingertips: Insights from investigations into skilled typing ability. Colloquium series, Department of Psychology, Bard College, Annandale-On-Hudson, NY.",
+      "formatted_plain": "Crump, M. J. C. (2017). Coordinating cognition at the fingertips: Insights from investigations into skilled typing ability. Colloquium series, Department of Psychology, Bard College, Annandale-On-Hudson, NY."
+    },
+    {
+      "type": "invited",
+      "year": 2016,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "The ways prior experience guides cognitive control: Proactive, Reactive, and retrieval-driven control",
+      "venue": "Cognition and Perception Seminar, Department of Psychology, Neuroscience, and Behavior, McMaster University, ON, Canada",
+      "formatted": "**Crump, M. J. C.** (2016). The ways prior experience guides cognitive control: Proactive, Reactive, and retrieval-driven control. Cognition and Perception Seminar, Department of Psychology, Neuroscience, and Behavior, McMaster University, ON, Canada.",
+      "formatted_plain": "Crump, M. J. C. (2016). The ways prior experience guides cognitive control: Proactive, Reactive, and retrieval-driven control. Cognition and Perception Seminar, Department of Psychology, Neuroscience, and Behavior, McMaster University, ON, Canada."
+    },
+    {
+      "type": "workshop",
+      "year": 2016,
+      "authors": [
+        "Crump, M. J. C.",
+        "Gureckis, T. M."
+      ],
+      "title": "Uses and challenges of Mechanical Turk",
+      "venue": "Invited Workshop at the Association for Psychological Science, Chicago, IL",
+      "formatted": "**Crump, M. J. C.**, & Gureckis, T. M. (2016). Uses and challenges of Mechanical Turk. Invited Workshop at the Association for Psychological Science, Chicago, IL.",
+      "formatted_plain": "Crump, M. J. C., & Gureckis, T. M. (2016). Uses and challenges of Mechanical Turk. Invited Workshop at the Association for Psychological Science, Chicago, IL."
+    },
+    {
+      "type": "workshop",
+      "year": 2015,
+      "authors": [
+        "Crump, M. J. C.",
+        "Gureckis, T. M."
+      ],
+      "title": "Uses and challenges of Mechanical Turk",
+      "venue": "Invited Workshop at the Association for Psychological Science, New York, NY",
+      "formatted": "**Crump, M. J. C.**, & Gureckis, T. M. (2015). Uses and challenges of Mechanical Turk. Invited Workshop at the Association for Psychological Science, New York, NY.",
+      "formatted_plain": "Crump, M. J. C., & Gureckis, T. M. (2015). Uses and challenges of Mechanical Turk. Invited Workshop at the Association for Psychological Science, New York, NY."
+    },
+    {
+      "type": "invited",
+      "year": 2014,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting",
+      "venue": "Colloquium series, Department of Psychology, University of Manitoba, MB, CA",
+      "formatted": "**Crump, M. J. C.** (2014). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Colloquium series, Department of Psychology, University of Manitoba, MB, CA.",
+      "formatted_plain": "Crump, M. J. C. (2014). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Colloquium series, Department of Psychology, University of Manitoba, MB, CA."
+    },
+    {
+      "type": "invited",
+      "year": 2014,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Associative learning of attentional control strategies: Evidence from the proportion congruent literature",
+      "venue": "Colloquium series, Department of Psychology, New York University, New York, NY",
+      "formatted": "**Crump, M. J. C.** (2014). Associative learning of attentional control strategies: Evidence from the proportion congruent literature. Colloquium series, Department of Psychology, New York University, New York, NY.",
+      "formatted_plain": "Crump, M. J. C. (2014). Associative learning of attentional control strategies: Evidence from the proportion congruent literature. Colloquium series, Department of Psychology, New York University, New York, NY."
+    },
+    {
+      "type": "invited",
+      "year": 2013,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting",
+      "venue": "Colloquium series, Department of Psychology, McMaster University, ON, CA",
+      "formatted": "**Crump, M. J. C.** (2013). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Colloquium series, Department of Psychology, McMaster University, ON, CA.",
+      "formatted_plain": "Crump, M. J. C. (2013). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Colloquium series, Department of Psychology, McMaster University, ON, CA."
+    },
+    {
+      "type": "invited",
+      "year": 2012,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting",
+      "venue": "Cognitive Lunch Seminar, Department of Psychology, Columbia University, New York, NY",
+      "formatted": "**Crump, M. J. C.** (2012). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Cognitive Lunch Seminar, Department of Psychology, Columbia University, New York, NY.",
+      "formatted_plain": "Crump, M. J. C. (2012). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Cognitive Lunch Seminar, Department of Psychology, Columbia University, New York, NY."
+    },
+    {
+      "type": "invited",
+      "year": 2012,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting",
+      "venue": "Cognitive Seminar, Department of Psychology, University of Granada, Spain",
+      "formatted": "**Crump, M. J. C.** (2012). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Cognitive Seminar, Department of Psychology, University of Granada, Spain.",
+      "formatted_plain": "Crump, M. J. C. (2012). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Cognitive Seminar, Department of Psychology, University of Granada, Spain."
+    },
+    {
+      "type": "invited",
+      "year": 2010,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Coordinating learning, memory, and attention during performance: Insights from the psychology of skilled typewriting",
+      "venue": "Invited Job talk. Psychology Department at Brooklyn College of CUNY",
+      "formatted": "**Crump, M. J. C.** (2010). Coordinating learning, memory, and attention during performance: Insights from the psychology of skilled typewriting. Invited Job talk. Psychology Department at Brooklyn College of CUNY.",
+      "formatted_plain": "Crump, M. J. C. (2010). Coordinating learning, memory, and attention during performance: Insights from the psychology of skilled typewriting. Invited Job talk. Psychology Department at Brooklyn College of CUNY."
+    },
+    {
+      "type": "conference",
+      "year": 2023,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Extending global-matching models to pictures and the Vokey effect",
+      "venue": "Canadian Society for Brain and Behavioral Sciences. Guelph",
+      "formatted": "**Crump, M. J. C.** (2023). Extending global-matching models to pictures and the Vokey effect. Canadian Society for Brain and Behavioral Sciences. Guelph.",
+      "formatted_plain": "Crump, M. J. C. (2023). Extending global-matching models to pictures and the Vokey effect. Canadian Society for Brain and Behavioral Sciences. Guelph."
+    },
+    {
+      "type": "conference",
+      "year": 2022,
+      "authors": [
+        "Shives, D. W.",
+        "Ihejirika, P.",
+        "Crump, M. J. C."
+      ],
+      "title": "The role of stimulus duration in directed forgetting for natural scenes",
+      "venue": "Psychonomics. Boston",
+      "formatted": "\\*\\*Shives, D. W., \\*\\*\\*Ihejirika, P., & **Crump, M. J. C.** (2022). The role of stimulus duration in directed forgetting for natural scenes. Psychonomics. Boston.",
+      "formatted_plain": "**Shives, D. W., ***Ihejirika, P., & Crump, M. J. C. (2022). The role of stimulus duration in directed forgetting for natural scenes. Psychonomics. Boston."
+    },
+    {
+      "type": "conference",
+      "year": 2021,
+      "authors": [
+        "Jamieson, R. K.",
+        "Crump, M. J. C."
+      ],
+      "title": "An instance-based theory of implicit inference",
+      "venue": "Canadian Society for Brain, Behavior and Cognitive Science, Montreal",
+      "formatted": "Jamieson, R. K., & **Crump, M. J. C.** (2021). An instance-based theory of implicit inference. Canadian Society for Brain, Behavior and Cognitive Science, Montreal.",
+      "formatted_plain": "Jamieson, R. K., & Crump, M. J. C. (2021). An instance-based theory of implicit inference. Canadian Society for Brain, Behavior and Cognitive Science, Montreal."
+    },
+    {
+      "type": "conference",
+      "year": 2020,
+      "authors": [
+        "Crump, M. J. C.",
+        "Vuorre, M."
+      ],
+      "title": "Creating, curating, and communicating reproducible research with R packages: Vertical as a full-stack example",
+      "venue": "Society for Computation in Psychology, Online",
+      "formatted": "**Crump, M. J. C.**, & Vuorre, M. (2020). Creating, curating, and communicating reproducible research with R packages: Vertical as a full-stack example. Society for Computation in Psychology, Online.",
+      "formatted_plain": "Crump, M. J. C., & Vuorre, M. (2020). Creating, curating, and communicating reproducible research with R packages: Vertical as a full-stack example. Society for Computation in Psychology, Online."
+    },
+    {
+      "type": "conference",
+      "year": 2019,
+      "authors": [
+        "Crump, M. J. C.",
+        "Jamieson, R. K.",
+        "Aujla, H."
+      ],
+      "title": "Semantic Librarian for SCIP Abstracts: An R Shiny App and Package for Searching and Visualizing Semantic Spaces",
+      "venue": "Society for Computation in Psychology, Montreal",
+      "formatted": "**Crump, M. J. C.**, Jamieson, R. K., & Aujla, H. (2019). Semantic Librarian for SCIP Abstracts: An R Shiny App and Package for Searching and Visualizing Semantic Spaces. Society for Computation in Psychology, Montreal.",
+      "formatted_plain": "Crump, M. J. C., Jamieson, R. K., & Aujla, H. (2019). Semantic Librarian for SCIP Abstracts: An R Shiny App and Package for Searching and Visualizing Semantic Spaces. Society for Computation in Psychology, Montreal."
+    },
+    {
+      "type": "conference",
+      "year": 2019,
+      "authors": [
+        "Chammany, M. B.",
+        "Palkowitz, S. R.",
+        "Crump, M. J. C.",
+        "Behmer, L. P."
+      ],
+      "title": "Changes in Cognitive Control After High-Demand Trials During Continuous Motor Performance: Slower Rts and Increases in Midline Theta",
+      "venue": "Psychonomics, Montreal",
+      "formatted": "Chammany, M. B., Palkowitz, S. R., **Crump, M. J. C.**, & \\*Behmer, L. P. (2019). Changes in Cognitive Control After High-Demand Trials During Continuous Motor Performance: Slower Rts and Increases in Midline Theta. Psychonomics, Montreal.",
+      "formatted_plain": "Chammany, M. B., Palkowitz, S. R., Crump, M. J. C., & *Behmer, L. P. (2019). Changes in Cognitive Control After High-Demand Trials During Continuous Motor Performance: Slower Rts and Increases in Midline Theta. Psychonomics, Montreal."
+    },
+    {
+      "type": "conference",
+      "year": 2019,
+      "authors": [
+        "Chammany, M. B.",
+        "Palkowitz, S. R.",
+        "Crump, M. J. C.",
+        "Behmer, L. P."
+      ],
+      "title": "Increases in Midline and Frontal Theta Reflect the Degree of Cognitive Control Required During Continuous Motor Performance When Explicitly Monitoring Output",
+      "venue": "Psychonomics, Montreal",
+      "formatted": "Chammany, M. B., Palkowitz, S. R., **Crump, M. J. C.**, & \\*Behmer, L. P. (2019). Increases in Midline and Frontal Theta Reflect the Degree of Cognitive Control Required During Continuous Motor Performance When Explicitly Monitoring Output. Psychonomics, Montreal.",
+      "formatted_plain": "Chammany, M. B., Palkowitz, S. R., Crump, M. J. C., & *Behmer, L. P. (2019). Increases in Midline and Frontal Theta Reflect the Degree of Cognitive Control Required During Continuous Motor Performance When Explicitly Monitoring Output. Psychonomics, Montreal."
+    },
+    {
+      "type": "conference",
+      "year": 2018,
+      "authors": [
+        "Jamieson, R. K.",
+        "Aujla, H.",
+        "Crump, M. J. C.",
+        "Cook, M."
+      ],
+      "title": "Using semantic memory theory to build an applied cognitive search engine",
+      "venue": "Society for Computers in Psychology, New Orleans",
+      "formatted": "Jamieson, R. K., Aujla, H., **Crump, M. J. C.**, & Cook, M. (2018). Using semantic memory theory to build an applied cognitive search engine. Society for Computers in Psychology, New Orleans.",
+      "formatted_plain": "Jamieson, R. K., Aujla, H., Crump, M. J. C., & Cook, M. (2018). Using semantic memory theory to build an applied cognitive search engine. Society for Computers in Psychology, New Orleans."
+    },
+    {
+      "type": "conference",
+      "year": 2018,
+      "authors": [
+        "Crump, M. J. C.",
+        "Brosowsky, N. B."
+      ],
+      "title": "Instances and information: An instance theory account of sensitivity to uncertainty in natural text production",
+      "venue": "Society for Computers in Psychology. New Orleans",
+      "formatted": "**Crump, M. J. C.**, & \\*\\*Brosowsky, N. B. (2018). Instances and information: An instance theory account of sensitivity to uncertainty in natural text production. Society for Computers in Psychology. New Orleans.",
+      "formatted_plain": "Crump, M. J. C., & **Brosowsky, N. B. (2018). Instances and information: An instance theory account of sensitivity to uncertainty in natural text production. Society for Computers in Psychology. New Orleans."
+    },
+    {
+      "type": "conference",
+      "year": 2018,
+      "authors": [
+        "Brosowsky, N. B.",
+        "Crump, M. J. C."
+      ],
+      "title": "You should hate this movie! Detecting hidden attitudes of online persuaders",
+      "venue": "Psychonomics, New Orleans",
+      "formatted": "\\*\\*Brosowsky, N. B., & **Crump, M. J. C.** (2018). You should hate this movie! Detecting hidden attitudes of online persuaders. Psychonomics, New Orleans.",
+      "formatted_plain": "**Brosowsky, N. B., & Crump, M. J. C. (2018). You should hate this movie! Detecting hidden attitudes of online persuaders. Psychonomics, New Orleans."
+    },
+    {
+      "type": "conference",
+      "year": 2017,
+      "authors": [
+        "Brosowsky, N. B.",
+        "Crump, M. J. C."
+      ],
+      "title": "Same Context, Different Control: Flexibly Shifting Between Context-Specific Control Settings",
+      "venue": "Psychonomics, Vancouver",
+      "formatted": "\\*\\*Brosowsky, N. B., & **Crump, M. J. C.** (2017). Same Context, Different Control: Flexibly Shifting Between Context-Specific Control Settings. Psychonomics, Vancouver.",
+      "formatted_plain": "**Brosowsky, N. B., & Crump, M. J. C. (2017). Same Context, Different Control: Flexibly Shifting Between Context-Specific Control Settings. Psychonomics, Vancouver."
+    },
+    {
+      "type": "conference",
+      "year": 2017,
+      "authors": [
+        "Brosowsky, N. B.",
+        "Crump, M. J. C."
+      ],
+      "title": "Learning to Selectively Ignore Information",
+      "venue": "Eastern Psychological Association, Boston",
+      "formatted": "\\*\\*Brosowsky, N. B., & **Crump, M. J. C.** (2017). Learning to Selectively Ignore Information. Eastern Psychological Association, Boston.",
+      "formatted_plain": "**Brosowsky, N. B., & Crump, M. J. C. (2017). Learning to Selectively Ignore Information. Eastern Psychological Association, Boston."
+    },
+    {
+      "type": "conference",
+      "year": 2017,
+      "authors": [
+        "Behmer, L. P.",
+        "Crump, M. J. C.",
+        "Jantzen, K. J.",
+        "Martinez, S.",
+        "Walls, R.",
+        "Amir-Brownstein, E.",
+        "Jaye, A.",
+        "Leytze, M.",
+        "Lucier, K."
+      ],
+      "title": "Motor evoked potentials reflect changes in rapid inhibitory control during serial ordering",
+      "venue": "Cognitive Neuroscience Society, San Francisco",
+      "formatted": "\\*Behmer, L. P., **Crump, M. J. C.**, Jantzen, K. J., Martinez, S., Walls, R., Amir-Brownstein, E., Jaye, A., Leytze, M., & Lucier, K. (2017). Motor evoked potentials reflect changes in rapid inhibitory control during serial ordering. Cognitive Neuroscience Society, San Francisco.",
+      "formatted_plain": "*Behmer, L. P., Crump, M. J. C., Jantzen, K. J., Martinez, S., Walls, R., Amir-Brownstein, E., Jaye, A., Leytze, M., & Lucier, K. (2017). Motor evoked potentials reflect changes in rapid inhibitory control during serial ordering. Cognitive Neuroscience Society, San Francisco."
+    },
+    {
+      "type": "conference",
+      "year": 2017,
+      "authors": [
+        "Behmer, L. P.",
+        "Crump, M. J. C."
+      ],
+      "title": "Cognitive Control for Action Sequencing",
+      "venue": "Eastern Psychological Association, Boston",
+      "formatted": "\\*Behmer, L. P., & **Crump, M. J. C.** (2017). Cognitive Control for Action Sequencing. Eastern Psychological Association, Boston.",
+      "formatted_plain": "*Behmer, L. P., & Crump, M. J. C. (2017). Cognitive Control for Action Sequencing. Eastern Psychological Association, Boston."
+    },
+    {
+      "type": "conference",
+      "year": 2016,
+      "month": "November",
+      "authors": [
+        "Behmer, L. P.",
+        "Crump, M. J. C."
+      ],
+      "title": "Theta-event related synchrony (ERS) as an index of outer-loop control during typing: Neural evidence supporting the two-loop theory of typing",
+      "venue": "Psychonomics, Boston, MA",
+      "formatted": "\\*Behmer, L. P., & **Crump, M. J. C.** (2016, November). Theta-event related synchrony (ERS) as an index of outer-loop control during typing: Neural evidence supporting the two-loop theory of typing. Psychonomics, Boston, MA.",
+      "formatted_plain": "*Behmer, L. P., & Crump, M. J. C. (2016, November). Theta-event related synchrony (ERS) as an index of outer-loop control during typing: Neural evidence supporting the two-loop theory of typing. Psychonomics, Boston, MA."
+    },
+    {
+      "type": "conference",
+      "year": 2016,
+      "month": "November",
+      "authors": [
+        "Brosowsky, N. P.",
+        "Crump, M. J. C."
+      ],
+      "title": "Long(er)-term item-specific Gratton effects",
+      "venue": "Psychonomics, Boston, MA",
+      "formatted": "\\*\\*Brosowsky, N. P., & **Crump, M. J. C.** (2016, November). Long(er)-term item-specific Gratton effects. Psychonomics, Boston, MA.",
+      "formatted_plain": "**Brosowsky, N. P., & Crump, M. J. C. (2016, November). Long(er)-term item-specific Gratton effects. Psychonomics, Boston, MA."
+    },
+    {
+      "type": "conference",
+      "year": 2016,
+      "month": "June",
+      "authors": [
+        "Jamieson, R. K.",
+        "Chubala, C. M.",
+        "Crump, M. J. C.",
+        "Hannah, S. D."
+      ],
+      "title": "A computational analysis of learning and heuristic inference",
+      "venue": "Canadian Society for Brain, Behaviour, and Cognitive Science, University of Ottawa, Ottawa, ON, Canada",
+      "formatted": "Jamieson, R. K., Chubala, C. M., **Crump, M. J. C.**, & Hannah, S. D. (2016, June). A computational analysis of learning and heuristic inference. Canadian Society for Brain, Behaviour, and Cognitive Science, University of Ottawa, Ottawa, ON, Canada.",
+      "formatted_plain": "Jamieson, R. K., Chubala, C. M., Crump, M. J. C., & Hannah, S. D. (2016, June). A computational analysis of learning and heuristic inference. Canadian Society for Brain, Behaviour, and Cognitive Science, University of Ottawa, Ottawa, ON, Canada."
+    },
+    {
+      "type": "conference",
+      "year": 2016,
+      "month": "June",
+      "authors": [
+        "Johns, B. T.",
+        "Jamieson, R. K.",
+        "Crump, J. C.",
+        "Jones, M. N.",
+        "Mewhort, D. J. K."
+      ],
+      "title": "The combinatorial power of experience",
+      "venue": "Canadian Society for Brain, Behaviour, and Cognitive Science, University of Ottawa, Ottawa, ON, Canada",
+      "formatted": "Johns, B. T., Jamieson, R. K., **Crump, J. C.**, Jones, M. N., & Mewhort, D. J. K. (2016, June). The combinatorial power of experience. Canadian Society for Brain, Behaviour, and Cognitive Science, University of Ottawa, Ottawa, ON, Canada.",
+      "formatted_plain": "Johns, B. T., Jamieson, R. K., Crump, J. C., Jones, M. N., & Mewhort, D. J. K. (2016, June). The combinatorial power of experience. Canadian Society for Brain, Behaviour, and Cognitive Science, University of Ottawa, Ottawa, ON, Canada."
+    },
+    {
+      "type": "conference",
+      "year": 2016,
+      "authors": [
+        "Behmer, L. P.",
+        "Crump, M. J. C."
+      ],
+      "title": "Try not to think about what you’re doing: Event-related desynchronization (ERD) in the SMA and event-related synchronization (ERS) in the frontal lobe reveals a dissociation of hierarchically controlled outer and inner loop processes during typing",
+      "venue": "Cognitive Neuroscience Society. New York, NY",
+      "formatted": "\\*Behmer, L. P., & **Crump, M. J. C.** (2016). Try not to think about what you’re doing: Event-related desynchronization (ERD) in the SMA and event-related synchronization (ERS) in the frontal lobe reveals a dissociation of hierarchically controlled outer and inner loop processes during typing. Cognitive Neuroscience Society. New York, NY.",
+      "formatted_plain": "*Behmer, L. P., & Crump, M. J. C. (2016). Try not to think about what you’re doing: Event-related desynchronization (ERD) in the SMA and event-related synchronization (ERS) in the frontal lobe reveals a dissociation of hierarchically controlled outer and inner loop processes during typing. Cognitive Neuroscience Society. New York, NY."
+    },
+    {
+      "type": "conference",
+      "year": 2016,
+      "authors": [
+        "Brosowsky, N. P.",
+        "Crump, M. J. C."
+      ],
+      "title": "How typists talk to their fingers: Evidence for word-level verbal control of skilled action sequencing",
+      "venue": "International Meeting of the Psychonomic Society, Granada, Spain",
+      "formatted": "\\*\\*Brosowsky, N. P., & **Crump, M. J. C.** (2016). How typists talk to their fingers: Evidence for word-level verbal control of skilled action sequencing. International Meeting of the Psychonomic Society, Granada, Spain.",
+      "formatted_plain": "**Brosowsky, N. P., & Crump, M. J. C. (2016). How typists talk to their fingers: Evidence for word-level verbal control of skilled action sequencing. International Meeting of the Psychonomic Society, Granada, Spain."
+    },
+    {
+      "type": "conference",
+      "year": 2016,
+      "authors": [
+        "Crump, M. J. C.",
+        "Brosowsky, N. P."
+      ],
+      "title": "Context-specific proportion congruent effects for frequency unbiased items: Novel extensions and analyses of reproducibility",
+      "venue": "International Meeting of the Psychonomic Society, Granada, Spain",
+      "formatted": "**Crump, M. J. C.**, & \\*\\*Brosowsky, N. P. (2016). Context-specific proportion congruent effects for frequency unbiased items: Novel extensions and analyses of reproducibility. International Meeting of the Psychonomic Society, Granada, Spain.",
+      "formatted_plain": "Crump, M. J. C., & **Brosowsky, N. P. (2016). Context-specific proportion congruent effects for frequency unbiased items: Novel extensions and analyses of reproducibility. International Meeting of the Psychonomic Society, Granada, Spain."
+    },
+    {
+      "type": "conference",
+      "year": 2016,
+      "authors": [
+        "Behmer, L. P.",
+        "Crump, M. J. C."
+      ],
+      "title": "Knowing where to go when you get there: Dynamic construction of spatial knowledge during skilled action sequencing",
+      "venue": "International Meeting of the Psychonomic Society, Granada, Spain",
+      "formatted": "\\*Behmer, L. P., & **Crump, M. J. C.** (2016). Knowing where to go when you get there: Dynamic construction of spatial knowledge during skilled action sequencing. International Meeting of the Psychonomic Society, Granada, Spain.",
+      "formatted_plain": "*Behmer, L. P., & Crump, M. J. C. (2016). Knowing where to go when you get there: Dynamic construction of spatial knowledge during skilled action sequencing. International Meeting of the Psychonomic Society, Granada, Spain."
+    },
+    {
+      "type": "conference",
+      "year": 2016,
+      "authors": [
+        "Brosowsky, P. N.",
+        "Crump, M. J. C."
+      ],
+      "title": "Contextual control over stimulus-response sets",
+      "venue": "Psychonomics, Eastern Psychological Association, New York, NY",
+      "formatted": "\\*\\*Brosowsky, P. N., & **Crump, M. J. C.** (2016). Contextual control over stimulus-response sets. Psychonomics, Eastern Psychological Association, New York, NY.",
+      "formatted_plain": "**Brosowsky, P. N., & Crump, M. J. C. (2016). Contextual control over stimulus-response sets. Psychonomics, Eastern Psychological Association, New York, NY."
+    },
+    {
+      "type": "conference",
+      "year": 2016,
+      "authors": [
+        "Behmer, L. P.",
+        "Crump, M. J. C."
+      ],
+      "title": "The dynamics of best laid action plans: Tracing response scheduling in skilled typing",
+      "venue": "Eastern Psychological Association, New York, NY",
+      "formatted": "\\*Behmer, L. P., & **Crump, M. J. C.** (2016). The dynamics of best laid action plans: Tracing response scheduling in skilled typing. Eastern Psychological Association, New York, NY.",
+      "formatted_plain": "*Behmer, L. P., & Crump, M. J. C. (2016). The dynamics of best laid action plans: Tracing response scheduling in skilled typing. Eastern Psychological Association, New York, NY."
+    },
+    {
+      "type": "conference",
+      "year": 2016,
+      "authors": [
+        "Zumsteg, J.",
+        "Crump, M. J. C.",
+        "Logan, G.",
+        "Weikert, D.",
+        "Lee, D."
+      ],
+      "title": "The effect of carpal tunnel release surgery on post-operative typing function",
+      "venue": "71st Annual Meeting of the American Society for Surgery of the Hand. Austin, TX",
+      "formatted": "Zumsteg, J., **Crump, M. J. C.**, Logan, G., Weikert, D., & Lee, D. (2016). The effect of carpal tunnel release surgery on post-operative typing function. 71st Annual Meeting of the American Society for Surgery of the Hand. Austin, TX.",
+      "formatted_plain": "Zumsteg, J., Crump, M. J. C., Logan, G., Weikert, D., & Lee, D. (2016). The effect of carpal tunnel release surgery on post-operative typing function. 71st Annual Meeting of the American Society for Surgery of the Hand. Austin, TX."
+    },
+    {
+      "type": "conference",
+      "year": 2015,
+      "authors": [
+        "Behmer, L. P.",
+        "Crump, M. J. C."
+      ],
+      "title": "The dynamics of best laid action plans: Tracing response scheduling in skilled typing",
+      "venue": "Psychonomics. Chicago, IL",
+      "formatted": "\\*Behmer, L. P., & **Crump, M. J. C.** (2015). The dynamics of best laid action plans: Tracing response scheduling in skilled typing. Psychonomics. Chicago, IL.",
+      "formatted_plain": "*Behmer, L. P., & Crump, M. J. C. (2015). The dynamics of best laid action plans: Tracing response scheduling in skilled typing. Psychonomics. Chicago, IL."
+    },
+    {
+      "type": "conference",
+      "year": 2015,
+      "authors": [
+        "Brosowsky, P. N.",
+        "Crump, M. J. C."
+      ],
+      "title": "Contextual control of attentional sampling: Exploring the role of volition",
+      "venue": "Psychonomics, Chicago, IL",
+      "formatted": "\\*\\*Brosowsky, P. N., & **Crump, M. J. C.** (2015). Contextual control of attentional sampling: Exploring the role of volition. Psychonomics, Chicago, IL.",
+      "formatted_plain": "**Brosowsky, P. N., & Crump, M. J. C. (2015). Contextual control of attentional sampling: Exploring the role of volition. Psychonomics, Chicago, IL."
+    },
+    {
+      "type": "conference",
+      "year": 2015,
+      "authors": [
+        "Crump, M. J. C.",
+        "Behmer, L."
+      ],
+      "title": "Learning, memory and the control of serial order for action",
+      "venue": "International Workshop in Learning, Memory, and Attention, Unversidad de Granada, Granada, Spain",
+      "formatted": "**Crump, M. J. C.**, & \\*Behmer, L. (2015). Learning, memory and the control of serial order for action. International Workshop in Learning, Memory, and Attention, Unversidad de Granada, Granada, Spain.",
+      "formatted_plain": "Crump, M. J. C., & *Behmer, L. (2015). Learning, memory and the control of serial order for action. International Workshop in Learning, Memory, and Attention, Unversidad de Granada, Granada, Spain."
+    },
+    {
+      "type": "conference",
+      "year": 2015,
+      "authors": [
+        "Brosowsky, N.",
+        "Crump, M. J. C."
+      ],
+      "title": "Evidence for generalization of context-specific control in a flanker task",
+      "venue": "Eastern Psychological Association, Philadelphia, PA",
+      "formatted": "\\*\\*Brosowsky, N., & **Crump, M. J. C.** (2015). Evidence for generalization of context-specific control in a flanker task. Eastern Psychological Association, Philadelphia, PA.",
+      "formatted_plain": "**Brosowsky, N., & Crump, M. J. C. (2015). Evidence for generalization of context-specific control in a flanker task. Eastern Psychological Association, Philadelphia, PA."
+    },
+    {
+      "type": "conference",
+      "year": 2015,
+      "authors": [
+        "Behmer, L. P.",
+        "Crump, M. J. C."
+      ],
+      "title": "Typists develop sensitivity to the statistical frequencies of likely N-grams",
+      "venue": "Eastern Psychological Association, Philadelphia, PA",
+      "formatted": "\\*Behmer, L. P., & **Crump, M. J. C.** (2015). Typists develop sensitivity to the statistical frequencies of likely N-grams. Eastern Psychological Association, Philadelphia, PA.",
+      "formatted_plain": "*Behmer, L. P., & Crump, M. J. C. (2015). Typists develop sensitivity to the statistical frequencies of likely N-grams. Eastern Psychological Association, Philadelphia, PA."
+    },
+    {
+      "type": "conference",
+      "year": 2014,
+      "authors": [
+        "Crump, M. J. C.",
+        "Blecher, M.",
+        "Jamieson, R."
+      ],
+      "title": "False memory for previously tested items: Investigating test-induced associative and repetition priming",
+      "venue": "Psychonomics, Long Beach, CA",
+      "formatted": "**Crump, M. J. C.**, \\*\\*\\*Blecher, M., & Jamieson, R. (2014). False memory for previously tested items: Investigating test-induced associative and repetition priming. Psychonomics, Long Beach, CA.",
+      "formatted_plain": "Crump, M. J. C., ***Blecher, M., & Jamieson, R. (2014). False memory for previously tested items: Investigating test-induced associative and repetition priming. Psychonomics, Long Beach, CA."
+    },
+    {
+      "type": "conference",
+      "year": 2014,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Learning and stimulus-driven cognitive control: Contextual cuing of explicit attention strategies",
+      "venue": "Eastern Psychological Association, Boston, MA",
+      "formatted": "**Crump, M. J. C.** (2014). Learning and stimulus-driven cognitive control: Contextual cuing of explicit attention strategies. Eastern Psychological Association, Boston, MA.",
+      "formatted_plain": "Crump, M. J. C. (2014). Learning and stimulus-driven cognitive control: Contextual cuing of explicit attention strategies. Eastern Psychological Association, Boston, MA."
+    },
+    {
+      "type": "conference",
+      "year": 2013,
+      "authors": [
+        "Mitchell, K. M.",
+        "Crump, M. J. C."
+      ],
+      "title": "Betting on your inner homunculus: Query theory in a dynamic gambling task",
+      "venue": "Eastern Psychological Association, New York City, NY",
+      "formatted": "\\*\\*Mitchell, K. M., & **Crump, M. J. C.** (2013). Betting on your inner homunculus: Query theory in a dynamic gambling task. Eastern Psychological Association, New York City, NY.",
+      "formatted_plain": "**Mitchell, K. M., & Crump, M. J. C. (2013). Betting on your inner homunculus: Query theory in a dynamic gambling task. Eastern Psychological Association, New York City, NY."
+    },
+    {
+      "type": "conference",
+      "year": 2013,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Stimulus-driven control of explicitly induced attention filtering demands",
+      "venue": "Psychonomics, Toronto, ON, CA",
+      "formatted": "**Crump, M. J. C.** (2013). Stimulus-driven control of explicitly induced attention filtering demands. Psychonomics, Toronto, ON, CA.",
+      "formatted_plain": "Crump, M. J. C. (2013). Stimulus-driven control of explicitly induced attention filtering demands. Psychonomics, Toronto, ON, CA."
+    },
+    {
+      "type": "conference",
+      "year": 2012,
+      "authors": [
+        "Crump, M. J. C.",
+        "Gureckis, T. M.",
+        "McDonnell, J. V."
+      ],
+      "title": "Can internet data be trusted? Validating mechanical turk for cognitive research",
+      "venue": "Psychonomics, Minneapolis, MN",
+      "formatted": "**Crump, M. J. C.**, Gureckis, T. M., & McDonnell, J. V. (2012). Can internet data be trusted? Validating mechanical turk for cognitive research. Psychonomics, Minneapolis, MN.",
+      "formatted_plain": "Crump, M. J. C., Gureckis, T. M., & McDonnell, J. V. (2012). Can internet data be trusted? Validating mechanical turk for cognitive research. Psychonomics, Minneapolis, MN."
+    },
+    {
+      "type": "conference",
+      "year": 2012,
+      "authors": [
+        "Jamieson, R. K.",
+        "Crump, M. J. C.",
+        "Hannah, S. D."
+      ],
+      "title": "A computer tool to simulate and teach associative learning",
+      "venue": "Society for Computers in Psychology, Minneapolis, MN",
+      "formatted": "Jamieson, R. K., **Crump, M. J. C.**, & Hannah, S. D. (2012). A computer tool to simulate and teach associative learning. Society for Computers in Psychology, Minneapolis, MN.",
+      "formatted_plain": "Jamieson, R. K., Crump, M. J. C., & Hannah, S. D. (2012). A computer tool to simulate and teach associative learning. Society for Computers in Psychology, Minneapolis, MN."
+    },
+    {
+      "type": "conference",
+      "year": 2012,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Error detection in Skilled Typing: Ounce of Prevention, Pound of Cure",
+      "venue": "Eastern Psychological Association. Pittsburgh, PA",
+      "formatted": "**Crump, M. J. C.** (2012). Error detection in Skilled Typing: Ounce of Prevention, Pound of Cure. Eastern Psychological Association. Pittsburgh, PA.",
+      "formatted_plain": "Crump, M. J. C. (2012). Error detection in Skilled Typing: Ounce of Prevention, Pound of Cure. Eastern Psychological Association. Pittsburgh, PA."
+    },
+    {
+      "type": "conference",
+      "year": 2012,
+      "authors": [
+        "Jamieson, R. K.",
+        "Hannah, S. D.",
+        "Crump, M. J. C."
+      ],
+      "title": "An instance theory of associative learning",
+      "venue": "Eastern Psychological Association, Pittsburgh, PA",
+      "formatted": "Jamieson, R. K., Hannah, S. D., & **Crump, M. J. C.** (2012). An instance theory of associative learning. Eastern Psychological Association, Pittsburgh, PA.",
+      "formatted_plain": "Jamieson, R. K., Hannah, S. D., & Crump, M. J. C. (2012). An instance theory of associative learning. Eastern Psychological Association, Pittsburgh, PA."
+    },
+    {
+      "type": "conference",
+      "year": 2012,
+      "authors": [
+        "Jamieson, R. K.",
+        "Chubala, C. M.",
+        "Hannah, S. D.",
+        "Crump, M. J. C."
+      ],
+      "title": "An instance-based account of retrospective revaluation",
+      "venue": "Psychonomics, Minneapolis, MI",
+      "formatted": "Jamieson, R. K., Chubala, C. M., Hannah, S. D., & **Crump, M. J. C.** (2012). An instance-based account of retrospective revaluation. Psychonomics, Minneapolis, MI.",
+      "formatted_plain": "Jamieson, R. K., Chubala, C. M., Hannah, S. D., & Crump, M. J. C. (2012). An instance-based account of retrospective revaluation. Psychonomics, Minneapolis, MI."
+    },
+    {
+      "type": "conference",
+      "year": 2012,
+      "authors": [
+        "Mitchell, K.",
+        "Crump, M. J. C."
+      ],
+      "title": "Poverty, attention and the power of the default option",
+      "venue": "Society for Judgment and Decision Making, Minneapolis, MI",
+      "formatted": "\\*\\*Mitchell, K., & **Crump, M. J. C.** (2012). Poverty, attention and the power of the default option. Society for Judgment and Decision Making, Minneapolis, MI.",
+      "formatted_plain": "**Mitchell, K., & Crump, M. J. C. (2012). Poverty, attention and the power of the default option. Society for Judgment and Decision Making, Minneapolis, MI."
+    },
+    {
+      "type": "conference",
+      "year": 2012,
+      "authors": [
+        "Mitchell, K.",
+        "Crump, M. J. C."
+      ],
+      "title": "Continuous tracking of Contingency Changes",
+      "venue": "Eastern Psychological Association. Pittsburgh, PA",
+      "formatted": "\\*\\*Mitchell, K., & **Crump, M. J. C.** (2012). Continuous tracking of Contingency Changes. Eastern Psychological Association. Pittsburgh, PA.",
+      "formatted_plain": "**Mitchell, K., & Crump, M. J. C. (2012). Continuous tracking of Contingency Changes. Eastern Psychological Association. Pittsburgh, PA."
+    },
+    {
+      "type": "conference",
+      "year": 2011,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Mapping the fretboard: Investigating spatial representations of note information in skilled guitarists",
+      "venue": "Canadian Society for Brain, Behavioural, and Cognitive Sciences, Winnipeg, MA, CA",
+      "formatted": "**Crump, M. J. C.** (2011). Mapping the fretboard: Investigating spatial representations of note information in skilled guitarists. Canadian Society for Brain, Behavioural, and Cognitive Sciences, Winnipeg, MA, CA.",
+      "formatted_plain": "Crump, M. J. C. (2011). Mapping the fretboard: Investigating spatial representations of note information in skilled guitarists. Canadian Society for Brain, Behavioural, and Cognitive Sciences, Winnipeg, MA, CA."
+    },
+    {
+      "type": "conference",
+      "year": 2011,
+      "authors": [
+        "Crump, M. J. C."
+      ],
+      "title": "Hitting the wall in skilled typing: Speed/Accuracy tradeoffs and serial processing",
+      "venue": "Psychonomics. Seattle, WA",
+      "formatted": "**Crump, M. J. C.** (2011). Hitting the wall in skilled typing: Speed/Accuracy tradeoffs and serial processing. Psychonomics. Seattle, WA.",
+      "formatted_plain": "Crump, M. J. C. (2011). Hitting the wall in skilled typing: Speed/Accuracy tradeoffs and serial processing. Psychonomics. Seattle, WA."
+    },
+    {
+      "type": "conference",
+      "year": 2011,
+      "authors": [
+        "Jamieson, R. K.",
+        "Hannah, S. D.",
+        "Crump, M. J. C."
+      ],
+      "title": "A simple network model of associative learning (not memory)",
+      "venue": "Society for Computers in Psychology. Seattle, WA",
+      "formatted": "Jamieson, R. K., Hannah, S. D., & **Crump, M. J. C.** (2011). A simple network model of associative learning (not memory). Society for Computers in Psychology. Seattle, WA.",
+      "formatted_plain": "Jamieson, R. K., Hannah, S. D., & Crump, M. J. C. (2011). A simple network model of associative learning (not memory). Society for Computers in Psychology. Seattle, WA."
+    }
+  ],
+  "grants": [
+    {
+      "title": "Generative AI methods and applications for Psychology and the Cognitive Sciences",
+      "funder": "Brooklyn College",
+      "program": "Provost Teaching Innovations Grant 2025-26",
+      "amount": 2500,
+      "role": "PI",
+      "status": "funded",
+      "when": "Spring 2026",
+      "start": 2026,
+      "end": 2026
+    },
+    {
+      "title": "Remembering and forgetting pictures: Testing a computational instance-based account",
+      "funder": "PSC-CUNY",
+      "program": "Traditional B",
+      "amount": 6000,
+      "role": "PI",
+      "status": "funded",
+      "when": "2023-2024",
+      "start": 2023,
+      "end": 2024
+    },
+    {
+      "title": "Instances of cognition: An open-educational resource for introductory Cognitive Psychology",
+      "funder": "CUNY OER Initiative",
+      "amount": 15000,
+      "role": "PI",
+      "status": "funded",
+      "when": "2021",
+      "start": 2021,
+      "end": 2021
+    },
+    {
+      "title": "Recruitment of cognitive control for action sequencing",
+      "funder": "PSC-CUNY",
+      "program": "Traditional B",
+      "amount": 5419.23,
+      "role": "PI",
+      "status": "funded",
+      "when": "July 2017 - June 2018",
+      "start": "2017-07",
+      "end": "2018-06"
+    },
+    {
+      "title": "Acquisition of hierarchical control in skilled action sequencing",
+      "funder": "National Science Foundation",
+      "number": "1353360",
+      "amount": 356073,
+      "role": "PI",
+      "status": "funded",
+      "when": "July 2014 - June 2017",
+      "start": "2014-07",
+      "end": "2017-06"
+    },
+    {
+      "title": "Validating web-based technology for investigating strategic and stimulus-driven attentional control",
+      "funder": "PSC-CUNY",
+      "program": "Traditional A",
+      "number": "66163-00 44",
+      "amount": 3478,
+      "role": "PI",
+      "status": "funded",
+      "when": "Summer 2013",
+      "start": 2013,
+      "end": 2013
+    },
+    {
+      "title": "Chronometric investigations of explicit and implicit error detection processes in skilled typing",
+      "funder": "PSC-CUNY",
+      "program": "Traditional A",
+      "number": "65075-00 43",
+      "amount": 3418,
+      "role": "PI",
+      "status": "funded",
+      "when": "Summer 2012",
+      "start": 2012,
+      "end": 2012
+    },
+    {
+      "title": "Answering questions with data: Teaching computational skills in introductory statistics to psychology undergraduates",
+      "funder": "National Science Foundation",
+      "amount": 299470,
+      "role": "PI",
+      "status": "submitted",
+      "when": "Submitted February 2021",
+      "start": "2021-02"
+    },
+    {
+      "title": "Cognitive, competitive, and emergent control processes for action sequencing",
+      "funder": "National Science Foundation",
+      "amount": 484575,
+      "role": "PI",
+      "status": "submitted",
+      "when": "Submitted August 2017",
+      "start": "2017-08"
+    },
+    {
+      "title": "Cognitive control for action sequencing",
+      "funder": "National Science Foundation",
+      "amount": 138000,
+      "role": "Co-PI",
+      "status": "submitted",
+      "when": "Submitted November 2016",
+      "start": "2016-11"
+    },
+    {
+      "title": "Dynamics of cue-driven control over selection for attention and action",
+      "funder": "National Science Foundation",
+      "amount": 411790,
+      "role": "PI",
+      "status": "submitted",
+      "when": "Submitted August 2016",
+      "start": "2016-08"
+    },
+    {
+      "title": "Designing and testing mediated physical spaces with human interaction sensing for increased multi-party goal satisfaction",
+      "funder": "National Science Foundation",
+      "amount": 980172,
+      "role": "Co-PI",
+      "status": "submitted",
+      "when": "Submitted January 2016",
+      "start": "2016-01"
+    },
+    {
+      "title": "Contingency assessment ability and associative processing in normal, anxiety, orbitofrontal, and dorsolateral pre-frontal lesioned populations",
+      "funder": "National Institutes of Health (SCORE program)",
+      "amount": 285384,
+      "amount_note": "direct costs",
+      "role": "PI",
+      "status": "submitted",
+      "when": "Submitted January 2012",
+      "start": "2012-01"
+    },
+    {
+      "title": "Unraveling the serial-order problem in skilled performance: Investigating dynamic online control and learning of sequential structure in skilled typing",
+      "funder": "CUNY Junior Faculty Research Awards in Science and Engineering",
+      "amount": 50000,
+      "role": "PI",
+      "status": "submitted",
+      "when": "Submitted November 2011",
+      "start": "2011-11"
+    },
+    {
+      "title": "Control hierarchies in error detection and correction",
+      "funder": "PSC-CUNY",
+      "program": "Traditional B",
+      "amount": 5000,
+      "role": "PI",
+      "status": "submitted",
+      "when": "Submitted February 2011",
+      "start": "2011-02"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Doctoral Thesis Award, Certificate of Academic Excellence",
+      "organization": "Canadian Psychological Association",
+      "year": 2008
+    },
+    {
+      "title": "Postgraduate Scholarship (PGS-D)",
+      "organization": "Natural Sciences and Engineering Research Council of Canada (NSERC)",
+      "start": 2005,
+      "end": 2007,
+      "year": 2005
+    },
+    {
+      "title": "Ontario Graduate Scholarship (declined)",
+      "organization": "Government of Ontario",
+      "year": 2005
+    },
+    {
+      "title": "Ontario Graduate Scholarship",
+      "organization": "Government of Ontario",
+      "start": 2003,
+      "end": 2004,
+      "year": 2003
+    }
+  ],
+  "software": [
+    {
+      "name": "midiblender",
+      "description": "An R package for generative MIDI sequencing and analysis",
+      "type": "r-package",
+      "url": "https://www.crumplab.com/midiblender/"
+    },
+    {
+      "name": "NSFrmarkdown",
+      "description": "An R Markdown template for NSF grants",
+      "type": "r-package",
+      "url": "https://github.com/CrumpLab/NSFrmarkdown"
+    },
+    {
+      "name": "Semantic Librarian",
+      "description": "A website of cognitively inspired search engines for journal abstracts in the APA database, the CSBBCS conference database, the Society for Computation in Psychology database, and Psychonomics 2019",
+      "type": "website",
+      "url": "https://www.semanticlibrarian.com"
+    },
+    {
+      "name": "conflictPower",
+      "description": "Monte Carlo power analysis for cognitive control designs",
+      "type": "r-package",
+      "url": "https://www.crumplab.com/conflictPower/"
+    },
+    {
+      "name": "playjareyesores",
+      "description": "Functions for detecting textual overlap between documents",
+      "type": "r-package",
+      "url": "https://www.crumplab.com/playjareyesores/"
+    },
+    {
+      "name": "jspsychr",
+      "description": "Write and run jsPsych experiments from RStudio",
+      "type": "r-package",
+      "url": "https://www.crumplab.com/jspsychr/"
+    },
+    {
+      "name": "RsemanticLibrarian",
+      "description": "R functions for creating semantic librarians, a tool for vectorizing and visualizing semantic spaces from text",
+      "type": "r-package",
+      "url": "https://www.crumplab.com/RsemanticLibrarian/"
+    },
+    {
+      "name": "vertical",
+      "description": "RStudio project template and workflow for sharing psychological research projects as a website",
+      "type": "r-package",
+      "url": "https://www.crumplab.com/vertical/"
+    }
+  ],
+  "teaching": {
+    "courses": [
+      {
+        "level": "undergraduate",
+        "code": "PSYC 2530",
+        "title": "Introduction to Cognitive Psychology",
+        "note": "In-person, async, sync, large sections, OER",
+        "oer": "https://www.crumplab.com/cognition/"
+      },
+      {
+        "level": "undergraduate",
+        "code": "PSYC 3400",
+        "title": "Statistical Methods in Psychological Research",
+        "note": "Large sections, OER",
+        "oer": "https://www.crumplab.com/statistics/",
+        "oer_extra": [
+          {
+            "title": "Statistics lab manual",
+            "url": "https://www.crumplab.com/statisticsLab/"
+          }
+        ]
+      },
+      {
+        "level": "undergraduate",
+        "code": "PSYC 3450W",
+        "title": "Experimental Psychology",
+        "note": "Large sections, OER",
+        "oer": "https://www.crumplab.com/ResearchMethods/",
+        "oer_extra": [
+          {
+            "title": "Experimental lab manual",
+            "url": "https://www.crumplab.com/ResearchMethodsLab/"
+          }
+        ]
+      },
+      {
+        "level": "undergraduate",
+        "code": "PSYC 3470",
+        "title": "Data Analytics and Data Visualization in the Social and Behavioral Sciences",
+        "note": "OER"
+      },
+      {
+        "level": "undergraduate",
+        "code": "PSYC 3530",
+        "title": "Advanced Cognitive Psychology"
+      },
+      {
+        "level": "undergraduate",
+        "code": "PSYC 2001",
+        "title": "Laboratory Experiences",
+        "note": "Student mentoring"
+      },
+      {
+        "level": "undergraduate",
+        "code": "PSYC 5001",
+        "title": "Independent Research I",
+        "note": "Student mentoring"
+      },
+      {
+        "level": "undergraduate",
+        "code": "PSYC 5002",
+        "title": "Independent Research II",
+        "note": "Student mentoring"
+      },
+      {
+        "level": "undergraduate",
+        "code": "PSYC 5003",
+        "title": "Independent Research III",
+        "note": "Student mentoring"
+      },
+      {
+        "level": "undergraduate",
+        "code": "MCHC 1002",
+        "title": "Seminar 2: People of New York City",
+        "note": "Macaulay Honors College, outside the Psychology Department"
+      },
+      {
+        "level": "masters",
+        "code": "PSYC 7765G",
+        "title": "Statistical Methods Application I",
+        "note": "OER",
+        "oer": "https://www.crumplab.com/rstatsforpsych/"
+      },
+      {
+        "level": "masters",
+        "code": "PSYC 7766G",
+        "title": "Statistical Methods Application II",
+        "note": "OER",
+        "oer": "https://www.crumplab.com/rstatsmethods/"
+      },
+      {
+        "level": "masters",
+        "code": "PSYC 7709G",
+        "title": "Special Topics: Using R for Reproducible Psychological Research",
+        "note": "OER",
+        "oer": "https://www.crumplab.com/psyc7709_2019/"
+      },
+      {
+        "level": "masters",
+        "code": "PSYC 7792G",
+        "title": "Independent Reading",
+        "note": "Student mentoring"
+      },
+      {
+        "level": "masters",
+        "code": "PSYC 7795G",
+        "title": "Independent Psychological Research I",
+        "note": "Student mentoring"
+      },
+      {
+        "level": "masters",
+        "code": "PSYC 7796G",
+        "title": "Independent Psychological Research II",
+        "note": "Student mentoring"
+      },
+      {
+        "level": "masters",
+        "code": "PSYC 7781G",
+        "title": "Research in Psychology",
+        "note": "Master's theses"
+      },
+      {
+        "level": "doctoral",
+        "code": "PSYC 73800",
+        "title": "Cognitive Psychology",
+        "note": "Course organizer"
+      },
+      {
+        "level": "doctoral",
+        "code": "PSYC 80200",
+        "title": "Independent Study",
+        "note": "Student mentoring"
+      },
+      {
+        "level": "doctoral",
+        "code": "PSYC 80102",
+        "title": "Seminar in Special Topics: CCP Colloquium"
+      },
+      {
+        "level": "doctoral",
+        "code": "PSYC 80103",
+        "title": "Special Topics: Computer Programming for Experimental Psychology",
+        "note": "OER",
+        "oer": "https://www.crumplab.com/programmingforpsych/"
+      },
+      {
+        "level": "doctoral",
+        "code": "PSYC 80103",
+        "title": "Special Topics: Cognitive Technologies: From Theory and Data to Application",
+        "note": "OER"
+      },
+      {
+        "level": "doctoral",
+        "code": "PSYC 80103",
+        "title": "Special Topics: Memory: Foundations and Current Issues",
+        "note": "Co-taught with E. Chua"
+      },
+      {
+        "level": "doctoral",
+        "code": "PSYC 80103",
+        "title": "Special Topics Seminar: Learning and Attention",
+        "note": "Co-taught with A. Delamater"
+      },
+      {
+        "level": "doctoral",
+        "code": "PSYC 72400",
+        "title": "Career Development",
+        "note": "Co-taught with E. Chua"
+      },
+      {
+        "level": "doctoral",
+        "code": "PSYC 90000",
+        "title": "Dissertation Supervision"
+      }
+    ],
+    "notes": "OER refers to open educational resources authored by M. J. C. Crump. These are Creative Commons licensed resources that are free for students to use, and for others to copy, remix, and reuse.",
+    "certificates": [
+      {
+        "title": "Effective Practice Framework certificate in effective college instruction",
+        "organization": "Association of College and University Educators and the American Council on Education",
+        "when": "2020-2021",
+        "year": 2021,
+        "note": "A 26-week course."
+      }
+    ]
+  },
+  "students": {
+    "mentees": [
+      {
+        "level": "postdoc",
+        "name": "Lawrence Behmer",
+        "surname": "Behmer",
+        "initials": "L. P.",
+        "when": "Summer 2014 - 2018",
+        "start": 2014,
+        "end": 2018
+      },
+      {
+        "level": "doctoral",
+        "name": "Drew Shives",
+        "surname": "Shives",
+        "initials": "D. W.",
+        "start": 2021,
+        "end": null,
+        "program": "Cognitive and Comparative Psychology training area"
+      },
+      {
+        "level": "doctoral",
+        "name": "Nicholaus Brosowsky",
+        "surname": "Brosowsky",
+        "initials": "N. P.",
+        "start": 2014,
+        "end": 2019,
+        "program": "Cognition, Language, and Development training area"
+      },
+      {
+        "level": "doctoral",
+        "name": "Kevonte Mitchell",
+        "surname": "Mitchell",
+        "initials": "K. M.",
+        "start": 2012,
+        "end": null,
+        "program": "Brain, Cognition, and Behavior program"
+      },
+      {
+        "level": "doctoral",
+        "name": "Felicia Valetta",
+        "surname": "Valetta",
+        "initials": "F.",
+        "start": 2011,
+        "end": 2014,
+        "program": "Brain, Cognition, and Behavior program"
+      },
+      {
+        "level": "masters",
+        "name": "Ashot Balayan",
+        "surname": "Balayan",
+        "initials": "A.",
+        "note": "2 Independent Research, 1 Independent Reading, Master's thesis"
+      },
+      {
+        "level": "masters",
+        "name": "Yi Sin Goh",
+        "surname": "Goh",
+        "initials": "Y. S.",
+        "note": "1 Independent Research"
+      },
+      {
+        "level": "masters",
+        "name": "Yashodra Khan",
+        "surname": "Khan",
+        "initials": "Y.",
+        "note": "1 Independent Reading, 1 Independent Research"
+      },
+      {
+        "level": "masters",
+        "name": "Kevonte Mitchell",
+        "surname": "Mitchell",
+        "initials": "K. M.",
+        "note": "1 Independent Reading, 1 Independent Research"
+      },
+      {
+        "level": "masters",
+        "name": "Michelle Villavicencio",
+        "surname": "Villavicencio",
+        "initials": "M.",
+        "note": "1 Independent Research, Master's thesis"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Michael Blecher",
+        "surname": "Blecher",
+        "initials": "M.",
+        "note": "2 Independent Research"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Ericka Boucard",
+        "surname": "Boucard",
+        "initials": "E.",
+        "note": "1 Independent Research"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Esthena Brutten",
+        "surname": "Brutten",
+        "initials": "E.",
+        "note": "2 Independent Research, 1 Honors thesis, Scholars Program"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Rebecca Colon",
+        "surname": "Colon",
+        "initials": "R.",
+        "note": "REU student (Research Experience for Undergraduates)"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Elena Domingo",
+        "surname": "Domingo",
+        "initials": "E.",
+        "note": "2 Independent Research, MARC (Maximizing Access to Research Careers)"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Ece Ersoy",
+        "surname": "Ersoy",
+        "initials": "E.",
+        "note": "1 Laboratory Experience, Honors thesis, Macaulay Honors"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Rochelle Hall",
+        "surname": "Hall",
+        "initials": "R.",
+        "note": "REU student"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Jonathan Hagler",
+        "surname": "Hagler",
+        "initials": "J.",
+        "note": "2 Independent Research"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Wesley Huang",
+        "surname": "Huang",
+        "initials": "W.",
+        "note": "Tow Presidential Mentee (1st cohort), 2 Laboratory Experience"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Patrick Ihejirika",
+        "surname": "Ihejirika",
+        "initials": "P.",
+        "note": "1 MARC (Maximizing Access to Research Careers), Honors thesis, Goldwater Scholarship winner"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Austin Kaplan",
+        "surname": "Kaplan",
+        "initials": "A.",
+        "note": "2 Independent Research, Honors thesis"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Walter Lai",
+        "surname": "Lai",
+        "initials": "W.",
+        "note": "Volunteer research assistant"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Shawn Lauzon",
+        "surname": "Lauzon",
+        "initials": "S.",
+        "note": "1 Independent Research"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Myrodati Lyristis",
+        "surname": "Lyristis",
+        "initials": "M.",
+        "note": "1 Honors thesis, Scholars Program"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Wing Jing Mak",
+        "surname": "Mak",
+        "initials": "W. J.",
+        "note": "1 Independent Research"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Shifa Maqsood",
+        "surname": "Maqsood",
+        "initials": "S.",
+        "note": "Tow Presidential Mentee (2nd cohort), 1 Independent Research"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Beni Mftidi",
+        "surname": "Mftidi",
+        "initials": "B.",
+        "note": "1 Independent Research"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Kendra Scarlett Reynoso Morena",
+        "surname": "Reynoso Morena",
+        "initials": "K. S.",
+        "note": "1 Independent Reading"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Konstantin Nestoiter",
+        "surname": "Nestoiter",
+        "initials": "K.",
+        "note": "1 Independent Research"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Emily Paolillo",
+        "surname": "Paolillo",
+        "initials": "E.",
+        "note": "2 Independent Research, REU, Macaulay Honors Program"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Florina Petcu",
+        "surname": "Petcu",
+        "initials": "F.",
+        "note": "1 Independent Research, CUNY BA"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Mark Rayev",
+        "surname": "Rayev",
+        "initials": "M.",
+        "note": "1 Laboratory Experience, Honors thesis, Macaulay Honors"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Ana Sanchez",
+        "surname": "Sanchez",
+        "initials": "A.",
+        "note": "REU student"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Marissa Scotto",
+        "surname": "Scotto",
+        "initials": "M.",
+        "note": "REU student"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Chin Yen Tan",
+        "surname": "Tan",
+        "initials": "C. Y.",
+        "note": "1 Independent Research"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Niles Uy",
+        "surname": "Uy",
+        "initials": "N.",
+        "note": "1 Laboratory Experience, 2 Independent Research, 1 Honors thesis"
+      },
+      {
+        "level": "undergraduate",
+        "name": "Hao Zhu",
+        "surname": "Zhu",
+        "initials": "H.",
+        "note": "1 Laboratory Experience, 1 Independent Research, CUNY BA"
+      }
+    ],
+    "committees": [
+      {
+        "role": "Committee member, dissertation defense",
+        "student": "Janani Rajagopalan",
+        "institution": "Graduate Center of CUNY",
+        "location": "New York, NY",
+        "year": 2023
+      },
+      {
+        "role": "Committee member, dissertation defense",
+        "student": "Kelly Cotton",
+        "institution": "Graduate Center of CUNY",
+        "location": "New York, NY",
+        "year": 2022
+      },
+      {
+        "role": "Committee member, dissertation defense",
+        "student": "Melissa Horger",
+        "institution": "Graduate Center of CUNY",
+        "location": "New York, NY",
+        "year": 2021
+      },
+      {
+        "role": "Committee chair, dissertation defense",
+        "student": "Nicholaus Brosowsky",
+        "institution": "Graduate Center of CUNY",
+        "location": "New York, NY",
+        "year": 2019
+      },
+      {
+        "role": "Committee member, dissertation defense",
+        "student": "Daniel Meredith",
+        "institution": "Graduate Center of CUNY",
+        "location": "New York, NY",
+        "year": 2017
+      },
+      {
+        "role": "External reader, dissertation defense",
+        "student": "Rachel Searston",
+        "institution": "School of Psychology, The University of Queensland",
+        "location": "Australia",
+        "year": 2016
+      },
+      {
+        "role": "Committee member, dissertation defense",
+        "student": "Natasha Nadler",
+        "institution": "Graduate Center of CUNY",
+        "location": "New York, NY",
+        "year": 2016
+      },
+      {
+        "role": "Committee member, dissertation defense",
+        "student": "Denise Pergolizzi",
+        "institution": "Graduate Center of CUNY",
+        "location": "New York, NY",
+        "year": 2015
+      },
+      {
+        "role": "Committee member, dissertation defense",
+        "student": "Justin Ostrofsky",
+        "institution": "Graduate Center of CUNY",
+        "location": "New York, NY",
+        "year": 2013
+      },
+      {
+        "role": "External reader, dissertation defense",
+        "student": "John McDonnell",
+        "institution": "Department of Psychology, New York University",
+        "location": "New York, NY",
+        "year": 2013
+      },
+      {
+        "role": "External reader, dissertation defense",
+        "student": "Maryem Torres-Quesada",
+        "institution": "Department of Psychology, University of Granada",
+        "location": "Granada, Spain",
+        "year": 2013
+      },
+      {
+        "role": "External reader, dissertation defense",
+        "student": "Elena Cañadas",
+        "institution": "Department of Psychology, University of Granada",
+        "location": "Granada, Spain",
+        "year": 2012
+      }
+    ]
+  },
+  "service": [
+    {
+      "category": "college",
+      "role": "Curriculum Committee for the Interdisciplinary Undergraduate Major in Data Analytics",
+      "organization": "Brooklyn College",
+      "when": "Spring 2021 - present",
+      "start": 2021,
+      "end": null
+    },
+    {
+      "category": "division",
+      "role": "Faculty Council: Chair, Department of Psychology",
+      "organization": "Brooklyn College",
+      "when": "Fall 2024 - present",
+      "start": 2024,
+      "end": null
+    },
+    {
+      "category": "division",
+      "role": "Faculty Council: Natural and Behavioral Sciences Representative",
+      "organization": "Brooklyn College",
+      "when": "Fall 2015 - May 2018",
+      "start": 2015,
+      "end": 2018
+    },
+    {
+      "category": "department",
+      "role": "Co-Chair, Honors and Awards Committee",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "Fall 2025 - present",
+      "start": 2025,
+      "end": null
+    },
+    {
+      "category": "department",
+      "role": "Chair, Department of Psychology",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "Fall 2024 - present",
+      "start": 2024,
+      "end": null
+    },
+    {
+      "category": "department",
+      "role": "Department Self Study, Appendices working group",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "2024",
+      "start": 2024,
+      "end": 2024
+    },
+    {
+      "category": "department",
+      "role": "Open Area Search Committee",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "Fall 2022 - Spring 2023",
+      "start": 2022,
+      "end": 2023
+    },
+    {
+      "category": "department",
+      "role": "Master of Science in Psychological Research program reboot committee",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "2022 - present",
+      "start": 2022,
+      "end": null
+    },
+    {
+      "category": "department",
+      "role": "Experimental Psychology Masters Comprehensive Exam Evaluator",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "2021",
+      "start": 2021,
+      "end": 2021
+    },
+    {
+      "category": "department",
+      "role": "Co-chair, search committee for lecturer line",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "Spring 2019",
+      "start": 2019,
+      "end": 2019
+    },
+    {
+      "category": "department",
+      "role": "Director of the Experimental Psychology Graduate Program",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "Spring 2019",
+      "start": 2019,
+      "end": 2019
+    },
+    {
+      "category": "department",
+      "role": "Appointments Committee (elected)",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "May 2018 - June 2021; May 2022 - present",
+      "start": 2018,
+      "end": null
+    },
+    {
+      "category": "department",
+      "role": "Experimental Psychology Masters Executive Committee",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "2018, Spring 2019, Fall 2020, 2021, 2022, 2023",
+      "start": 2018,
+      "end": 2023
+    },
+    {
+      "category": "department",
+      "role": "Ad Hoc Independent Research Course Committee (chair)",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "2018",
+      "start": 2018,
+      "end": 2018
+    },
+    {
+      "category": "department",
+      "role": "Doctoral Student Funding Committee",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "February 2017",
+      "start": 2017,
+      "end": 2017
+    },
+    {
+      "category": "department",
+      "role": "Quantitative Job Search Committee",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "Fall 2014",
+      "start": 2014,
+      "end": 2014
+    },
+    {
+      "category": "department",
+      "role": "Department Website Author",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "Fall 2014 - present",
+      "start": 2014,
+      "end": null
+    },
+    {
+      "category": "department",
+      "role": "Library Technology Liaison",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "Fall 2014 - Spring 2018",
+      "start": 2014,
+      "end": 2018
+    },
+    {
+      "category": "department",
+      "role": "Experimental Psychology Master's Program Curriculum Committee",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "Summer 2014 - Fall 2014",
+      "start": 2014,
+      "end": 2014
+    },
+    {
+      "category": "department",
+      "role": "Psychology Undergraduate Program Assessments Ad Hoc Committee",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "Spring 2014",
+      "start": 2014,
+      "end": 2014
+    },
+    {
+      "category": "department",
+      "role": "Experimental Masters Admissions Committee",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "2013, 2017, 2018, 2019",
+      "start": 2013,
+      "end": 2019
+    },
+    {
+      "category": "department",
+      "role": "Behavioral Neuroscience Job Search Committee",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "Fall 2013",
+      "start": 2013,
+      "end": 2013
+    },
+    {
+      "category": "department",
+      "role": "Master's Program Review Committee",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "Spring 2013",
+      "start": 2013,
+      "end": 2013
+    },
+    {
+      "category": "department",
+      "role": "Undergraduate Honors Committee",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "Spring 2012 - present",
+      "start": 2012,
+      "end": null
+    },
+    {
+      "category": "department",
+      "role": "Library Liaison",
+      "organization": "Department of Psychology, Brooklyn College",
+      "when": "Fall 2011 - Spring 2013",
+      "start": 2011,
+      "end": 2013
+    },
+    {
+      "category": "student-activities",
+      "role": "Faculty liaison to the Undergraduate Psychology Club",
+      "organization": "Brooklyn College",
+      "when": "Fall 2013 - 2015",
+      "start": 2013,
+      "end": 2015
+    },
+    {
+      "category": "student-activities",
+      "role": "Introductory lectures for visiting high school students",
+      "organization": "Brooklyn College",
+      "when": "Spring 2012, Fall 2012",
+      "start": 2012,
+      "end": 2012
+    },
+    {
+      "category": "other-college",
+      "role": "Brooklyn College Honors Academy Reader",
+      "organization": "Brooklyn College",
+      "when": "2011, 2012, 2013, 2014, 2016, 2017, 2021, 2022, 2023, 2024",
+      "start": 2011,
+      "end": 2024
+    },
+    {
+      "category": "other-college",
+      "role": "Course pack author for PSYC 2530 Introduction to Cognitive Psychology",
+      "organization": "Brooklyn College"
+    },
+    {
+      "category": "other-college",
+      "role": "Course pack author for PSYC 3530 Advanced Cognitive Psychology",
+      "organization": "Brooklyn College"
+    },
+    {
+      "category": "other-college",
+      "role": "Website creator for the Cognitive and Comparative Psychology training area",
+      "organization": "Graduate Center of CUNY"
+    },
+    {
+      "category": "other-college",
+      "role": "Brooklyn College Day coordinator",
+      "organization": "Department of Psychology, Brooklyn College"
+    },
+    {
+      "category": "other-college",
+      "role": "Ad hoc Internet Satisfaction Committee",
+      "organization": "Brooklyn College"
+    },
+    {
+      "category": "university",
+      "role": "Co-chair, Psychology Discipline Council, CUNY",
+      "organization": "CUNY",
+      "when": "Fall 2026 - present",
+      "start": 2026,
+      "end": null
+    },
+    {
+      "category": "doctoral-program",
+      "role": "Executive Committee, Department of Psychology, Graduate Center of CUNY",
+      "organization": "Graduate Center of CUNY",
+      "when": "Fall 2024 - present",
+      "start": 2024,
+      "end": null
+    },
+    {
+      "category": "doctoral-program",
+      "role": "PSC-CUNY Grant Review Panel, Cycle 55 (reviewer)",
+      "organization": "CUNY",
+      "when": "2024",
+      "start": 2024,
+      "end": 2024
+    },
+    {
+      "category": "doctoral-program",
+      "role": "Psychology Quantitative Research Ad Hoc Committee",
+      "organization": "Graduate Center of CUNY",
+      "when": "Spring 2021",
+      "start": 2021,
+      "end": 2021
+    },
+    {
+      "category": "doctoral-program",
+      "role": "Cognition and Comparative Psychology Training Area Executive Committee",
+      "organization": "Graduate Center of CUNY",
+      "when": "2018 - present",
+      "start": 2018,
+      "end": null
+    },
+    {
+      "category": "doctoral-program",
+      "role": "Merger Committee to merge the Cognition, Language, and Development training area with the Animal Behavior and Comparative Psychology training area",
+      "organization": "Graduate Center of CUNY",
+      "when": "2017 - May 2018",
+      "start": 2017,
+      "end": 2018
+    },
+    {
+      "category": "doctoral-program",
+      "role": "Cognition, Language, and Development Training Area Executive Committee",
+      "organization": "Graduate Center of CUNY",
+      "when": "January 2015 - May 2018",
+      "start": 2015,
+      "end": 2018
+    },
+    {
+      "category": "doctoral-program",
+      "role": "Training Area and Cluster Organization Committee",
+      "organization": "Graduate Center of CUNY",
+      "when": "January 2015 - 2017",
+      "start": 2015,
+      "end": 2017
+    },
+    {
+      "category": "doctoral-program",
+      "role": "Head of the Cognition, Language, and Development Training Area",
+      "organization": "Graduate Center of CUNY",
+      "when": "December 2014 - May 2018",
+      "start": 2014,
+      "end": 2018
+    },
+    {
+      "category": "doctoral-program",
+      "role": "Cognition, Language, and Development Admissions Committee",
+      "organization": "Graduate Center of CUNY",
+      "when": "Fall 2014, 2015, 2016, 2017, 2018",
+      "start": 2014,
+      "end": 2018
+    },
+    {
+      "category": "doctoral-program",
+      "role": "Cognition, Language, and Development Ad Hoc Curriculum Committee",
+      "organization": "Graduate Center of CUNY",
+      "when": "Fall 2013",
+      "start": 2013,
+      "end": 2013
+    },
+    {
+      "category": "doctoral-program",
+      "role": "Cognition, Brain and Behavior Executive Committee",
+      "organization": "Graduate Center of CUNY",
+      "when": "Fall 2012",
+      "start": 2012,
+      "end": 2012
+    },
+    {
+      "category": "professional",
+      "role": "Guest Editor, Gordon D. Logan Festschrift (with D. W. Schneider and F. Verbruggen)",
+      "organization": "The American Journal of Psychology, 138(2)",
+      "when": "2025",
+      "start": 2025,
+      "end": 2025
+    },
+    {
+      "category": "professional",
+      "role": "Diversity, Equity and Inclusion Committee",
+      "organization": "Society for Computation in Psychology (SCiP)",
+      "when": "2020-2021",
+      "start": 2020,
+      "end": 2021
+    },
+    {
+      "category": "professional",
+      "role": "Consulting Editor",
+      "organization": "Psychonomic Bulletin & Review",
+      "when": "2019 - present",
+      "start": 2019,
+      "end": null
+    },
+    {
+      "category": "professional",
+      "role": "Review Board",
+      "organization": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+      "when": "2018 - present",
+      "start": 2018,
+      "end": null
+    },
+    {
+      "category": "professional",
+      "role": "Steering Committee",
+      "organization": "Society for Computation in Psychology (SCiP)",
+      "when": "Fall 2014 - present",
+      "start": 2014,
+      "end": null
+    },
+    {
+      "category": "professional",
+      "role": "Review Board",
+      "organization": "Canadian Journal of Experimental Psychology",
+      "when": "Fall 2012 - present",
+      "start": 2012,
+      "end": null
+    },
+    {
+      "category": "professional",
+      "role": "Member",
+      "organization": "Eastern Psychological Association"
+    },
+    {
+      "category": "professional",
+      "role": "Member",
+      "organization": "Psychonomic Society"
+    }
+  ],
+  "reviewing": {
+    "grant_reviewing": [
+      {
+        "organization": "National Science Foundation (PAC division)",
+        "role": "Panel Reviewer",
+        "when": "Spring 2017",
+        "year": 2017
+      },
+      {
+        "organization": "National Science Foundation",
+        "role": "External Grant Reviewer",
+        "when": "2016, 2017",
+        "year": 2016
+      },
+      {
+        "organization": "French National Research Agency",
+        "role": "External Grant Reviewer",
+        "when": "February 2013",
+        "year": 2013
+      }
+    ],
+    "journals": {
+      "role": "Ad hoc reviewer",
+      "when": "2011 - present",
+      "titles": [
+        "Acta Psychologica",
+        "Attention, Perception, and Psychophysics",
+        "Behavior Research Methods",
+        "Canadian Journal of Experimental Psychology",
+        "Cerebral Cortex",
+        "Cognition",
+        "Cognitive Psychology",
+        "Cognitive Science",
+        "Connection Science",
+        "Consciousness and Cognition",
+        "Current Directions in Psychological Science",
+        "Experimental Psychology",
+        "Frontiers in Cognition",
+        "Journal of Experimental Psychology: Applied",
+        "Journal of Experimental Psychology: Animal Learning and Cognition",
+        "Journal of Experimental Psychology: General",
+        "Journal of Experimental Psychology: Human Perception and Performance",
+        "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+        "Perceptual and Motor Skills",
+        "Psicologica",
+        "Psychological Research",
+        "Psychonomic Bulletin & Review",
+        "Quarterly Journal of Experimental Psychology"
+      ]
+    }
+  }
+}
