@@ -30,7 +30,7 @@ jobs:
 
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: "1.6.43"
+          version: "1.10.18"   # the version the pipeline was tested with
 
       - name: Validate data
         run: python3 scripts/validate.py
