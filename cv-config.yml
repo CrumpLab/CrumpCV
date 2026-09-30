@@ -1,0 +1,16 @@
+# Rendering options shared by the academic CV and the Brooklyn College form.
+refereed_marker: true      # append "R." after the title of refereed publications (as in the 2024 CV)
+mentee_stars: true         # star mentee co-authors on publications and talks, using students.yml
+bold_own_name: true        # bold the CV owner's name in author lists
+publication_numbering: descending   # descending (newest = 1, like the 2024 CV) | ascending
+recent_since: 2016         # BC form: publications from this year on are "Recent"; earlier are "Previous"
+mentee_symbols:            # star legend
+  postdoc: "*"
+  doctoral: "**"
+  undergraduate: "***"
+  masters: "†"
+mentee_labels:
+  postdoc: Postdoctoral Associate
+  doctoral: Doctoral Student
+  undergraduate: Undergraduate Student
+  masters: Master's Student

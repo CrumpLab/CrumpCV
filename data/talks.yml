@@ -1,0 +1,431 @@
+# Talks and presentations, newest first. type: invited | conference | workshop
+# authors: list of "Surname, I. I." strings; mentee co-authors are starred automatically from students.yml.
+# venue: meeting or host, with location.
+- type: invited
+  year: 2022
+  authors:
+  - Crump, M. J. C.
+  title: Instance theory as a domain-general intuition pump for cognition
+  venue: CCP colloquium @ The Graduate Center of CUNY
+- type: invited
+  year: 2019
+  authors:
+  - Crump, M. J. C.
+  title: 'Betrayed by your fingertips: Keystroke dynamics in typing as cognitive fingerprints'
+  venue: Brain and Cognitive Sciences Seminar @ University of Manitoba, Winnipeg, Manitoba, Canada
+- type: invited
+  year: 2018
+  authors:
+  - Crump, M. J. C.
+  title: 'Betrayed by your fingertips: Keystroke dynamics in typing as cognitive fingerprints'
+  venue: ConCats seminar @ NYU, New York, NY
+- type: invited
+  year: 2018
+  authors:
+  - Crump, M. J. C.
+  title: Creating Interactive Open Educational Resources with Hypothesis
+  venue: Faculty Day Conference @ Brooklyn College, Brooklyn, NY
+- type: invited
+  year: 2018
+  authors:
+  - Crump, M. J. C.
+  title: 'Coordinating cognition at the fingertips: Insights from investigations into skilled typing ability'
+  venue: Department of Psychology, City Tech, Brooklyn, NY
+- type: invited
+  year: 2017
+  authors:
+  - Crump, M. J. C.
+  title: 'Coordinating cognition at the fingertips: Insights from investigations into skilled typing ability'
+  venue: Colloquium series, Department of Psychology, Bard College, Annandale-On-Hudson, NY
+- type: invited
+  year: 2016
+  authors:
+  - Crump, M. J. C.
+  title: 'The ways prior experience guides cognitive control: Proactive, Reactive, and retrieval-driven control'
+  venue: Cognition and Perception Seminar, Department of Psychology, Neuroscience, and Behavior, McMaster University, ON, Canada
+- type: workshop
+  year: 2016
+  authors:
+  - Crump, M. J. C.
+  - Gureckis, T. M.
+  title: Uses and challenges of Mechanical Turk
+  venue: Invited Workshop at the Association for Psychological Science, Chicago, IL
+- type: workshop
+  year: 2015
+  authors:
+  - Crump, M. J. C.
+  - Gureckis, T. M.
+  title: Uses and challenges of Mechanical Turk
+  venue: Invited Workshop at the Association for Psychological Science, New York, NY
+- type: invited
+  year: 2014
+  authors:
+  - Crump, M. J. C.
+  title: 'Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting'
+  venue: Colloquium series, Department of Psychology, University of Manitoba, MB, CA
+- type: invited
+  year: 2014
+  authors:
+  - Crump, M. J. C.
+  title: 'Associative learning of attentional control strategies: Evidence from the proportion congruent literature'
+  venue: Colloquium series, Department of Psychology, New York University, New York, NY
+- type: invited
+  year: 2013
+  authors:
+  - Crump, M. J. C.
+  title: 'Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting'
+  venue: Colloquium series, Department of Psychology, McMaster University, ON, CA
+- type: invited
+  year: 2012
+  authors:
+  - Crump, M. J. C.
+  title: 'Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting'
+  venue: Cognitive Lunch Seminar, Department of Psychology, Columbia University, New York, NY
+- type: invited
+  year: 2012
+  authors:
+  - Crump, M. J. C.
+  title: 'Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting'
+  venue: Cognitive Seminar, Department of Psychology, University of Granada, Spain
+- type: invited
+  year: 2010
+  authors:
+  - Crump, M. J. C.
+  title: 'Coordinating learning, memory, and attention during performance: Insights from the psychology of skilled typewriting'
+  venue: Invited Job talk. Psychology Department at Brooklyn College of CUNY
+- type: conference
+  year: 2023
+  authors:
+  - Crump, M. J. C.
+  title: Extending global-matching models to pictures and the Vokey effect
+  venue: Canadian Society for Brain and Behavioral Sciences. Guelph
+- type: conference
+  year: 2022
+  authors:
+  - Shives, D. W.
+  - Ihejirika, P.
+  - Crump, M. J. C.
+  title: The role of stimulus duration in directed forgetting for natural scenes
+  venue: Psychonomics. Boston
+- type: conference
+  year: 2021
+  authors:
+  - Jamieson, R. K.
+  - Crump, M. J. C.
+  title: An instance-based theory of implicit inference
+  venue: Canadian Society for Brain, Behavior and Cognitive Science, Montreal
+- type: conference
+  year: 2020
+  authors:
+  - Crump, M. J. C.
+  - Vuorre, M.
+  title: 'Creating, curating, and communicating reproducible research with R packages: Vertical as a full-stack example'
+  venue: Society for Computation in Psychology, Online
+- type: conference
+  year: 2019
+  authors:
+  - Crump, M. J. C.
+  - Jamieson, R. K.
+  - Aujla, H.
+  title: 'Semantic Librarian for SCIP Abstracts: An R Shiny App and Package for Searching and Visualizing Semantic Spaces'
+  venue: Society for Computation in Psychology, Montreal
+- type: conference
+  year: 2019
+  authors:
+  - Chammany, M. B.
+  - Palkowitz, S. R.
+  - Crump, M. J. C.
+  - Behmer, L. P.
+  title: 'Changes in Cognitive Control After High-Demand Trials During Continuous Motor Performance: Slower Rts and Increases in Midline Theta'
+  venue: Psychonomics, Montreal
+- type: conference
+  year: 2019
+  authors:
+  - Chammany, M. B.
+  - Palkowitz, S. R.
+  - Crump, M. J. C.
+  - Behmer, L. P.
+  title: Increases in Midline and Frontal Theta Reflect the Degree of Cognitive Control Required During Continuous Motor Performance When Explicitly Monitoring Output
+  venue: Psychonomics, Montreal
+- type: conference
+  year: 2018
+  authors:
+  - Jamieson, R. K.
+  - Aujla, H.
+  - Crump, M. J. C.
+  - Cook, M.
+  title: Using semantic memory theory to build an applied cognitive search engine
+  venue: Society for Computers in Psychology, New Orleans
+- type: conference
+  year: 2018
+  authors:
+  - Crump, M. J. C.
+  - Brosowsky, N. B.
+  title: 'Instances and information: An instance theory account of sensitivity to uncertainty in natural text production'
+  venue: Society for Computers in Psychology. New Orleans
+- type: conference
+  year: 2018
+  authors:
+  - Brosowsky, N. B.
+  - Crump, M. J. C.
+  title: You should hate this movie! Detecting hidden attitudes of online persuaders
+  venue: Psychonomics, New Orleans
+- type: conference
+  year: 2017
+  authors:
+  - Brosowsky, N. B.
+  - Crump, M. J. C.
+  title: 'Same Context, Different Control: Flexibly Shifting Between Context-Specific Control Settings'
+  venue: Psychonomics, Vancouver
+- type: conference
+  year: 2017
+  authors:
+  - Brosowsky, N. B.
+  - Crump, M. J. C.
+  title: Learning to Selectively Ignore Information
+  venue: Eastern Psychological Association, Boston
+- type: conference
+  year: 2017
+  authors:
+  - Behmer, L. P.
+  - Crump, M. J. C.
+  - Jantzen, K. J.
+  - Martinez, S.
+  - Walls, R.
+  - Amir-Brownstein, E.
+  - Jaye, A.
+  - Leytze, M.
+  - Lucier, K.
+  title: Motor evoked potentials reflect changes in rapid inhibitory control during serial ordering
+  venue: Cognitive Neuroscience Society, San Francisco
+- type: conference
+  year: 2017
+  authors:
+  - Behmer, L. P.
+  - Crump, M. J. C.
+  title: Cognitive Control for Action Sequencing
+  venue: Eastern Psychological Association, Boston
+- type: conference
+  year: 2016
+  month: November
+  authors:
+  - Behmer, L. P.
+  - Crump, M. J. C.
+  title: 'Theta-event related synchrony (ERS) as an index of outer-loop control during typing: Neural evidence supporting the two-loop theory of typing'
+  venue: Psychonomics, Boston, MA
+- type: conference
+  year: 2016
+  month: November
+  authors:
+  - Brosowsky, N. P.
+  - Crump, M. J. C.
+  title: Long(er)-term item-specific Gratton effects
+  venue: Psychonomics, Boston, MA
+- type: conference
+  year: 2016
+  month: June
+  authors:
+  - Jamieson, R. K.
+  - Chubala, C. M.
+  - Crump, M. J. C.
+  - Hannah, S. D.
+  title: A computational analysis of learning and heuristic inference
+  venue: Canadian Society for Brain, Behaviour, and Cognitive Science, University of Ottawa, Ottawa, ON, Canada
+- type: conference
+  year: 2016
+  month: June
+  authors:
+  - Johns, B. T.
+  - Jamieson, R. K.
+  - Crump, J. C.
+  - Jones, M. N.
+  - Mewhort, D. J. K.
+  title: The combinatorial power of experience
+  venue: Canadian Society for Brain, Behaviour, and Cognitive Science, University of Ottawa, Ottawa, ON, Canada
+- type: conference
+  year: 2016
+  authors:
+  - Behmer, L. P.
+  - Crump, M. J. C.
+  title: 'Try not to think about what you’re doing: Event-related desynchronization (ERD) in the SMA and event-related synchronization (ERS) in the frontal lobe reveals a dissociation of hierarchically controlled outer and inner loop processes during typing'
+  venue: Cognitive Neuroscience Society. New York, NY
+- type: conference
+  year: 2016
+  authors:
+  - Brosowsky, N. P.
+  - Crump, M. J. C.
+  title: 'How typists talk to their fingers: Evidence for word-level verbal control of skilled action sequencing'
+  venue: International Meeting of the Psychonomic Society, Granada, Spain
+- type: conference
+  year: 2016
+  authors:
+  - Crump, M. J. C.
+  - Brosowsky, N. P.
+  title: 'Context-specific proportion congruent effects for frequency unbiased items: Novel extensions and analyses of reproducibility'
+  venue: International Meeting of the Psychonomic Society, Granada, Spain
+- type: conference
+  year: 2016
+  authors:
+  - Behmer, L. P.
+  - Crump, M. J. C.
+  title: 'Knowing where to go when you get there: Dynamic construction of spatial knowledge during skilled action sequencing'
+  venue: International Meeting of the Psychonomic Society, Granada, Spain
+- type: conference
+  year: 2016
+  authors:
+  - Brosowsky, P. N.
+  - Crump, M. J. C.
+  title: Contextual control over stimulus-response sets
+  venue: Psychonomics, Eastern Psychological Association, New York, NY
+- type: conference
+  year: 2016
+  authors:
+  - Behmer, L. P.
+  - Crump, M. J. C.
+  title: 'The dynamics of best laid action plans: Tracing response scheduling in skilled typing'
+  venue: Eastern Psychological Association, New York, NY
+- type: conference
+  year: 2016
+  authors:
+  - Zumsteg, J.
+  - Crump, M. J. C.
+  - Logan, G.
+  - Weikert, D.
+  - Lee, D.
+  title: The effect of carpal tunnel release surgery on post-operative typing function
+  venue: 71st Annual Meeting of the American Society for Surgery of the Hand. Austin, TX
+- type: conference
+  year: 2015
+  authors:
+  - Behmer, L. P.
+  - Crump, M. J. C.
+  title: 'The dynamics of best laid action plans: Tracing response scheduling in skilled typing'
+  venue: Psychonomics. Chicago, IL
+- type: conference
+  year: 2015
+  authors:
+  - Brosowsky, P. N.
+  - Crump, M. J. C.
+  title: 'Contextual control of attentional sampling: Exploring the role of volition'
+  venue: Psychonomics, Chicago, IL
+- type: conference
+  year: 2015
+  authors:
+  - Crump, M. J. C.
+  - Behmer, L.
+  title: Learning, memory and the control of serial order for action
+  venue: International Workshop in Learning, Memory, and Attention, Unversidad de Granada, Granada, Spain
+- type: conference
+  year: 2015
+  authors:
+  - Brosowsky, N.
+  - Crump, M. J. C.
+  title: Evidence for generalization of context-specific control in a flanker task
+  venue: Eastern Psychological Association, Philadelphia, PA
+- type: conference
+  year: 2015
+  authors:
+  - Behmer, L. P.
+  - Crump, M. J. C.
+  title: Typists develop sensitivity to the statistical frequencies of likely N-grams
+  venue: Eastern Psychological Association, Philadelphia, PA
+- type: conference
+  year: 2014
+  authors:
+  - Crump, M. J. C.
+  - Blecher, M.
+  - Jamieson, R.
+  title: 'False memory for previously tested items: Investigating test-induced associative and repetition priming'
+  venue: Psychonomics, Long Beach, CA
+- type: conference
+  year: 2014
+  authors:
+  - Crump, M. J. C.
+  title: 'Learning and stimulus-driven cognitive control: Contextual cuing of explicit attention strategies'
+  venue: Eastern Psychological Association, Boston, MA
+- type: conference
+  year: 2013
+  authors:
+  - Mitchell, K. M.
+  - Crump, M. J. C.
+  title: 'Betting on your inner homunculus: Query theory in a dynamic gambling task'
+  venue: Eastern Psychological Association, New York City, NY
+- type: conference
+  year: 2013
+  authors:
+  - Crump, M. J. C.
+  title: Stimulus-driven control of explicitly induced attention filtering demands
+  venue: Psychonomics, Toronto, ON, CA
+- type: conference
+  year: 2012
+  authors:
+  - Crump, M. J. C.
+  - Gureckis, T. M.
+  - McDonnell, J. V.
+  title: Can internet data be trusted? Validating mechanical turk for cognitive research
+  venue: Psychonomics, Minneapolis, MN
+- type: conference
+  year: 2012
+  authors:
+  - Jamieson, R. K.
+  - Crump, M. J. C.
+  - Hannah, S. D.
+  title: A computer tool to simulate and teach associative learning
+  venue: Society for Computers in Psychology, Minneapolis, MN
+- type: conference
+  year: 2012
+  authors:
+  - Crump, M. J. C.
+  title: 'Error detection in Skilled Typing: Ounce of Prevention, Pound of Cure'
+  venue: Eastern Psychological Association. Pittsburgh, PA
+- type: conference
+  year: 2012
+  authors:
+  - Jamieson, R. K.
+  - Hannah, S. D.
+  - Crump, M. J. C.
+  title: An instance theory of associative learning
+  venue: Eastern Psychological Association, Pittsburgh, PA
+- type: conference
+  year: 2012
+  authors:
+  - Jamieson, R. K.
+  - Chubala, C. M.
+  - Hannah, S. D.
+  - Crump, M. J. C.
+  title: An instance-based account of retrospective revaluation
+  venue: Psychonomics, Minneapolis, MI
+- type: conference
+  year: 2012
+  authors:
+  - Mitchell, K.
+  - Crump, M. J. C.
+  title: Poverty, attention and the power of the default option
+  venue: Society for Judgment and Decision Making, Minneapolis, MI
+- type: conference
+  year: 2012
+  authors:
+  - Mitchell, K.
+  - Crump, M. J. C.
+  title: Continuous tracking of Contingency Changes
+  venue: Eastern Psychological Association. Pittsburgh, PA
+- type: conference
+  year: 2011
+  authors:
+  - Crump, M. J. C.
+  title: 'Mapping the fretboard: Investigating spatial representations of note information in skilled guitarists'
+  venue: Canadian Society for Brain, Behavioural, and Cognitive Sciences, Winnipeg, MA, CA
+- type: conference
+  year: 2011
+  authors:
+  - Crump, M. J. C.
+  title: 'Hitting the wall in skilled typing: Speed/Accuracy tradeoffs and serial processing'
+  venue: Psychonomics. Seattle, WA
+- type: conference
+  year: 2011
+  authors:
+  - Jamieson, R. K.
+  - Hannah, S. D.
+  - Crump, M. J. C.
+  title: A simple network model of associative learning (not memory)
+  venue: Society for Computers in Psychology. Seattle, WA

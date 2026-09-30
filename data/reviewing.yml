@@ -1,0 +1,41 @@
+# Grant reviewing and ad hoc journal reviewing.
+grant_reviewing:
+  - organization: National Science Foundation (PAC division)
+    role: Panel Reviewer
+    when: Spring 2017
+    year: 2017
+  - organization: National Science Foundation
+    role: External Grant Reviewer
+    when: 2016, 2017
+    year: 2016
+  - organization: French National Research Agency
+    role: External Grant Reviewer
+    when: February 2013
+    year: 2013
+journals:
+  role: Ad hoc reviewer
+  when: 2011 - present
+  titles:
+    - Acta Psychologica
+    - Attention, Perception, and Psychophysics
+    - Behavior Research Methods
+    - Canadian Journal of Experimental Psychology
+    - Cerebral Cortex
+    - Cognition
+    - Cognitive Psychology
+    - Cognitive Science
+    - Connection Science
+    - Consciousness and Cognition
+    - Current Directions in Psychological Science
+    - Experimental Psychology
+    - Frontiers in Cognition
+    - "Journal of Experimental Psychology: Applied"
+    - "Journal of Experimental Psychology: Animal Learning and Cognition"
+    - "Journal of Experimental Psychology: General"
+    - "Journal of Experimental Psychology: Human Perception and Performance"
+    - "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    - Perceptual and Motor Skills
+    - Psicologica
+    - Psychological Research
+    - Psychonomic Bulletin & Review
+    - Quarterly Journal of Experimental Psychology

@@ -1,0 +1,260 @@
+# Mentorship. `mentees` are students supervised; `committees` are dissertation committees served on.
+# surname + initials are used to mark co-authors on publications and talks with stars.
+# level: postdoc | doctoral | masters | undergraduate. Newest first within level where dates are known.
+mentees:
+  - level: postdoc
+    name: Lawrence Behmer
+    surname: Behmer
+    initials: L. P.
+    when: Summer 2014 - 2018
+    start: 2014
+    end: 2018
+  - level: doctoral
+    name: Drew Shives
+    surname: Shives
+    initials: D. W.
+    start: 2021
+    end: null
+    program: Cognitive and Comparative Psychology training area
+  - level: doctoral
+    name: Nicholaus Brosowsky
+    surname: Brosowsky
+    initials: N. P.
+    start: 2014
+    end: 2019
+    program: Cognition, Language, and Development training area
+  - level: doctoral
+    name: Kevonte Mitchell
+    surname: Mitchell
+    initials: K. M.
+    start: 2012
+    end: null
+    program: Brain, Cognition, and Behavior program
+  - level: doctoral
+    name: Felicia Valetta
+    surname: Valetta
+    initials: F.
+    start: 2011
+    end: 2014
+    program: Brain, Cognition, and Behavior program
+  - level: masters
+    name: Ashot Balayan
+    surname: Balayan
+    initials: A.
+    note: 2 Independent Research, 1 Independent Reading, Master's thesis
+  - level: masters
+    name: Yi Sin Goh
+    surname: Goh
+    initials: Y. S.
+    note: 1 Independent Research
+  - level: masters
+    name: Yashodra Khan
+    surname: Khan
+    initials: Y.
+    note: 1 Independent Reading, 1 Independent Research
+  - level: masters
+    name: Kevonte Mitchell
+    surname: Mitchell
+    initials: K. M.
+    note: 1 Independent Reading, 1 Independent Research
+  - level: masters
+    name: Michelle Villavicencio
+    surname: Villavicencio
+    initials: M.
+    note: 1 Independent Research, Master's thesis
+  - level: undergraduate
+    name: Michael Blecher
+    surname: Blecher
+    initials: M.
+    note: 2 Independent Research
+  - level: undergraduate
+    name: Ericka Boucard
+    surname: Boucard
+    initials: E.
+    note: 1 Independent Research
+  - level: undergraduate
+    name: Esthena Brutten
+    surname: Brutten
+    initials: E.
+    note: 2 Independent Research, 1 Honors thesis, Scholars Program
+  - level: undergraduate
+    name: Rebecca Colon
+    surname: Colon
+    initials: R.
+    note: REU student (Research Experience for Undergraduates)
+  - level: undergraduate
+    name: Elena Domingo
+    surname: Domingo
+    initials: E.
+    note: 2 Independent Research, MARC (Maximizing Access to Research Careers)
+  - level: undergraduate
+    name: Ece Ersoy
+    surname: Ersoy
+    initials: E.
+    note: 1 Laboratory Experience, Honors thesis, Macaulay Honors
+  - level: undergraduate
+    name: Rochelle Hall
+    surname: Hall
+    initials: R.
+    note: REU student
+  - level: undergraduate
+    name: Jonathan Hagler
+    surname: Hagler
+    initials: J.
+    note: 2 Independent Research
+  - level: undergraduate
+    name: Wesley Huang
+    surname: Huang
+    initials: W.
+    note: Tow Presidential Mentee (1st cohort), 2 Laboratory Experience
+  - level: undergraduate
+    name: Patrick Ihejirika
+    surname: Ihejirika
+    initials: P.
+    note: 1 MARC (Maximizing Access to Research Careers), Honors thesis, Goldwater Scholarship winner
+  - level: undergraduate
+    name: Austin Kaplan
+    surname: Kaplan
+    initials: A.
+    note: 2 Independent Research, Honors thesis
+  - level: undergraduate
+    name: Walter Lai
+    surname: Lai
+    initials: W.
+    note: Volunteer research assistant
+  - level: undergraduate
+    name: Shawn Lauzon
+    surname: Lauzon
+    initials: S.
+    note: 1 Independent Research
+  - level: undergraduate
+    name: Myrodati Lyristis
+    surname: Lyristis
+    initials: M.
+    note: 1 Honors thesis, Scholars Program
+  - level: undergraduate
+    name: Wing Jing Mak
+    surname: Mak
+    initials: W. J.
+    note: 1 Independent Research
+  - level: undergraduate
+    name: Shifa Maqsood
+    surname: Maqsood
+    initials: S.
+    note: Tow Presidential Mentee (2nd cohort), 1 Independent Research
+  - level: undergraduate
+    name: Beni Mftidi
+    surname: Mftidi
+    initials: B.
+    note: 1 Independent Research
+  - level: undergraduate
+    name: Kendra Scarlett Reynoso Morena
+    surname: Reynoso Morena
+    initials: K. S.
+    note: 1 Independent Reading
+  - level: undergraduate
+    name: Konstantin Nestoiter
+    surname: Nestoiter
+    initials: K.
+    note: 1 Independent Research
+  - level: undergraduate
+    name: Emily Paolillo
+    surname: Paolillo
+    initials: E.
+    note: 2 Independent Research, REU, Macaulay Honors Program
+  - level: undergraduate
+    name: Florina Petcu
+    surname: Petcu
+    initials: F.
+    note: 1 Independent Research, CUNY BA
+  - level: undergraduate
+    name: Mark Rayev
+    surname: Rayev
+    initials: M.
+    note: 1 Laboratory Experience, Honors thesis, Macaulay Honors
+  - level: undergraduate
+    name: Ana Sanchez
+    surname: Sanchez
+    initials: A.
+    note: REU student
+  - level: undergraduate
+    name: Marissa Scotto
+    surname: Scotto
+    initials: M.
+    note: REU student
+  - level: undergraduate
+    name: Chin Yen Tan
+    surname: Tan
+    initials: C. Y.
+    note: 1 Independent Research
+  - level: undergraduate
+    name: Niles Uy
+    surname: Uy
+    initials: N.
+    note: 1 Laboratory Experience, 2 Independent Research, 1 Honors thesis
+  - level: undergraduate
+    name: Hao Zhu
+    surname: Zhu
+    initials: H.
+    note: 1 Laboratory Experience, 1 Independent Research, CUNY BA
+committees:
+  - role: Committee member, dissertation defense
+    student: Janani Rajagopalan
+    institution: Graduate Center of CUNY
+    location: New York, NY
+    year: 2023
+  - role: Committee member, dissertation defense
+    student: Kelly Cotton
+    institution: Graduate Center of CUNY
+    location: New York, NY
+    year: 2022
+  - role: Committee member, dissertation defense
+    student: Melissa Horger
+    institution: Graduate Center of CUNY
+    location: New York, NY
+    year: 2021
+  - role: Committee chair, dissertation defense
+    student: Nicholaus Brosowsky
+    institution: Graduate Center of CUNY
+    location: New York, NY
+    year: 2019
+  - role: Committee member, dissertation defense
+    student: Daniel Meredith
+    institution: Graduate Center of CUNY
+    location: New York, NY
+    year: 2017
+  - role: External reader, dissertation defense
+    student: Rachel Searston
+    institution: School of Psychology, The University of Queensland
+    location: Australia
+    year: 2016
+  - role: Committee member, dissertation defense
+    student: Natasha Nadler
+    institution: Graduate Center of CUNY
+    location: New York, NY
+    year: 2016
+  - role: Committee member, dissertation defense
+    student: Denise Pergolizzi
+    institution: Graduate Center of CUNY
+    location: New York, NY
+    year: 2015
+  - role: Committee member, dissertation defense
+    student: Justin Ostrofsky
+    institution: Graduate Center of CUNY
+    location: New York, NY
+    year: 2013
+  - role: External reader, dissertation defense
+    student: John McDonnell
+    institution: Department of Psychology, New York University
+    location: New York, NY
+    year: 2013
+  - role: External reader, dissertation defense
+    student: Maryem Torres-Quesada
+    institution: Department of Psychology, University of Granada
+    location: Granada, Spain
+    year: 2013
+  - role: External reader, dissertation defense
+    student: Elena Cañadas
+    institution: Department of Psychology, University of Granada
+    location: Granada, Spain
+    year: 2012

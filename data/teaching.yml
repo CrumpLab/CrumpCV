@@ -1,0 +1,126 @@
+# Courses taught. level: undergraduate | masters | doctoral | other. oer: URL of the open resource if any.
+# Order: by level as listed in the 2024 CV.
+courses:
+  - level: undergraduate
+    code: PSYC 2530
+    title: Introduction to Cognitive Psychology
+    note: In-person, async, sync, large sections, OER
+    oer: https://www.crumplab.com/cognition/
+  - level: undergraduate
+    code: PSYC 3400
+    title: Statistical Methods in Psychological Research
+    note: Large sections, OER
+    oer: https://www.crumplab.com/statistics/
+    oer_extra:
+      - title: Statistics lab manual
+        url: https://www.crumplab.com/statisticsLab/
+  - level: undergraduate
+    code: PSYC 3450W
+    title: Experimental Psychology
+    note: Large sections, OER
+    oer: https://www.crumplab.com/ResearchMethods/
+    oer_extra:
+      - title: Experimental lab manual
+        url: https://www.crumplab.com/ResearchMethodsLab/
+  - level: undergraduate
+    code: PSYC 3470
+    title: Data Analytics and Data Visualization in the Social and Behavioral Sciences
+    note: OER
+  - level: undergraduate
+    code: PSYC 3530
+    title: Advanced Cognitive Psychology
+  - level: undergraduate
+    code: PSYC 2001
+    title: Laboratory Experiences
+    note: Student mentoring
+  - level: undergraduate
+    code: PSYC 5001
+    title: Independent Research I
+    note: Student mentoring
+  - level: undergraduate
+    code: PSYC 5002
+    title: Independent Research II
+    note: Student mentoring
+  - level: undergraduate
+    code: PSYC 5003
+    title: Independent Research III
+    note: Student mentoring
+  - level: undergraduate
+    code: MCHC 1002
+    title: "Seminar 2: People of New York City"
+    note: Macaulay Honors College, outside the Psychology Department
+  - level: masters
+    code: PSYC 7765G
+    title: Statistical Methods Application I
+    note: OER
+    oer: https://www.crumplab.com/rstatsforpsych/
+  - level: masters
+    code: PSYC 7766G
+    title: Statistical Methods Application II
+    note: OER
+    oer: https://www.crumplab.com/rstatsmethods/
+  - level: masters
+    code: PSYC 7709G
+    title: "Special Topics: Using R for Reproducible Psychological Research"
+    note: OER
+    oer: https://www.crumplab.com/psyc7709_2019/
+  - level: masters
+    code: PSYC 7792G
+    title: Independent Reading
+    note: Student mentoring
+  - level: masters
+    code: PSYC 7795G
+    title: Independent Psychological Research I
+    note: Student mentoring
+  - level: masters
+    code: PSYC 7796G
+    title: Independent Psychological Research II
+    note: Student mentoring
+  - level: masters
+    code: PSYC 7781G
+    title: Research in Psychology
+    note: Master's theses
+  - level: doctoral
+    code: PSYC 73800
+    title: Cognitive Psychology
+    note: Course organizer
+  - level: doctoral
+    code: PSYC 80200
+    title: Independent Study
+    note: Student mentoring
+  - level: doctoral
+    code: PSYC 80102
+    title: "Seminar in Special Topics: CCP Colloquium"
+  - level: doctoral
+    code: PSYC 80103
+    title: "Special Topics: Computer Programming for Experimental Psychology"
+    note: OER
+    oer: https://www.crumplab.com/programmingforpsych/
+  - level: doctoral
+    code: PSYC 80103
+    title: "Special Topics: Cognitive Technologies: From Theory and Data to Application"
+    note: OER
+  - level: doctoral
+    code: PSYC 80103
+    title: "Special Topics: Memory: Foundations and Current Issues"
+    note: Co-taught with E. Chua
+  - level: doctoral
+    code: PSYC 80103
+    title: "Special Topics Seminar: Learning and Attention"
+    note: Co-taught with A. Delamater
+  - level: doctoral
+    code: PSYC 72400
+    title: Career Development
+    note: Co-taught with E. Chua
+  - level: doctoral
+    code: PSYC 90000
+    title: Dissertation Supervision
+notes: >-
+  OER refers to open educational resources authored by M. J. C. Crump. These are Creative Commons licensed
+  resources that are free for students to use, and for others to copy, remix, and reuse.
+certificates:
+  - title: Effective Practice Framework certificate in effective college instruction
+    organization: Association of College and University Educators and the American Council on Education
+    when: 2020-2021
+    year: 2021
+    note: A 26-week course.

@@ -1,0 +1,35 @@
+project:
+  type: default
+  output-dir: _output
+  render:
+    - cv.qmd
+    - cv-bc.qmd
+  pre-render:
+    - python3 scripts/validate.py
+    - python3 scripts/build.py
+  post-render:
+    - python3 scripts/postrender.py
+
+filters:
+  # Splices _generated/*.md at render time (see the file header). Runs before Quarto's own
+  # filters so the content-visible blocks inside the generated sections are still resolved.
+  - path: filters/cv-include.lua
+    at: pre-ast
+
+# Every format renders from the same cv.qmd. Typst styles live in _extensions/.
+# Quarto cannot render two Typst formats of one document in a single pass, so only the
+# default style is listed here; `python3 scripts/render_styles.py` renders all styles.
+format:
+  cv-classic-typst:          # the default PDF style; alternates: scripts/render_styles.py
+    output-file: cv.pdf
+  docx:
+    output-file: cv.docx
+    reference-doc: templates/reference.docx
+    toc: false
+  html:
+    output-file: cv.html
+    embed-resources: true
+    toc: true
+    toc-depth: 1
+    theme: cosmo
+    fontsize: 0.95em

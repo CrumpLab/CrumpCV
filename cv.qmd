@@ -1,0 +1,61 @@
+---
+cv-metadata: _generated/meta.yml
+---
+
+::: {.cv-include file="_generated/header.md"}
+:::
+
+# Positions Held
+
+::: {.cv-include file="_generated/positions.md"}
+:::
+
+# Education
+
+::: {.cv-include file="_generated/education.md"}
+:::
+
+# Publications
+
+::: {.cv-include file="_generated/publications.md"}
+:::
+
+# Invited Talks
+
+::: {.cv-include file="_generated/talks-invited.md"}
+:::
+
+# Abstracts and Papers Contributed at Professional Meetings
+
+::: {.cv-include file="_generated/talks-conference.md"}
+:::
+
+# Grants
+
+::: {.cv-include file="_generated/grants.md"}
+:::
+
+# Professional Awards
+
+::: {.cv-include file="_generated/awards.md"}
+:::
+
+# Software and Other Creative Work
+
+::: {.cv-include file="_generated/software.md"}
+:::
+
+# University, College and Community Service
+
+::: {.cv-include file="_generated/service.md"}
+:::
+
+# Mentorship
+
+::: {.cv-include file="_generated/mentorship.md"}
+:::
+
+# Teaching Experience
+
+::: {.cv-include file="_generated/teaching.md"}
+:::

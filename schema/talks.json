@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "talks",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "note": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "when": {
+        "type": "string"
+      },
+      "type": {
+        "enum": [
+          "invited",
+          "conference",
+          "workshop"
+        ]
+      },
+      "year": {
+        "type": "integer"
+      },
+      "month": {
+        "type": "string"
+      },
+      "authors": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "title": {
+        "type": "string"
+      },
+      "venue": {
+        "type": "string"
+      },
+      "location": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "type",
+      "year",
+      "authors",
+      "title",
+      "venue"
+    ],
+    "additionalProperties": false
+  }
+}

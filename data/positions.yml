@@ -1,0 +1,38 @@
+# Positions held, newest first. start/end: year or "YYYY-MM"; end: null means ongoing.
+- title: Chairperson
+  institution: Brooklyn College of CUNY
+  department: Department of Psychology
+  location: Brooklyn, NY
+  start: 2024
+  end: null
+- title: Full Professor
+  institution: Brooklyn College of CUNY
+  department: Department of Psychology
+  location: Brooklyn, NY
+  start: "2022-09"
+  end: null
+- title: Associate Professor
+  institution: Brooklyn College of CUNY
+  department: Department of Psychology
+  location: Brooklyn, NY
+  start: "2016-09"
+  end: "2022-09"
+- title: Assistant Professor
+  institution: Brooklyn College of CUNY
+  department: Department of Psychology
+  location: Brooklyn, NY
+  start: "2011-01"
+  end: "2016-09"
+- title: Doctoral Faculty
+  institution: Graduate Center of CUNY
+  department: Psychology
+  location: New York, NY
+  start: 2011
+  end: null
+- title: Postdoctoral Researcher
+  institution: Vanderbilt University
+  department: Department of Psychology
+  location: Nashville, TN
+  start: 2007
+  end: 2011
+  advisor: Gordon D. Logan
