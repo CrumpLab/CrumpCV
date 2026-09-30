@@ -1,0 +1,665 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 8 February 2019
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,]{moderncv}
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+
+\definecolor{color0}{rgb}{0,0,0}% black
+\definecolor{color1}{HTML}{3873B3}% custom
+\definecolor{color2}{rgb}{0.45,0.45,0.45}% dark grey
+
+\usepackage[scaled=0.86]{DejaVuSansMono}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\def\donothing#1{#1}
+\def\emaillink#1{#1}
+
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75,footskip=52pt]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+
+%%%% BIBLIOGRAPHY
+% Bibliography formatting
+
+\usepackage[sorting=ynt,citestyle=authoryear,bibstyle=authoryear-comp,defernumbers=true,maxnames=20,giveninits=true, bibencoding=utf8, terseinits=true, uniquename=init,dashed=false,doi=false,isbn=false,natbib=true,backend=biber]{biblatex}
+
+\DeclareFieldFormat{url}{\url{#1}}
+\DeclareFieldFormat[article]{pages}{#1}
+\DeclareFieldFormat[inproceedings]{pages}{\lowercase{pp.}#1}
+\DeclareFieldFormat[incollection]{pages}{\lowercase{pp.}#1}
+\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+\DeclareFieldFormat[article]{title}{\MakeCapital{#1}}
+\DeclareFieldFormat[article]{url}{}
+\DeclareFieldFormat[inproceedings]{title}{#1}
+\DeclareFieldFormat{shorthandwidth}{#1}
+\DeclareFieldFormat{extradate}{}
+
+% No dot before number of articles
+\usepackage{xpatch}
+\xpatchbibmacro{volume+number+eid}{\setunit*{\adddot}}{}{}{}
+
+% Remove In: for an article.
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{%
+  \printtext{\bibstring{in}\intitlepunct}}}
+
+%\makeatletter
+%\DeclareDelimFormat[cbx@textcite]{nameyeardelim}{\addspace}
+%\makeatother
+
+\setlength{\bibitemsep}{1.8pt}
+\setlength{\bibhang}{.9cm}
+%\renewcommand{\bibfont}{\fontsize{12}{14}}
+
+\renewcommand*{\bibitem}{\addtocounter{papers}{1}\item \mbox{}\hskip-0.9cm\hbox to 0.9cm{\hfill\arabic{papers}.~\,}}
+\defbibenvironment{bibliography}
+{\list{}
+  {\setlength{\leftmargin}{\bibhang}%
+   \setlength{\itemsep}{\bibitemsep}%
+   \setlength{\parsep}{\bibparsep}}}
+{\endlist}
+{\bibitem}
+
+\renewcommand{\bibfont}{\normalfont\fontsize{10}{12.4}\selectfont}
+% Counters for keeping track of papers
+\newcounter{papers}
+
+\DeclareSortingScheme{ty}{
+  \sort{
+    \field{title}
+  }
+  \sort{
+    \field{year}
+  }
+}
+\DeclareBibliographyCategory{bib-Crump_pr.bib-5880078}
+\bibliography{Crump_pr.bib}
+
+% personal data
+\name{Matthew}{Crump}
+\title{Associate Professor}
+\address{Brooklyn College of CUNY}{}{}
+\phone[mobile]{718-951-5000 x. 6068} % Phone number
+\email{\donothing{\href{mailto:mcrump@brooklyn.cuny.edu}{\nolinkurl{mcrump@brooklyn.cuny.edu}}}}
+\homepage{crumplab.github.com} % Personal website
+
+\social[twitter]{MattCrump\_}
+\social[github]{CrumpLab}
+% \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+
+
+
+
+% Templates for detailed entries
+% Arguments: what when with where why
+\usepackage{etoolbox}
+\def\detaileditem#1#2#3#4#5{
+	\cventry{#2}{#1}{#3}{#4}{}{{\ifx#5\empty\else{\begin{itemize}#5\end{itemize}}\fi}}}
+\def\detailedsection#1{\nopagebreak#1}
+
+% Templates for brief entries
+% Arguments: what when with
+\def\briefitem#1#2#3{\cvitem{#2}{#1. #3}}
+\def\briefsection#1{\nopagebreak#1}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+
+
+\hypertarget{research-interests}{%
+\section{Research interests}\label{research-interests}}
+
+\begin{itemize}
+\tightlist
+\item
+  Learning, memory, attention, and performance
+\item
+  Computational modeling of semantic cognition
+\item
+  Pattern learning and recognition
+\end{itemize}
+
+\hypertarget{positions}{%
+\section{Positions}\label{positions}}
+
+\detailedsection{\detaileditem{Visiting Research Professor}{October 2019}{University of Manitoba}{Manitoba, Canada}{\empty}\detaileditem{Associate Professor}{2017-present}{Brooklyn College of CUNY}{NY, USA}{\empty}\detaileditem{Assistant Professor}{2011-2017}{Brooklyn College of CUNY}{NY, USA}{\empty}\detaileditem{Postdoctoral Researcher}{2008-2011}{Vanderbilt University}{TN, USA}{\empty}}
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\detailedsection{\detaileditem{Ph.D. (Psychology)}{2007}{McMaster University}{Ontario, Canada}{\empty}\detaileditem{B.Sc. (Psychology)}{2001}{University of Lethbridge}{Alberta, Canada}{\empty}}
+
+\hypertarget{funding}{%
+\section{Funding}\label{funding}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Recruitment of cognitive control for action sequencing, PSC-CUNY Traditional B, \$5419.23 July 2017-June 2018
+\item
+  Acquisition of hierarchical control in skilled action sequencing,(\#1353360) National Science Foundation, \$356,073, July 2014-June 2017
+\item
+  Validating web-based technology for investigating strategic and stimulus-driven attentional contro, (66163-00 44) PSC-CUNY traditional A award, \$3478.00, Summer 2013
+\item
+  Chronometric investigations of explicit and implicit error detection processes in skilled typing, (65075-00 43) PSC-CUNY traditional A award, \$3418.00, Summer 2012
+\end{enumerate}
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+\defbibheading{bib-Crump_pr.bib-5880078}{}
+\addtocategory{bib-Crump_pr.bib-5880078}{aujlaSemanticLibrarianSearch2019,
+crumpInstanceTheoryPredictsInpress,
+braemMeasuringAdaptiveControl2019,
+brosowskyMemoryguidedSelectiveAttention2018b,
+crumpContextdependentControlAttention2018,
+jrParallelRegulationPresent2018,
+behmerDynamicRangeResponse2017,
+behmerCrunchingBigData2017,
+behmerSpatialKnowledgeSkilled2017,
+curtisFalseRecognitionInstructionset2016,
+brosowskyContextspecificAttentionalSampling2016,
+crumpReproducingLocationbasedContextspecific2016,
+crumpLearningSelectivelyAttend2016,
+crumpEvaluatingAmazonMechanical2013,
+crumpPreventionCorrectionPosterror2013,
+yamaguchiSpeedAccuracyTradeoff2013,
+jamiesonInstanceTheoryAssociative2012,
+buggSupportDistinctionVoluntary2012,
+crumpReviewGuitarZero2012,
+crumpKeepingEyeGuitar2012,
+loganHierarchicalControlCognitive2011,
+loganCognitiveIllusionsAuthorship2010,
+crumpWarningThisKeyboard2010,
+liuYouKnowWhere2010,
+crumpContextualControlTaskset2010,
+jamiesonMemorybasedAccountRetrospective2010,
+crumpHierarchicalControlSkilled2010,
+crumpEpisodicContributionsSequential2010,
+loganLeftHandDoesn2009,
+crumpFlexibilityContextspecificControl2009,
+siegelApplyingSignalDetection2009,
+hannahCueinteractionEffectsContingency2009,
+crumpContextspecificLearningControl2008,
+leboeProbespecificProportionTask2008,
+crumpShiftingViewsSymbolic2008,
+allanPsychophysicsContingencyAssessment2008,
+schmidtContingencyLearningAwareness2007,
+crumpContingencyJudgementsFly2007,
+crumpContextspecificProportionCongruent2006}
+\newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
+\printbibliography[category=bib-Crump_pr.bib-5880078,heading=none]\setcounter{papers}{0}
+
+\nocite{aujlaSemanticLibrarianSearch2019,
+crumpInstanceTheoryPredictsInpress,
+braemMeasuringAdaptiveControl2019,
+brosowskyMemoryguidedSelectiveAttention2018b,
+crumpContextdependentControlAttention2018,
+jrParallelRegulationPresent2018,
+behmerDynamicRangeResponse2017,
+behmerCrunchingBigData2017,
+behmerSpatialKnowledgeSkilled2017,
+curtisFalseRecognitionInstructionset2016,
+brosowskyContextspecificAttentionalSampling2016,
+crumpReproducingLocationbasedContextspecific2016,
+crumpLearningSelectivelyAttend2016,
+crumpEvaluatingAmazonMechanical2013,
+crumpPreventionCorrectionPosterror2013,
+yamaguchiSpeedAccuracyTradeoff2013,
+jamiesonInstanceTheoryAssociative2012,
+buggSupportDistinctionVoluntary2012,
+crumpReviewGuitarZero2012,
+crumpKeepingEyeGuitar2012,
+loganHierarchicalControlCognitive2011,
+loganCognitiveIllusionsAuthorship2010,
+crumpWarningThisKeyboard2010,
+liuYouKnowWhere2010,
+crumpContextualControlTaskset2010,
+jamiesonMemorybasedAccountRetrospective2010,
+crumpHierarchicalControlSkilled2010,
+crumpEpisodicContributionsSequential2010,
+loganLeftHandDoesn2009,
+crumpFlexibilityContextspecificControl2009,
+siegelApplyingSignalDetection2009,
+hannahCueinteractionEffectsContingency2009,
+crumpContextspecificLearningControl2008,
+leboeProbespecificProportionTask2008,
+crumpShiftingViewsSymbolic2008,
+allanPsychophysicsContingencyAssessment2008,
+schmidtContingencyLearningAwareness2007,
+crumpContingencyJudgementsFly2007,
+crumpContextspecificProportionCongruent2006}
+
+\hypertarget{invited-talks}{%
+\section{Invited Talks}\label{invited-talks}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Crump, M. J. C. (2018). Betrayed by your fingertips: Keystroke dynamics in typing as cognitive fingerprints. ConCats seminar @ NYU, New York, NY.
+\item
+  Crump, M. J. C. (2018). Creating Interactive Open Educational Resources with Hypothesis. Faculty Day Conference @ Brooklyn College, Brooklyn, NY.
+\item
+  Crump, M. J. C. (2018). Coordinating cognition at the fingertips: Insights from investigations into skilled typing ability. Department of Psychology, City Tech, Brooklyn, NY.
+\item
+  Crump, M. J. C. (2017). Coordinating cognition at the fingertips: Insights from investigations into skilled typing ability. Colloquium series, Department of Psychology, Bard College, Annandale-On-Hudson, NY.
+\item
+  Crump, M. J. C. (2016). The ways prior experience guides cognitive control: Proactive, Reactive, and retrieval-driven control. Cognition and Perception Seminar, Department of Psychology, Neuroscience, and Behavior, McMaster University, ON, Canada.
+\item
+  Crump, M. J. C., \& Gureckis, T. M. (2016). Uses and challenges of Mechanical Turk. Invited Workshop at the Association for Psychological Science, Chicago, IL.
+\item
+  Crump, M. J. C., \& Gureckis, T. M. (2015). Uses and challenges of Mechanical Turk. Invited Workshop at the Association for Psychological Science, New York, NY.
+\item
+  Crump, M. J. C. (2014). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Colloquium series, Department of Psychology, University of Manitoba, MB, CA.
+\item
+  Crump, M. J. C. (2014). Associative learning of attentional control strategies: Evidence from the proportion congruent literature. Colloquium series, Department of Psychology, New York University, New York, NY.
+\item
+  Crump, M. J. C. (2013). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Colloquium series, Department of Psychology, McMaster University, ON, CA.
+\item
+  Crump, M. J. C. (2012). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Cognitive Lunch Seminar, Department of Psychology, Columbia University, New York, NY.
+\item
+  Crump, M. J. C. (2012). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Cognitive Seminar, Department of Psychology, University of Granada, Spain.
+\item
+  Crump, M. J. C. (2010). Coordinating learning, memory, and attention during performance: Insights from the psychology of skilled typewriting. Invited Job talk. Psychology Department at Brooklyn College of CUNY.
+\end{enumerate}
+
+\hypertarget{conference-presentations}{%
+\subsection{Conference Presentations}\label{conference-presentations}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Jamieson, R. K., Aujla, H., Crump, M. J. C., Cook, M. (2018). Using semantic memory theory to build an applied cognitive search engine. Society for Computers in Psychology, New Orleans.
+\item
+  Crump, M. J. C., \& Brosowsky, N. B. (2018). Instances and information: An instance theory account of sensitivity to uncertainty in natural text production. Society for Computers in Psychology. New Orleans.
+\item
+  Brosowsky, N. B., \& Crump, M. J. C. (2018). You should hate this movie! Detecting hidden attitudes of online persuaders. Psychonomics, New Orleans.
+\item
+  Brosowsky, N. B., \& Crump, M. J. C. (2017). ``Same Context, Different Control: Flexibly Shifting Between Context-Specifc Control Settings.'' Psychonomics, Vancouver.
+\item
+  Brosowsky, N. B., \& Crump, M. J. C. (2017). Learning to Selectively Ignore Information. Eastern Psychological Association, Boston.
+\item
+  Behmer, L. P., Crump, M. J. C., Jantzen, K. J., Martinez, S., Walls, R., Amir-Brownstein, E., Jaye, A., Leytze, M., Lucier, K. (2017). Motor evoked potentials reflect changes in rapid inhibitory control during serial ordering. Cognitive Neuroscience Society, San Francisco.
+\item
+  Behmer, L. P., \& Crump, M. J. C. (2017) Cognitive Control for Action Sequencing. Eastern Psychological Association, Boston.
+\item
+  Behmer, L. P., \& Crump, M. J. C. (2016, November). Theta-event related synchrony (ERS) as an index of outer-loop control during typing: Neural evidence supporting the two-loop theory of typing. Psychonomics, Boston, MA.
+\item
+  Brosowsky, N. P., \& Crump, M. J. C. (2016, November). Long(er)-term item-specific Gratton effects. Psychonomics, Boston, MA.
+\item
+  Jamieson, R. K., Chubala, C. M., Crump, M. J. C., \& Hannah, S. D. (2016, June). A computational analysis of learning and heuristic inference. Annual Meeting of the Canadian Society for Brain, Behaviour, and Cognitive Science, University of Ottawa, Ottawa, ON, Canada.
+\item
+  Johns, B. T., Jamieson, R. K., Crump, J. C., Jones, M. N., \& Mewhort, D. J. K. (2016, June). The combinatorial power of experience. 26th Annual Meeting of the Canadian Society for Brain, Behaviour, and Cognitive Science, University of Ottawa, Ottawa, ON, Canada.
+\item
+  Behmer, L. P., \& Crump, M. J. C. (2016). Try not to think about what you're doing: Event-related desynchronization (ERD) in the SMA and event-related synchronization (ERS) in the frontal lobe reveals a dissociation of hierarchically controlled outer and inner loop processes during typing. Cognitive Neuroscience Society. New York, NY.
+\item
+  Brosowsky, N. P., \& Crump, M. J. C. (2016). How typists talk to their fingers: Evidence for word-level verbal control of skilled action sequencing. International Meeting of the Psychonomic Society, Granada, Spain.
+\item
+  Crump, M. J. C., \& Brosowsky, N. P. (2016). Context-specific proportion congruent effects for frequency unbiased items: Novel extensions and analyses of reproducibility. International Meeting of the Psychonomic Society, Granada, Spain.
+\item
+  Behmer, L. P., \& Crump, M. J. C. (2016). Knowing where to go when you get there: Dynamic construction of spatial knowledge during skilled action sequencing. International Meeting of the Psychonomic Society, Granada, Spain.
+\item
+  Brosowsky, P. N., \& Crump, M. J. C. (2016). Contextual control over stimulus-response sets. Psychonomics, Eastern Psychological Association, New York, NY.
+\item
+  Behmer, L. P., \& Crump, M. J. C. (2016). The dynamics of best laid action plans: Tracing response scheduling in skilled typing. Eastern Psychological Association, New York, NY.
+\item
+  Zumsteg, J., Crump, M. J. C., Logan, G., Weikert, D., \& Lee, D. (2016). The effect of carpal tunnel release surgery on post-operative typing function. 71st Annual Meeting of the American Society for Surgery of the Hand. Austin, TX.
+\item
+  Behmer, L. P., \& Crump, M. J. C. (2015). The dynamics of best laid action plans: Tracing response scheduling in skilled typing. Psychonomics. Chicago, IL.
+\item
+  Brosowsky, P. N., \& Crump, M. J. C. (2015). Contextual control of attentional sampling: Exploring the role of volition. Psychonomics, Chicago, IL.
+\item
+  Crump, M. J. C., \& Behmer, L. (2015). Learning, memory and the control of serial order for action. International Workshop in Learning, Memory, and Attention, Unversidad de Granada, Granada, Spain.
+\item
+  Brosowsky, N. \& Crump, M. J. C. (2015). Evidence for generalization of context-specific control in a flanker task. Eastern Psychological Association, Philadelphia, PA.
+\item
+  Behmer, L. P., \& Crump, M. J. C. (2015). Typists develop sensitivity to the statistical frequencies of likely N-grams. Eastern Psychological Association, Philadelphia, PA.
+\item
+  Crump, M. J. C., Blecher, M., \& Jamieson, R. (2014). False memory for previously tested items: Investigating test-induced associative and repetition priming. Psychonomics, Long Beach, CA.
+\item
+  Crump, M. J. C. (2014). Learning and stimulus-driven cognitive control: Contextual cuing of explicit attention strategies. Eastern Psychological Association, Boston, MA.
+\item
+  Mitchell, K. M., \& Crump, M. J. C. (2013). Betting on your inner homunculus: Query theory in a dynamic gambling task. Eastern Psychological Association, New York City, NY.
+\item
+  Crump, M. J. C. (2013). Stimulus-driven control of explicitly induced attention filtering demands. Psychonomics, Toronto, ON, CA.
+\item
+  Crump, M. J. C., Gureckis, T. M., \& McDonnell, J. V. (2012). Can internet data be trusted? Validating mechanical turk for cognitive research. Psychonomics, Minneapolis, MN.
+\item
+  Jamieson, R. K., Crump, M. J. C., \& Hannah, S. D. (2012). A computer tool to simulate and teach associative learning. Society for Computers in Psychology, Minneapolis, MN.
+\item
+  Crump, M. J. C. (2012). Error detection in Skilled Typing: Ounce of Prevention, Pound of Cure. Eastern Psychological Association. Pittsburgh, PA.
+\item
+  Jamieson, R. K., Hannah, S. D., \& Crump, M. J. C. (2012). An instance theory of associative learning. Eastern Psychological Association, Pittsburgh, PA.
+\item
+  Jamieson, R. K., Chubala, C. M., Hannah, S. D., \& Crump, M. J. C. (2012). An instance-based account of retrospective revaluation. Psychonomics, Minneapolis, MI.
+\item
+  Mitchell, K. \& Crump, M. J. C. (2012). Poverty, attention and the power of the default option. Society for Judgment and Decision Making, Minneapolis, MI.
+\item
+  Mitchell, K. \& Crump, M. J. C. (2012). Continuous tracking of Contingency Changes. Eastern Psychological Association. Pittsburgh, PA.
+\item
+  Crump, M. J. C. (2011). Mapping the fretboard: Investigating spatial representations of note information in skilled guitarists. Canadian Society for Brain, Behavioural, and Cognitive Sciences, Winnipeg, MA, CA.
+\item
+  Crump, M. J. C. (2011). Hitting the wall in skilled typing: Speed/Accuracy tradeoffs and serial processing. Psychonomics. Seattle, WA.
+\item
+  Jamieson, R. K., Hannah, S. D., \& Crump, M. J. C. (2011). A simple network model of associative learning (not memory). Society for Computers in Psychology. Seattle, WA.
+\end{enumerate}
+
+\hypertarget{mentorship}{%
+\subsection{Mentorship}\label{mentorship}}
+
+\hypertarget{postdoctoral-associates}{%
+\subsubsection{Postdoctoral Associates}\label{postdoctoral-associates}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Behmer, Lawrence Summer 2014 -- 2017
+\end{enumerate}
+
+\hypertarget{doctoral-students}{%
+\subsubsection{Doctoral Students}\label{doctoral-students}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Brosowsky, Nicholaus 2014 - 2019; Cognition, Language, and Development Training area
+\item
+  Mitchell, Kevonte 2012 -- current; Brain, Cognition, and Behavior Program
+\item
+  Valetta, Felicia 2011 -- 2014; Brain, Cognition, and Behavior Program
+\end{enumerate}
+
+\hypertarget{masters-students}{%
+\subsubsection{Master's Students}\label{masters-students}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Balayan, Ashot 2 Independent Research, 1 Independent Reading, Master's Thesis
+\item
+  Khan, Yashodra 1 Independent Reading, 1 Independent Research,
+\item
+  Mitchell, Kevonte 1 Independent Reading, 1 Independent Research
+\item
+  Villavicencio, Michelle 1 Independent Research, Master' thesis
+\end{enumerate}
+
+\hypertarget{undergraduate-students}{%
+\subsubsection{Undergraduate Students}\label{undergraduate-students}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Blecher, Michael 2 Independent Research
+\item
+  Boucard, Ericka 1 Independent Research
+\item
+  Brutten, Esthena 2 Independent Research, 1 Honor's Thesis, Scholar's Program
+\item
+  Colon, Rebecca REU Student (Research Experience for Undergraduates)
+\item
+  Domingo, Elena 2 Independent Research, MARC (Maximizing Access to Research)
+\item
+  Ersoy, Ece 1 Laboratory Experience, Honor's thesis Macauley Honor's
+\item
+  Hall, Rochelle REU
+\item
+  Hagler, Jonathan 2 Independent Research
+\item
+  Lai, Walter Volunteer Research Assistant
+\item
+  Lauzon, Shawn 1 Independent Research
+\item
+  Lyristis, Myrodati 1 Honor's Thesis, Scholar's Program
+\item
+  Mak, Wing Jing 1 Independent Research
+\item
+  Mftidi, Beni 1 Independent Research
+\item
+  Nestoiter, Konstantin 1 Independent Research
+\item
+  Paolillo, Emily 2 Independent Research, REU, Macauley Honor's Program
+\item
+  Petcu, Florina 1 Independent Research, CUNY BA
+\item
+  Rayev, Mark 1 Laboratory Experience, Honor's thesis, Macauley Honor's
+\item
+  Sanchez, Ana REU student
+\item
+  Scotto, Marissa REU student
+\item
+  Tan, Chin Yen
+\item
+  Uy, Niles 1 Independent Research, 1 Laboratory Experience, 2 Independent Research, 1 Honor's thesis
+\end{enumerate}
+
+\hypertarget{dissertation-committees}{%
+\subsubsection{Dissertation committees}\label{dissertation-committees}}
+
+\begin{itemize}
+\tightlist
+\item
+  Graduate Center of CUNY, Manhattan, NY Chair (Nicholaus Brosowsky) 2019
+\item
+  Graduate Center of CUNY, Manhattan, NY Committee member Dissertation Defense (Daniel Meredith) 2017
+\item
+  School of Psychology, The University of Queensland, Australia External Reader for Dissertation Defense (Rachel Searston) 2016
+\item
+  Graduate Center of CUNY, Manhattan, NY Committee member Dissertation Defense (Natasha Nadler) 2016
+\item
+  Graduate Center of CUNY, Manhattan, NY Committee member Dissertation Defense (Denise Pergolizzi) 2015
+\item
+  Graduate Center of CUNY, Manhattan, NY Committee member Dissertation Defense (Justin Ostrofsky) 2013
+\item
+  Department of Psychology, New York University External Reader for Dissertation Defense (John Mcdonnell) 2013
+\item
+  Department of Psychology, Granada University, Granada, Spain External Reader for Dissertation Defense (Maryem Torres-Quesada) 2013
+\item
+  Department of Psychology, Granada University, Granada, Spain External Reader for Dissertation Defense (Elena Cañadas) 2012
+\end{itemize}
+
+\hypertarget{teaching}{%
+\subsection{Teaching}\label{teaching}}
+
+\hypertarget{undergraduate-courses}{%
+\subsubsection{Undergraduate Courses}\label{undergraduate-courses}}
+
+\begin{itemize}
+\tightlist
+\item
+  3400 Statistics Large Sections, OER
+\item
+  3450W Experimental Psychology Large Sections, OER
+\item
+  3530 Cognitive Psychology\\
+\item
+  2001 Laboratory Experiences Student mentoring
+\item
+  5001 Independent Research I Student mentoring
+\item
+  5002 Independent Research II Student mentoring
+\item
+  5003 Independent Research III Student mentoring
+\end{itemize}
+
+\hypertarget{masters-courses}{%
+\subsubsection{Master's Courses}\label{masters-courses}}
+
+\begin{itemize}
+\tightlist
+\item
+  7709G Special Topics: Using R for Reproducible Psychological Research
+\item
+  7792G Independent Reading Student mentoring
+\item
+  7795G Independent Psychological Research I Student mentoring
+\item
+  7796G Independent Psychological Research II Student mentoring
+\item
+  7781G Research in Psychology Master Theses
+\end{itemize}
+
+\hypertarget{doctoral-courses}{%
+\subsubsection{Doctoral Courses}\label{doctoral-courses}}
+
+\begin{itemize}
+\tightlist
+\item
+  73800 Cognitive Psychology Course-Organizer
+\item
+  80200 Independent Study Student mentoring
+\item
+  80103 Computer Programming for Experimental Psychology\\
+\item
+  80103 Cognitive Technologies: From Theory and Data to Application
+\item
+  80103 Special Topics: Memory: Foundations \& Current Issues Co-taught w/ E. Chua
+\item
+  80103 Special Topics Seminar: Learning \& Attention Co-taught w/ A. Delamater
+\item
+  72400 Career Development Co-taught w/ E. Chua
+\end{itemize}
+
+\hypertarget{service}{%
+\subsection{Service}\label{service}}
+
+\hypertarget{college}{%
+\subsubsection{College}\label{college}}
+
+\begin{itemize}
+\tightlist
+\item
+  Faculty Council: Natural and Behavioral Sciences Representative Fall 2015 -- May 2018
+\end{itemize}
+
+\hypertarget{department}{%
+\subsubsection{Department}\label{department}}
+
+\begin{itemize}
+\tightlist
+\item
+  Co-chair of search committee for lecture line Spring 2019
+\item
+  Director of Experimental Psychology Graduate Program Spring 2019
+\item
+  Appointments committee Elected May 2018 - current
+\item
+  Experimental Masters Admissions committee Spring 2017, 2018, 2019
+\item
+  Doctoral Student funding committee February 2017
+\item
+  Quantitative Job Search Committee Fall 2014
+\item
+  Department Website Author Fall 2014 - Current
+\item
+  Library Technology Liaison Fall 2014 -- Spring 2018
+\item
+  Experimental Psychology Master's Program Curriculum Committee Summer 2014-Fall 2014
+\item
+  Psychology Undergraduate Program Assessments Ad hoc Committee Spring 2014
+\item
+  Behavioral Neuroscience Job Search Committee Fall 2013
+\item
+  Department of Psychology, Experimental Master's Admissions Committee Fall 2013
+\item
+  Department of Psychology Master's Program Review Committee Spring 2013
+\item
+  Department of Psychology Library Liaison Fall 2011- Spring 2013
+\item
+  Undergraduate Honors Committee, Psychology Spring 2012 - Current
+\end{itemize}
+
+\hypertarget{doctoral-program}{%
+\subsubsection{Doctoral Program}\label{doctoral-program}}
+
+\begin{itemize}
+\tightlist
+\item
+  Cognition and Comparative Psychology Training Area Executive Committee 2018-
+\item
+  Merger Committee to merge Cognition, Language, and Development training area with Animal Behavior and Comparative Psychology training area 2017-May 2018
+\item
+  Cognition, Language, and Development Training Area Executive Committee January 2015 -- May 2018
+\item
+  Training Area and Cluster Organization Committee January 2015 - 2017
+\item
+  Head of Cognition, Language, and Development Training Area December 2014 -- May 2018
+\item
+  Cognition, Language, and Development Admissions Committee Fall 2014, 2015, 2016, 2017, 2018
+\item
+  Cognition, Language, and Development Ad Hoc Curriculum Committee Fall 2013
+\item
+  Cognition, Brain and Behavior Executive Committee Fall 2012
+\end{itemize}
+
+\hypertarget{professional}{%
+\subsubsection{Professional}\label{professional}}
+
+\begin{itemize}
+\tightlist
+\item
+  Journal of Experimental Psychology: Learning, Memory, and Cognition Review Board 2018- current
+\item
+  Society for Computers in Psychology (SCiP) Steering Committee Fall 2014 - present
+\item
+  Canadian Journal of Experimental Psychology Review Board Fall 2012 - present
+\item
+  Eastern Psychological Association Member
+\end{itemize}
+
+\hypertarget{reviewing}{%
+\subsubsection{Reviewing}\label{reviewing}}
+
+\begin{itemize}
+\tightlist
+\item
+  National Science Foundation (PAC division) Panel Reviewer Spring 2017
+\item
+  National Science Foundation External Grant Reviewer Fall 2016
+\item
+  French National Research Agency External Grant Reviewer February 2013
+\item
+  Acta Psychologica; Attention, Perception and Psychophysics; Behavior Research Methods; Canadian Journal of Experimental Psychology; Cerebral Cortex; Cognition; Cognitive Psychology; Cognitive Science; Connection Science; Consciousness \& Cognition; Current Directions in Psychological Science; Experimental Psychology; Frontiers in Cognition; Journal of Experimental Psychology: Applied; Journal of Experimental Psychology: Animal Learning and Cognition; Journal of Experimental Psychology: General; Journal of Experimental Psychology: Human Perception \& Performance; Journal of Experimental Psychology: Learning, Memory \& Cognition; Perceptual and Motor Skills; Psicologica; Psychological Research; Psychonomic Bulletin \& Review; Quarterly Journal of Experimental Psychology
+\end{itemize}
+
+
+\end{document}
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.

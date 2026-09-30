@@ -1,0 +1,276 @@
+---
+name: Matthew
+surname: Crump
+position: "Associate Professor"
+address: "Brooklyn College of CUNY"
+phone: "718-951-5000 x. 6068"
+www: crumplab.github.com
+email: "mcrump@brooklyn.cuny.edu"
+twitter: MattCrump_
+github: CrumpLab
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::hyndman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Research interests
+
+ * Learning, memory, attention, and performance
+ * Computational modeling of semantic cognition
+ * Pattern learning and recognition
+
+# Positions
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Visiting Research Professor", "October 2019", "University of Manitoba", "Manitoba, Canada",
+  "Associate Professor", "2017-present", "Brooklyn College of CUNY", "NY, USA",
+  "Assistant Professor", "2011-2017", "Brooklyn College of CUNY", "NY, USA",
+  "Postdoctoral Researcher", "2008-2011", "Vanderbilt University", "TN, USA"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Ph.D. (Psychology)", "2007", "McMaster University", "Ontario, Canada",
+  "B.Sc. (Psychology)", "2001", "University of Lethbridge", "Alberta, Canada"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Funding
+
+1. Recruitment of cognitive control for action sequencing, PSC-CUNY Traditional B, $5419.23 July 2017-June 2018
+2. Acquisition of hierarchical control in skilled action sequencing,(#1353360) National Science Foundation, $356,073, July 2014-June 2017
+3. Validating web-based technology for investigating strategic and stimulus-driven attentional contro, (66163-00 44) PSC-CUNY traditional A award, $3478.00, Summer 2013
+4. Chronometric investigations of explicit and implicit error detection processes in skilled typing, (65075-00 43) PSC-CUNY traditional A award, $3418.00, Summer 2012
+
+
+
+# Publications
+
+```{r}
+#library(bibDelete)
+
+#deleteField("Crump.bib","url",addCustomField="date")
+
+bibliography_entries("Crump_pr.bib") %>%
+  arrange(desc(date))
+```
+
+# Invited Talks
+
+1.	Crump, M. J. C. (2018). Betrayed by your fingertips: Keystroke dynamics in typing as cognitive fingerprints. ConCats seminar @ NYU, New York, NY.
+2.	Crump, M. J. C. (2018). Creating Interactive Open Educational Resources with Hypothesis. Faculty Day Conference @ Brooklyn College, Brooklyn, NY.
+3. 	Crump, M. J. C. (2018). Coordinating cognition at the fingertips: Insights from investigations into skilled typing ability. Department of Psychology, City Tech, Brooklyn, NY.
+4.	Crump, M. J. C. (2017). Coordinating cognition at the fingertips: Insights from investigations into skilled typing ability. Colloquium series, Department of Psychology, Bard College, Annandale-On-Hudson, NY.
+5.	Crump, M. J. C. (2016). The ways prior experience guides cognitive control: Proactive, Reactive, and retrieval-driven control. Cognition and Perception Seminar, Department of Psychology, Neuroscience, and Behavior, McMaster University, ON, Canada.
+6.	Crump, M. J. C., & Gureckis, T. M. (2016). Uses and challenges of Mechanical Turk. Invited Workshop at the Association for Psychological Science, Chicago, IL.
+7.	Crump, M. J. C., & Gureckis, T. M. (2015). Uses and challenges of Mechanical Turk. Invited Workshop at the Association for Psychological Science, New York, NY.
+8.	Crump, M. J. C. (2014). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Colloquium series, Department of Psychology, University of Manitoba, MB, CA.
+9.	Crump, M. J. C. (2014). Associative learning of attentional control strategies: Evidence from the proportion congruent literature. Colloquium series, Department of Psychology, New York University, New York, NY.
+10.	Crump, M. J. C. (2013). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Colloquium series, Department of Psychology, McMaster University, ON, CA.
+11.	Crump, M. J. C. (2012). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Cognitive Lunch Seminar, Department of Psychology, Columbia University, New York, NY.
+12.	Crump, M. J. C. (2012). Coordinated Cognition: Insights into hierarchical control processes from the Psychology of skilled typewriting. Cognitive Seminar, Department of Psychology, University of Granada, Spain. 
+13.	Crump, M. J. C. (2010). Coordinating learning, memory, and attention during performance: Insights from the psychology of skilled typewriting. Invited Job talk. Psychology Department at Brooklyn College of CUNY. 
+
+## Conference Presentations
+
+1. Jamieson, R. K., Aujla, H., Crump, M. J. C., Cook, M. (2018). Using semantic memory theory to build an applied cognitive search engine. Society for Computers in Psychology, New Orleans.
+2. Crump, M. J. C., & Brosowsky, N. B. (2018). Instances and information: An instance theory account of sensitivity to uncertainty in natural text production. Society for Computers in Psychology. New Orleans.
+3. Brosowsky, N. B., & Crump, M. J. C. (2018). You should hate this movie! Detecting hidden attitudes of online persuaders. Psychonomics, New Orleans.
+4. Brosowsky, N. B., & Crump, M. J. C. (2017). "Same Context, Different Control: Flexibly Shifting Between Context-Specifc Control Settings." Psychonomics, Vancouver.
+5. Brosowsky, N. B., & Crump, M. J. C. (2017). Learning to Selectively Ignore Information. Eastern Psychological Association, Boston.
+6. Behmer, L. P., Crump, M. J. C., Jantzen, K. J., Martinez, S., Walls, R., Amir-Brownstein, E., Jaye, A., Leytze, M., Lucier, K. (2017). Motor evoked potentials reflect changes in rapid inhibitory control during serial ordering. Cognitive Neuroscience Society, San Francisco.
+7. Behmer, L. P., & Crump, M. J. C. (2017) Cognitive Control for Action Sequencing. Eastern Psychological Association, Boston.
+8. Behmer, L. P., & Crump, M. J. C. (2016, November). Theta-event related synchrony (ERS) as an index of outer-loop control during typing: Neural evidence supporting the two-loop theory of typing. Psychonomics, Boston, MA.
+9. Brosowsky, N. P., & Crump, M. J. C. (2016, November). Long(er)-term item-specific Gratton effects. Psychonomics, Boston, MA.
+10. Jamieson, R. K., Chubala, C. M., Crump, M. J. C., & Hannah, S. D. (2016, June). A computational analysis of learning and heuristic inference. Annual Meeting of the Canadian Society for Brain, Behaviour, and Cognitive Science, University of Ottawa, Ottawa, ON, Canada.
+11. Johns, B. T., Jamieson, R. K., Crump, J. C., Jones, M. N., & Mewhort, D. J. K. (2016, June). The combinatorial power of experience. 26th Annual Meeting of the Canadian Society for Brain, Behaviour, and Cognitive Science, University of Ottawa, Ottawa, ON, Canada.
+12. Behmer, L. P., & Crump, M. J. C. (2016). Try not to think about what you’re doing: Event-related desynchronization (ERD) in the SMA and event-related synchronization (ERS) in the frontal lobe reveals a dissociation of hierarchically controlled outer and inner loop processes during typing. Cognitive Neuroscience Society. New York, NY.
+13. Brosowsky, N. P., & Crump, M. J. C. (2016). How typists talk to their fingers: Evidence for word-level verbal control of skilled action sequencing. International Meeting of the Psychonomic Society, Granada, Spain.
+14. Crump, M. J. C., & Brosowsky, N. P. (2016). Context-specific proportion congruent effects for frequency unbiased items: Novel extensions and analyses of reproducibility. International Meeting of the Psychonomic Society, Granada, Spain.
+15. Behmer, L. P., & Crump, M. J. C. (2016). Knowing where to go when you get there: Dynamic construction of spatial knowledge during skilled action sequencing. International Meeting of the Psychonomic Society, Granada, Spain.
+16. Brosowsky, P. N., & Crump, M. J. C. (2016). Contextual control over stimulus-response sets. Psychonomics, Eastern Psychological Association, New York, NY.
+17. Behmer, L. P., & Crump, M. J. C. (2016). The dynamics of best laid action plans: Tracing response scheduling in skilled typing. Eastern Psychological Association, New York, NY.
+18. Zumsteg, J., Crump, M. J. C., Logan, G., Weikert, D., & Lee, D. (2016). The effect of carpal tunnel release surgery on post-operative typing function. 71st Annual Meeting of the American Society for Surgery of the Hand. Austin, TX.
+19. Behmer, L. P., & Crump, M. J. C. (2015). The dynamics of best laid action plans: Tracing response scheduling in skilled typing. Psychonomics. Chicago, IL.
+20. Brosowsky, P. N., & Crump, M. J. C. (2015). Contextual control of attentional sampling: Exploring the role of volition. Psychonomics, Chicago, IL.
+21. Crump, M. J. C., & Behmer, L. (2015). Learning, memory and the control of serial order for action. International Workshop in Learning, Memory, and Attention, Unversidad de Granada, Granada, Spain.
+22. Brosowsky, N. & Crump, M. J. C. (2015). Evidence for generalization of context-specific control in a flanker task. Eastern Psychological Association, Philadelphia, PA.
+23. Behmer, L. P., & Crump, M. J. C. (2015). Typists develop sensitivity to the statistical frequencies of likely N-grams. Eastern Psychological Association, Philadelphia, PA.
+24. Crump, M. J. C., Blecher, M., & Jamieson, R. (2014). False memory for previously tested items: Investigating test-induced associative and repetition priming. Psychonomics, Long Beach, CA.
+25. Crump, M. J. C. (2014). Learning and stimulus-driven cognitive control: Contextual cuing of explicit attention strategies. Eastern Psychological Association, Boston, MA.
+26. Mitchell, K. M., & Crump, M. J. C. (2013). Betting on your inner homunculus: Query theory in a dynamic gambling task. Eastern Psychological Association, New York City, NY.
+27. Crump, M. J. C. (2013). Stimulus-driven control of explicitly induced attention filtering demands. Psychonomics, Toronto, ON, CA.
+28. Crump, M. J. C., Gureckis, T. M., & McDonnell, J. V. (2012). Can internet data be trusted? Validating mechanical turk for cognitive research. Psychonomics, Minneapolis, MN.
+29. Jamieson, R. K., Crump, M. J. C., & Hannah, S. D. (2012). A computer tool to simulate and teach associative learning. Society for Computers in Psychology, Minneapolis, MN.
+30. Crump, M. J. C. (2012). Error detection in Skilled Typing: Ounce of Prevention, Pound of Cure. Eastern Psychological Association. Pittsburgh, PA.
+31. Jamieson, R. K., Hannah, S. D., & Crump, M. J. C. (2012). An instance theory of associative learning. Eastern Psychological Association, Pittsburgh, PA.
+32. Jamieson, R. K., Chubala, C. M., Hannah, S. D., & Crump, M. J. C. (2012). An instance-based account of retrospective revaluation. Psychonomics, Minneapolis, MI.
+33. Mitchell, K. & Crump, M. J. C. (2012). Poverty, attention and the power of the default option. Society for Judgment and Decision Making, Minneapolis, MI.
+34. Mitchell, K. & Crump, M. J. C. (2012). Continuous tracking of Contingency Changes. Eastern Psychological Association. Pittsburgh, PA.
+35. Crump, M. J. C. (2011). Mapping the fretboard: Investigating spatial representations of note information in skilled guitarists. Canadian Society for Brain, Behavioural, and Cognitive Sciences, Winnipeg, MA, CA.
+36. Crump, M. J. C. (2011). Hitting the wall in skilled typing: Speed/Accuracy tradeoffs and serial processing. Psychonomics. Seattle, WA.
+37. Jamieson, R. K., Hannah, S. D., & Crump, M. J. C. (2011). A simple network model of associative learning (not memory). Society for Computers in Psychology. Seattle, WA.
+
+## Mentorship
+
+### Postdoctoral Associates
+1. Behmer, Lawrence	Summer 2014 – 2017
+
+### Doctoral Students
+
+1. Brosowsky, Nicholaus	2014 - 2019; Cognition, Language, and Development Training area
+2. Mitchell, Kevonte	2012 – current; Brain, Cognition, and Behavior Program
+3. Valetta, Felicia	2011 – 2014; Brain, Cognition, and Behavior Program
+
+### Master’s Students
+
+1. Balayan, Ashot	2 Independent Research, 1 Independent Reading, Master’s Thesis 
+2. Khan, Yashodra	1 Independent Reading, 1 Independent Research, 
+3. Mitchell, Kevonte	1 Independent Reading, 1 Independent Research
+4. Villavicencio, Michelle	1 Independent Research, Master’ thesis 
+
+### Undergraduate Students
+
+1. Blecher, Michael	2 Independent Research
+2. Boucard, Ericka 	1 Independent Research
+3. Brutten, Esthena 	2 Independent Research, 1 Honor’s Thesis, Scholar’s Program
+4. Colon, Rebecca	REU Student (Research Experience for Undergraduates)
+5. Domingo, Elena	2 Independent Research, MARC (Maximizing Access to Research)
+6. Ersoy, Ece	1 Laboratory Experience, Honor's thesis Macauley Honor's
+7. Hall, Rochelle	REU
+8. Hagler, Jonathan	2 Independent Research
+9. Lai, Walter	Volunteer Research Assistant
+10. Lauzon, Shawn	1 Independent Research
+11. Lyristis, Myrodati	1 Honor’s Thesis, Scholar’s Program
+12. Mak, Wing Jing 	1 Independent Research
+13. Mftidi, Beni 	1 Independent Research
+14. Nestoiter, Konstantin	1 Independent Research
+15. Paolillo, Emily 	2 Independent Research, REU, Macauley Honor’s Program
+16. Petcu, Florina 	1 Independent Research, CUNY BA
+17. Rayev, Mark	1 Laboratory Experience, Honor's thesis, Macauley Honor's
+18. Sanchez, Ana	REU student
+19. Scotto, Marissa	REU student
+20. Tan, Chin Yen
+21. Uy, Niles 	1 Independent Research, 1 Laboratory Experience, 2 Independent Research, 1 Honor’s thesis
+
+### Dissertation committees
+
++ Graduate Center of CUNY, Manhattan, NY	Chair (Nicholaus Brosowsky)	2019
++ Graduate Center of CUNY, Manhattan, NY	Committee member Dissertation Defense (Daniel Meredith)	2017
++ School of Psychology, The University of Queensland, Australia	External Reader for Dissertation Defense (Rachel Searston)	2016
++ Graduate Center of CUNY, Manhattan, NY	Committee member Dissertation Defense (Natasha Nadler)	2016
++ Graduate Center of CUNY, Manhattan, NY	Committee member Dissertation Defense (Denise Pergolizzi)	2015
++ Graduate Center of CUNY, Manhattan, NY	Committee member Dissertation Defense (Justin Ostrofsky)	2013
++ Department of Psychology, New York University	External Reader for Dissertation Defense (John Mcdonnell)	2013
++ Department of Psychology, Granada University, Granada, Spain	External Reader for Dissertation Defense (Maryem Torres-Quesada)	2013
++ Department of Psychology, Granada University, Granada, Spain	External Reader for Dissertation Defense (Elena Cañadas)	2012
+
+
+
+
+## Teaching
+
+### Undergraduate Courses
+
++ 3400	Statistics	Large Sections, OER
++ 3450W	Experimental Psychology	Large Sections, OER
++ 3530	Cognitive Psychology	
++ 2001	Laboratory Experiences	Student mentoring
++ 5001	Independent Research I	Student mentoring
++ 5002	Independent Research II	Student mentoring
++ 5003	Independent Research III	Student mentoring
+
+
+### Master’s Courses
+
++ 7709G	Special Topics: Using R for Reproducible Psychological Research	
++ 7792G	Independent Reading	Student mentoring
++ 7795G	Independent Psychological Research I	Student mentoring
++ 7796G	Independent Psychological Research II	Student mentoring
++ 7781G	Research in Psychology	Master Theses
+
+
+### Doctoral Courses
+
++ 73800	Cognitive Psychology	Course-Organizer
++ 80200	Independent Study	Student mentoring
++ 80103	Computer Programming for Experimental Psychology	
++ 80103	Cognitive Technologies: From Theory and Data to Application	
++ 80103	Special Topics: Memory: Foundations & Current Issues	Co-taught w/ E. Chua
++ 80103	Special Topics Seminar: Learning & Attention	Co-taught w/ A. Delamater
++ 72400	Career Development	Co-taught w/ E. Chua
+
+## Service
+
+### College
+
++ Faculty Council: Natural and Behavioral Sciences Representative	  Fall 2015 – May 2018
+
+### Department
+
++ Co-chair of search committee for lecture line	Spring 2019
++ Director of Experimental Psychology Graduate Program 	Spring 2019
++ Appointments committee	Elected May 2018 - current
++ Experimental Masters Admissions committee	Spring 2017, 2018, 2019
++ Doctoral Student funding committee	February 2017
++ Quantitative Job Search Committee	Fall 2014
++ Department Website Author	Fall 2014 - Current
++ Library Technology Liaison	Fall 2014 – Spring 2018
++ Experimental Psychology Master’s Program Curriculum Committee	Summer 2014-Fall 2014
++ Psychology Undergraduate Program Assessments Ad hoc Committee	Spring 2014
++ Behavioral Neuroscience Job Search Committee	Fall 2013
++ Department of Psychology, Experimental Master’s Admissions Committee	Fall 2013
++ Department of Psychology Master’s Program Review Committee	Spring 2013
++ Department of Psychology Library Liaison	Fall 2011- Spring 2013
++ Undergraduate Honors Committee, Psychology	Spring 2012 - Current
+
+
+### Doctoral Program
+
++ Cognition and Comparative Psychology Training Area Executive Committee	2018-
++ Merger Committee to merge Cognition, Language, and Development training area with Animal Behavior and Comparative Psychology training area	2017-May 2018
++ Cognition, Language, and Development Training Area Executive Committee	January 2015 – May 2018
++ Training Area and Cluster Organization Committee	January 2015 - 2017
++ Head of Cognition, Language, and Development Training Area	December 2014 – May 2018
++ Cognition, Language, and Development Admissions Committee	Fall 2014, 2015, 2016, 2017, 2018
++ Cognition, Language, and Development Ad Hoc Curriculum Committee	Fall 2013
++ Cognition, Brain and Behavior Executive Committee	Fall 2012
+
+### Professional
+
++ Journal of Experimental Psychology: Learning, Memory, and Cognition	Review Board	2018- current
++ Society for Computers in Psychology (SCiP)	Steering Committee	Fall 2014 - present
++ Canadian Journal of Experimental Psychology	Review Board	Fall 2012 - present
++ Eastern Psychological Association	Member	
+
+### Reviewing
+
++ National Science Foundation (PAC division)	Panel Reviewer	Spring 2017
++ National Science Foundation	External Grant Reviewer	Fall 2016
++ French National Research Agency	External Grant Reviewer	February 2013
++ Acta Psychologica; Attention, Perception and Psychophysics; Behavior Research Methods; Canadian Journal of Experimental Psychology; Cerebral Cortex; Cognition; Cognitive Psychology; Cognitive Science; Connection Science; Consciousness & Cognition; Current Directions in Psychological Science; Experimental Psychology; Frontiers in Cognition; Journal of Experimental Psychology: Applied;  Journal of Experimental Psychology: Animal Learning and Cognition; Journal of Experimental Psychology: General; Journal of Experimental Psychology: Human Perception & Performance; Journal of Experimental Psychology: Learning, Memory & Cognition; Perceptual and Motor Skills; Psicologica; Psychological Research; Psychonomic Bulletin & Review; Quarterly Journal of Experimental Psychology
+
+
+
+
+
+
+
+
+
+
+
