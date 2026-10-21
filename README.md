@@ -12,15 +12,16 @@ New entries are added by describing them in chat (the `add-entry` skill) or by e
 
 ## Outputs
 
-After the first successful Action run on `main`, the current files are at:
+Every push to `main` re-renders the CV and publishes it with GitHub Pages. Because the main site (`CrumpLab.github.io`) uses the `www.crumplab.com` domain, this repository is served under it:
 
-- https://crumplab.github.io/CrumpCV/ (index)
-- https://crumplab.github.io/CrumpCV/cv.pdf
-- https://crumplab.github.io/CrumpCV/cv.docx
-- https://crumplab.github.io/CrumpCV/cv-bc.docx
-- https://crumplab.github.io/CrumpCV/cv.json
+- https://www.crumplab.com/CrumpCV/ (forwards to the web CV, `cv.html`)
+- https://www.crumplab.com/CrumpCV/downloads.html (every format)
+- https://www.crumplab.com/CrumpCV/cv.pdf
+- https://www.crumplab.com/CrumpCV/cv.docx
+- https://www.crumplab.com/CrumpCV/cv-bc.docx
+- https://www.crumplab.com/CrumpCV/cv.json
 
-(Enable GitHub Pages for the `gh-pages` branch once in the repository settings.) Each Action run also attaches the outputs as an artifact.
+The two site pages that are not rendered from data, the redirecting `index.html` and `downloads.html`, live in `pages/`. Each Action run also attaches the outputs as an artifact.
 
 ## Layout
 
